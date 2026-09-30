@@ -1207,7 +1207,7 @@ msgstr "Доступ с этого IP-адреса запрещен"
 #. Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "Account"
-msgstr "Учетная запись"
+msgstr "Счет"
 
 #. Label of the account_deletion_settings_section (Section Break) field in
 #. DocType 'Website Settings'
@@ -1440,7 +1440,7 @@ msgstr "Добавить карточку на дашборд"
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.js:34
 #: frappe/public/js/frappe/views/reports/query_report.js:211
 msgid "Add Chart to Dashboard"
-msgstr "Добавить диаграмму на панель инструментов"
+msgstr "Добавить диаграмму на дашборд"
 
 #: frappe/public/js/frappe/views/treeview.js:319
 msgid "Add Child"
@@ -1845,7 +1845,7 @@ msgstr "Добавляет пользовательский клиентский
 #. Description of a DocType
 #: frappe/custom/doctype/custom_field/custom_field.json
 msgid "Adds a custom field to a DocType"
-msgstr "Добавляет пользовательское поле к типу документа"
+msgstr "Добавляет настраиваемое поле к типу документа"
 
 #. Name of a role
 #: frappe/contacts/doctype/salutation/salutation.json
@@ -2562,7 +2562,7 @@ msgstr "Также добавьте поле зависимости от ста�
 #. Label of the login_id (Data) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "Alternative Email ID"
-msgstr "Альтернативный Email"
+msgstr "Альтернативный адрес эл. почты"
 
 #. Option for the 'Show External Link Warning' (Select) field in DocType
 #. 'System Settings'
@@ -4368,8 +4368,8 @@ msgid ""
 "Build your own reports, print formats, and dashboards. Create personalized "
 "workspaces for easier navigation"
 msgstr ""
-"Создавайте собственные отчеты, форматы печати и информационные панели. "
-"Создавайте персональные рабочие пространства для более удобной навигации"
+"Создавайте собственные отчеты, форматы печати и дашборды. Создавайте "
+"персональные рабочие пространства для более удобной навигации"
 
 #: frappe/workflow/doctype/workflow/workflow_list.js:18
 msgid "Build {0}"
@@ -5050,7 +5050,7 @@ msgstr "Разрыв карточки"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:263
 msgid "Card Label"
-msgstr "Название карточки"
+msgstr "Метка карточки"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:262
 msgid "Card Links"
@@ -5916,7 +5916,7 @@ msgstr "Автор комментария"
 #. Label of the comment_email (Data) field in DocType 'Comment'
 #: frappe/core/doctype/comment/comment.json
 msgid "Comment Email"
-msgstr "Email комментария"
+msgstr "Эл. почта автора комментария"
 
 #. Label of the comment_type (Select) field in DocType 'Comment'
 #: frappe/core/doctype/comment/comment.json
@@ -6105,7 +6105,7 @@ msgstr "Компонент"
 
 #: frappe/public/js/frappe/views/inbox/inbox_view.js:184
 msgid "Compose Email"
-msgstr "Написать Email"
+msgstr "Написать письмо"
 
 #. Option for the 'Row Format' (Select) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
@@ -6201,11 +6201,11 @@ msgid ""
 "\n"
 "Default Naming will make the amended document to behave same as new documents."
 msgstr ""
-"Настройте, как будут именоваться дополненные документы.<br>\n"
+"Настройте, как будут именоваться исправленные документы.<br>\n"
 "\n"
-"По умолчанию используется счетчик дополнений, который добавляет число в конец исходного имени, указывающее на версию дополнения. <br>\n"
+"По умолчанию используется счетчик исправлений, который добавляет к исходному имени номер исправленной версии. <br>\n"
 "\n"
-"Именование по умолчанию заставит дополненный документ вести себя так же, как и новые документы."
+"При именовании по умолчанию исправленный документ именуется так же, как новый."
 
 #: frappe/desk/doctype/global_search_settings/global_search_settings.js:12
 msgid "Configure search fields"
@@ -6759,7 +6759,7 @@ msgstr "Создать сохраненный фильтр"
 
 #: frappe/core/doctype/user/user.js:273
 msgid "Create User Email"
-msgstr "Создать Email пользователя"
+msgstr "Эл. почта для создания пользователя"
 
 #: frappe/printing/page/print_format_builder/print_format_builder_start.html:16
 msgid "Create a New Format"
@@ -6828,7 +6828,7 @@ msgstr "Автор: {0}"
 
 #: frappe/workflow/doctype/workflow/workflow.py:65
 msgid "Created Custom Field {0} in {1}"
-msgstr "Создано пользовательское поле {0} в {1}"
+msgstr "Создано настраиваемое поле {0} в {1}"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.js:241
 #: frappe/email/doctype/notification/notification.js:31
@@ -7039,7 +7039,7 @@ msgstr "Настраиваемые документы"
 #: frappe/custom/doctype/custom_field/custom_field.json
 #: frappe/workspace_sidebar/build.json
 msgid "Custom Field"
-msgstr "Настраиваемые поля"
+msgstr "Настраиваемое поле"
 
 #: frappe/custom/doctype/custom_field/custom_field.py:228
 msgid ""
@@ -7114,7 +7114,7 @@ msgstr ""
 #: frappe/website/doctype/web_form_field/web_form_field.json
 #: frappe/website/doctype/web_form_list_column/web_form_list_column.json
 msgid "Custom Label"
-msgstr "Настраиваемое название"
+msgstr "Настраиваемая метка"
 
 #. Label of the custom_menu (Table) field in DocType 'Portal Settings'
 #: frappe/website/doctype/portal_settings/portal_settings.json
@@ -7766,7 +7766,7 @@ msgstr "Приложение по умолчанию"
 #: frappe/core/doctype/doctype/doctype.json
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Default Email Template"
-msgstr "Шаблон электронной почты по умолчанию"
+msgstr "Шаблон письма по умолчанию"
 
 #: frappe/email/doctype/email_account/email_account_list.js:13
 msgid "Default Inbox"
@@ -9237,7 +9237,7 @@ msgstr "Переименование документа из {0} в {1} пост
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:403
 msgid "Document type is required to create a dashboard chart"
-msgstr "Для создания диаграммы панели мониторинга требуется тип документа"
+msgstr "Для создания диаграммы дашборда требуется тип документа"
 
 #: frappe/core/doctype/deleted_document/deleted_document.py:46
 msgid "Document {0} Already Restored"
@@ -9902,7 +9902,7 @@ msgstr "Выбор элемента"
 #: frappe/workspace_sidebar/email.json frappe/www/login.html:17
 #: frappe/www/login.html:170 frappe/www/login.html:205 frappe/www/login.py:104
 msgid "Email"
-msgstr "Email"
+msgstr "Эл. почта"
 
 #. Label of the email_account (Link) field in DocType 'Communication'
 #. Label of the email_account (Link) field in DocType 'User Email'
@@ -10015,7 +10015,7 @@ msgstr "Заголовок электронного письма"
 #: frappe/core/doctype/user_email/user_email.json
 #: frappe/email/doctype/email_rule/email_rule.json
 msgid "Email ID"
-msgstr "Email"
+msgstr "Эл. почта"
 
 #. Label of the email_ids (Table) field in DocType 'Contact'
 #: frappe/contacts/doctype/contact/contact.json
@@ -10026,7 +10026,7 @@ msgstr "Адреса электронной почты"
 #: frappe/contacts/report/addresses_and_contacts/addresses_and_contacts.py:48
 #: frappe/website/doctype/contact_us_settings/contact_us_settings.json
 msgid "Email Id"
-msgstr "Email"
+msgstr "Эл. почта"
 
 #. Label of the email_inbox (Section Break) field in DocType 'Communication'
 #: frappe/core/doctype/communication/communication.json
@@ -10117,7 +10117,7 @@ msgstr "Опция синхронизации электронной почты"
 #: frappe/public/js/frappe/views/communication.js:99
 #: frappe/workspace_sidebar/email.json
 msgid "Email Template"
-msgstr "Шаблон Email"
+msgstr "Шаблон письма"
 
 #. Label of the enable_email_threads_on_assigned_document (Check) field in
 #. DocType 'Notification Settings'
@@ -10133,7 +10133,7 @@ msgstr "Кому отправить"
 #. Name of a DocType
 #: frappe/email/doctype/email_unsubscribe/email_unsubscribe.json
 msgid "Email Unsubscribe"
-msgstr "Отписаться от Email"
+msgstr "Отписка от рассылки"
 
 #: frappe/desk/doctype/notification_type/notification_type.js:16
 msgid ""
@@ -11209,7 +11209,7 @@ msgstr ""
 "Экспортируйте только настройки, назначенные выбранному модулю.<br><span "
 "class='text-muted'><strong>Примечание:</strong> Перед применением этого "
 "фильтра необходимо установить поле <em>Модуль (для экспорта)</em> в записях "
-"пользовательских полей и настроек свойств.</span><p class='alert alert-"
+"настраиваемых полей и переопределений свойств.</span><p class='alert alert-"
 "warning'> <strong>Предупреждение:</strong> Настройки из других модулей будут"
 " исключены.</p>"
 
@@ -11618,7 +11618,7 @@ msgid ""
 " present, a new hidden Custom Field will be created)"
 msgstr ""
 "Поле, представляющее состояние рабочего процесса транзакции (если поле "
-"отсутствует, будет создано новое скрытое пользовательское поле)"
+"отсутствует, будет создано новое скрытое настраиваемое поле)"
 
 #. Label of the track_field (Select) field in DocType 'Milestone Tracker'
 #: frappe/automation/doctype/milestone_tracker/milestone_tracker.json
@@ -11690,7 +11690,7 @@ msgstr "Имя поля ограничено 64 символами ({0})"
 
 #: frappe/custom/doctype/custom_field/custom_field.py:205
 msgid "Fieldname not set for Custom Field"
-msgstr "Имя поля не задано для пользовательского поля"
+msgstr "Имя поля не задано для настраиваемого поля"
 
 #: frappe/custom/doctype/custom_field/custom_field.js:107
 msgid "Fieldname which will be the DocType for this link field."
@@ -12953,7 +12953,7 @@ msgstr "Получить переменные верхнего и нижнего
 
 #: frappe/public/js/frappe/form/multi_select_dialog.js:87
 msgid "Get Items"
-msgstr "Получить элементы"
+msgstr "Получить продукты"
 
 #: frappe/integrations/doctype/connected_app/connected_app.js:6
 msgid "Get OpenID Configuration"
@@ -13381,8 +13381,7 @@ msgstr "Группировать по типу"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:414
 msgid "Group By field is required to create a dashboard chart"
-msgstr ""
-"Поле «Группировать по» обязательно для создания диаграммы панели мониторинга"
+msgstr "Поле «Группировать по» обязательно для создания диаграммы дашборда"
 
 #: frappe/database/query.py:1321
 msgid "Group By must be a string"
@@ -13861,7 +13860,7 @@ msgstr "Скрыть ошибку"
 
 #: frappe/printing/page/print_format_builder/print_format_builder.js:490
 msgid "Hide Label"
-msgstr "Скрыть подпись"
+msgstr "Скрыть метку"
 
 #. Label of the hide_login (Check) field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
@@ -15215,7 +15214,7 @@ msgid ""
 "Insert After field '{0}' mentioned in Custom Field '{1}', with label '{2}', "
 "does not exist"
 msgstr ""
-"Вставить после поля «{0}», упомянутого в пользовательском поле «{1}», с "
+"Поле «{0}», указанное в «Вставить после» для настраиваемого поля «{1}» с "
 "меткой «{2}», не существует"
 
 #: frappe/public/js/frappe/form/grid_row_form.js:61
@@ -15993,7 +15992,7 @@ msgstr "Пользовательский"
 #. Field'
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "Is Custom Field"
-msgstr "Является пользовательским полем"
+msgstr "Настраиваемое поле"
 
 #. Label of the is_default (Check) field in DocType 'Address Template'
 #. Label of the is_default (Check) field in DocType 'User Permission'
@@ -16209,7 +16208,7 @@ msgstr "Уже слишком поздно отменять это письмо.
 #. Label of the item_label (Data) field in DocType 'Navbar Item'
 #: frappe/core/doctype/navbar_item/navbar_item.json
 msgid "Item Label"
-msgstr "Ярлык элемента"
+msgstr "Метка элемента"
 
 #. Label of the item_type (Select) field in DocType 'Navbar Item'
 #: frappe/core/doctype/navbar_item/navbar_item.json
@@ -16223,7 +16222,7 @@ msgstr "Элемент не может быть добавлен к своим �
 #. Label of the items (Table) field in DocType 'Workspace Sidebar'
 #: frappe/desk/doctype/workspace_sidebar/workspace_sidebar.json
 msgid "Items"
-msgstr "Элементы"
+msgstr "Продукты"
 
 #. Option for the 'Print Format Type' (Select) field in DocType 'Print Format'
 #: frappe/printing/doctype/print_format/print_format.json
@@ -16678,7 +16677,7 @@ msgstr "Неверные настройки LDAP. Ответ проверки: {
 #: frappe/website/doctype/top_bar_item/top_bar_item.json
 #: frappe/website/doctype/web_template_field/web_template_field.json
 msgid "Label"
-msgstr "Наименование"
+msgstr "Метка"
 
 #. Label of the label_help (HTML) field in DocType 'Custom Field'
 #: frappe/custom/doctype/custom_field/custom_field.json
@@ -16694,7 +16693,7 @@ msgstr "Метка и тип"
 
 #: frappe/custom/doctype/custom_field/custom_field.py:151
 msgid "Label is mandatory"
-msgstr "Ярлык обязателен"
+msgstr "Метка обязательна"
 
 #. Label of the sb0 (Section Break) field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
@@ -19018,7 +19017,7 @@ msgid ""
 "<li><b>format:EXAMPLE-{MM}morewords{fieldname1}-{fieldname2}-{#####}</b> - Replace all braced words (fieldnames, date words (DD, MM, YY), series) with their value. Outside braces, any characters can be used.</li></ol>"
 msgstr ""
 "Параметры именования:\n"
-"<ol><li><b>field:[fieldname]</b> - По полю</li><li><b>naming_series:</b> - По серии именования (поле naming_series должно присутствовать)</li><li><b>Запрос</b> - Запрос имени у пользователя</li><li><b>[series]</b> — Серия по префиксу (разделенная точкой); например, PRE.#####</li>\n"
+"<ol><li><b>field:[fieldname]</b> - По полю</li><li><b>naming_series:</b> - По серии нумерации (поле naming_series должно присутствовать)</li><li><b>Запрос</b> - Запрос имени у пользователя</li><li><b>[series]</b> — Серия по префиксу (разделенная точкой); например, PRE.#####</li>\n"
 "<li><b>Формат:ПРИМЕР-{MM}morewords{fieldname1}-{fieldname2}-{#####}</b> — Заменить все слова в скобках (имена полей, даты (ДД, ММ, ГГ), серии) их значениями. Вне скобок можно использовать любые символы.</li></ol>"
 
 #. Label of the naming_rule (Select) field in DocType 'DocType'
@@ -19366,7 +19365,7 @@ msgstr "Создан новый {0}"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:386
 msgid "New {0} {1} added to Dashboard {2}"
-msgstr "Новый {0} {1} добавлен на панель управления {2}"
+msgstr "Новый {0} {1} добавлен на дашборд {2}"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:391
 msgid "New {0} {1} created"
@@ -19618,7 +19617,7 @@ msgstr "Не найден пользователь LDAP для электрон�
 #: frappe/public/js/workflow_builder/components/StateNode.vue:47
 #: frappe/public/js/workflow_builder/store.js:51
 msgid "No Label"
-msgstr "Без подписи"
+msgstr "Без метки"
 
 #: frappe/printing/page/print/print.js:785
 #: frappe/printing/page/print/print.js:866
@@ -19794,7 +19793,7 @@ msgid ""
 msgstr ""
 "Не найдено ни одного поля, которое можно было бы использовать в качестве "
 "колонки канбан-доски. Используйте форму настройки, чтобы добавить "
-"пользовательское поле типа «Select»."
+"настраиваемое поле типа «Select»."
 
 #: frappe/utils/file_manager.py:143
 msgid "No file attached"
@@ -21670,9 +21669,7 @@ msgstr "Родительская таблица"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:410
 msgid "Parent document type is required to create a dashboard chart"
-msgstr ""
-"Для создания диаграммы панели мониторинга требуется тип родительского "
-"документа"
+msgstr "Для создания диаграммы дашборда требуется тип родительского документа"
 
 #: frappe/core/doctype/data_export/exporter.py:254
 msgid ""
@@ -22066,8 +22063,8 @@ msgid ""
 msgstr ""
 "Разрешения устанавливаются для ролей и типов документов (называемых DocType)"
 " путем назначения таких прав, как чтение, запись, создание, удаление, "
-"проведение, отмена, дополнение, отчет, импорт, экспорт, печать, электронная "
-"почта и установка прав пользователя."
+"проведение, отмена, исправление, отчет, импорт, экспорт, печать, электронная"
+" почта и установка прав пользователя."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:93
 msgid ""
@@ -22282,9 +22279,7 @@ msgstr "Прикрепите пакет"
 
 #: frappe/utils/dashboard.py:59
 msgid "Please check the filter values set for Dashboard Chart: {}"
-msgstr ""
-"Проверьте значения фильтра, установленные для диаграммы панели мониторинга: "
-"{}"
+msgstr "Проверьте значения фильтра, установленные для диаграммы дашборда: {}"
 
 #: frappe/model/base_document.py:1090
 msgid "Please check the value of \"Fetch From\" set for field {0}"
@@ -22614,9 +22609,7 @@ msgstr "Укажите название документа"
 #: frappe/desk/doctype/dashboard/dashboard.py:132
 msgid ""
 "Please set the following documents in this Dashboard as standard first."
-msgstr ""
-"Сначала установите следующие документы на этой панели управления как "
-"стандартные."
+msgstr "Сначала сделайте стандартными следующие документы на этом дашборде."
 
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.py:120
 msgid "Please set the series to be used."
@@ -22809,7 +22802,7 @@ msgstr "Почтовый индекс"
 #. Label of the posting_timestamp (Datetime) field in DocType 'Changelog Feed'
 #: frappe/desk/doctype/changelog_feed/changelog_feed.json
 msgid "Posting Timestamp"
-msgstr "Дата и время публикации"
+msgstr "Дата и время проводки"
 
 #. Label of the precision (Select) field in DocType 'DocField'
 #. Label of the precision (Select) field in DocType 'Custom Field'
@@ -23818,9 +23811,9 @@ msgid ""
 "Raw HTML can be used only with Email Templates having 'Use HTML' checked. "
 "Proceeding with plain text email."
 msgstr ""
-"Использовать чистый HTML можно только с шаблонами электронных писем, у "
-"которых отмечена опция «Использовать HTML». Далее следует отправка "
-"электронных писем в виде обычного текста."
+"Использовать чистый HTML можно только с шаблонами писем, у которых отмечена "
+"опция «Использовать HTML». Далее следует отправка электронных писем в виде "
+"обычного текста."
 
 #. Description of the 'Send As Raw HTML' (Check) field in DocType 'Email
 #. Queue'
@@ -27284,7 +27277,7 @@ msgid ""
 "Set Default Options for all charts on this Dashboard (Ex: \"colors\": "
 "[\"#d1d8dd\", \"#ff5858\"])"
 msgstr ""
-"Установите параметры по умолчанию для всех графиков на этой панели "
+"Установите параметры по умолчанию для всех графиков на этом дашборде "
 "(например, \"colors\": [\"#d1d8dd\", \"#ff5858\"])"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.js:467
@@ -28522,8 +28515,8 @@ msgid ""
 "Special Characters except '-', '#', '.', '/', '{{' and '}}' not allowed in "
 "naming series {0}"
 msgstr ""
-"Специальные символы, кроме '-', '#', '.', '/', '{{' and '}}', не допускаются"
-" в серии имен {0}"
+"Специальные символы, кроме '-', '#', '.', '/', '{{' и '}}', не допускаются в"
+" серии нумерации {0}"
 
 #. Description of the 'Timeout (In Seconds)' (Int) field in DocType 'Report'
 #: frappe/core/doctype/report/report.json
@@ -32509,7 +32502,7 @@ msgstr "Используйте амперсанд, чтобы искать по 
 #. Label of the login_id_is_different (Check) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "Use different Email ID"
-msgstr "Используйте другой Email ID"
+msgstr "Использовать другой адрес эл. почты"
 
 #. Description of the 'Detect CSV type' (Check) field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json
@@ -32687,7 +32680,7 @@ msgstr "Тип документа пользователя"
 #. Name of a DocType
 #: frappe/core/doctype/user_email/user_email.json
 msgid "User Email"
-msgstr "Email пользователя"
+msgstr "Эл. почта пользователя"
 
 #. Label of the user_emails (Table) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
@@ -35617,7 +35610,7 @@ msgstr "только что"
 
 #: frappe/desk/desktop.py:223 frappe/desk/query_report.py:376
 msgid "label"
-msgstr "наименование"
+msgstr "метка"
 
 #. Option for the 'Indicator Color' (Select) field in DocType 'Workspace'
 #: frappe/desk/doctype/workspace/workspace.json
@@ -36879,8 +36872,7 @@ msgstr "{0} поделился этим документом с {1}"
 #: frappe/core/doctype/doctype/doctype.py:319
 msgid "{0} should be indexed because it's referred in dashboard connections"
 msgstr ""
-"{0} должен быть проиндексирован, поскольку на него ссылаются в соединениях "
-"панели управления"
+"{0} должен быть проиндексирован, поскольку на него ссылаются связи дашборда"
 
 #: frappe/automation/doctype/auto_repeat/auto_repeat.py:160
 msgid "{0} should not be same as {1}"

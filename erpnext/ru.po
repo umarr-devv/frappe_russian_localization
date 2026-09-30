@@ -98,7 +98,7 @@ msgstr " Пропустить перемещение материалов"
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:141
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:182
 msgid " Sub Assembly"
-msgstr " Подузел"
+msgstr " Полуфабрикат"
 
 #: erpnext/projects/doctype/project_update/project_update.py:104
 msgid " Summary"
@@ -876,7 +876,7 @@ msgid ""
 msgstr ""
 "<h4>Пример шаблона договора</h4>\n"
 "\n"
-"<pre>Контракт для клиента {{ party_name }}\n"
+"<pre>Договор с клиентом {{ party_name }}\n"
 "\n"
 "- Действителен от: {{ start_date }} \n"
 "- Действителен до: {{ end_date }}\n"
@@ -884,7 +884,7 @@ msgstr ""
 "\n"
 "<h4>Как получить имена полей</h4>\n"
 "\n"
-"<p>Имена полей, которые вы можете использовать в своем шаблоне контракта, - это поля контракта, для которого вы создаете шаблон. Вы можете узнать поля любого документа через меню Настройка &gt; Настроить вид формы и выбрать тип документа (например, Контракт).</p>\n"
+"<p>Имена полей, которые вы можете использовать в своем шаблоне договора, — это поля договора, для которого вы создаете шаблон. Вы можете узнать поля любого документа через меню Настройка &gt; Настроить вид формы и выбрать тип документа (например, Договор).</p>\n"
 "\n"
 "<h4>Создание шаблонов</h4>\n"
 "\n"
@@ -1011,7 +1011,7 @@ msgid ""
 "<p></p>\n"
 "<p>Apart from these, you can access all values in this RFQ, like <code>{{ message_for_supplier }}</code> or <code>{{ terms }}</code>.</p>"
 msgstr ""
-"<p>В вашем <b>Шаблоне электронной почты</b>, вы можете использовать следующие специальные переменные:\n"
+"<p>В <b>шаблоне письма</b> можно использовать следующие специальные переменные:\n"
 "</p>\n"
 "<ul>\n"
 "        <li>\n"
@@ -1412,7 +1412,7 @@ msgstr ""
 
 #: erpnext/stock/doctype/material_request/material_request.js:495
 msgid "A separate Purchase Order is created for each Supplier."
-msgstr "Для каждого поставщика создается отдельный заказ на закупку."
+msgstr "Для каждого поставщика создается отдельный заказ на покупку."
 
 #: erpnext/accounts/doctype/sales_taxes_and_charges_template/sales_taxes_and_charges_template.py:96
 msgid ""
@@ -1886,7 +1886,7 @@ msgstr "Счет обязателен для получения записей �
 
 #: erpnext/accounts/dashboard_chart_source/account_balance_timeline/account_balance_timeline.py:44
 msgid "Account is not set for the dashboard chart {0}"
-msgstr "Счет не настроен для диаграммы панели мониторинга {0}"
+msgstr "Счет не настроен для диаграммы дашборда {0}"
 
 #: banking/src/components/features/BankReconciliation/BankEntryModalContent.tsx:611
 #: banking/src/components/features/BankReconciliation/RecordPaymentModalContent.tsx:217
@@ -1997,7 +1997,7 @@ msgstr "Счет {0} не существует"
 
 #: erpnext/accounts/dashboard_chart_source/account_balance_timeline/account_balance_timeline.py:51
 msgid "Account {0} does not exists in the dashboard chart {1}"
-msgstr "Счет {0} не существует в диаграмме панели мониторинга {1}"
+msgstr "Счет {0} не существует в диаграмме дашборда {1}"
 
 #: erpnext/accounts/doctype/mode_of_payment/mode_of_payment.py:48
 msgid "Account {0} does not match with Company {1} in Mode of Account: {2}"
@@ -3235,7 +3235,7 @@ msgstr "Добавить запас"
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:289
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:424
 msgid "Add Sub Assembly"
-msgstr "Добавить подузел"
+msgstr "Добавить полуфабрикат"
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:517
 #: erpnext/public/js/event.js:32
@@ -4764,7 +4764,7 @@ msgstr "Разрешить переименовывать значение ат�
 #. DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Allow Request for Quotation with Zero Quantity"
-msgstr "Разрешить запрос на коммерческое предложение с нулевым количеством"
+msgstr "Разрешить запрос предложений с нулевым количеством"
 
 #. Label of the allow_resetting_service_level_agreement (Check) field in
 #. DocType 'Support Settings'
@@ -4804,7 +4804,7 @@ msgstr "Разрешить устаревшие курсы обмена"
 #. 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Allow Supplier Quotation with Zero Quantity"
-msgstr "Разрешить поставщику котировку с нулевым количеством"
+msgstr "Разрешить предложения поставщиков с нулевым количеством"
 
 #. Label of the allow_uom_with_conversion_rate_defined_in_item (Check) field
 #. in
@@ -4912,7 +4912,7 @@ msgstr ""
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Allow multiple Sales Orders against a customer's Purchase Order"
 msgstr ""
-"Разрешить несколько заказов на продажу по одному заказу на закупку клиента"
+"Разрешить несколько заказов на продажу по одному заказу на покупку клиента"
 
 #. Label of the allow_negative_rates_for_items (Check) field in DocType
 #. 'Buying
@@ -4945,7 +4945,7 @@ msgstr "Разрешить частичное резервирование"
 #. field in DocType 'Supplier'
 #: erpnext/buying/doctype/supplier/supplier.json
 msgid "Allow purchase invoice creation without purchase order"
-msgstr "Разрешить создание счета на закупку без заказа на закупку"
+msgstr "Разрешить создание счета поставщика без заказа на покупку"
 
 #. Label of the allow_purchase_invoice_creation_without_purchase_receipt
 #. (Check) field in DocType 'Supplier'
@@ -4971,7 +4971,7 @@ msgid ""
 "quantities are not. e.g. Rate Contracts"
 msgstr ""
 "Разрешить транзакции продаж с нулевым количеством, если ставка фиксирована, "
-"а количество нет. Например, контракты с фиксированной ставкой"
+"а количество нет. Например, договоры с фиксированной ставкой"
 
 #. Label of the allow_multiple_items (Check) field in DocType 'Selling
 #. Settings'
@@ -5134,9 +5134,9 @@ msgid ""
 "Allows users to submit Request for Quotations with zero quantity. Useful "
 "when rates are fixed but the quantities are not. Eg. Rate Contracts."
 msgstr ""
-"Позволяет пользователям подавать запросы на коммерческое предложение с "
-"нулевым количеством. Полезно, когда ставки фиксированы, а количество - нет. "
-"Например, тарифные контракты."
+"Позволяет пользователям подавать запросы предложений с нулевым количеством. "
+"Полезно, когда ставки фиксированы, а количество — нет. Например, тарифные "
+"договоры."
 
 #. Description of the 'Allow Supplier Quotation with Zero Quantity' (Check)
 #. field in DocType 'Buying Settings'
@@ -5146,8 +5146,8 @@ msgid ""
 "rates are fixed but the quantities are not. Eg. Rate Contracts."
 msgstr ""
 "Позволяет пользователям подавать предложения поставщиков с нулевым "
-"количеством. Полезно, когда ставки фиксированы, а количество - нет. "
-"Например, тарифные контракты."
+"количеством. Полезно, когда ставки фиксированы, а количество — нет. "
+"Например, тарифные договоры."
 
 #: erpnext/accounts/doctype/bank_statement_import_log/bank_statement_import_log.py:1266
 #: erpnext/accounts/doctype/bank_statement_import_log/bank_statement_import_log.py:1287
@@ -5664,8 +5664,8 @@ msgid ""
 "An error occurred for certain Items while creating Material Requests based "
 "on Re-order level. Please rectify these issues :"
 msgstr ""
-"Произошла ошибка для продуктов при создании запросов на материалы на основе "
-"точки заказа. Исправьте эти проблемы:"
+"Произошла ошибка для некоторых продуктов при создании заявок на материалы по"
+" точке заказа. Исправьте следующие проблемы:"
 
 #: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.html:124
 msgid "Analysis Chart"
@@ -6318,8 +6318,8 @@ msgid ""
 "As there are sufficient Sub Assembly Items, Work Order is not required for "
 "Warehouse {0}."
 msgstr ""
-"Поскольку достаточно комплектующих, производственный заказ не требуется для "
-"склада {0}"
+"Поскольку полуфабрикатов достаточно, производственный заказ для склада {0} "
+"не требуется."
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:1946
 msgid ""
@@ -6640,7 +6640,7 @@ msgstr "Наименование актива"
 #. Label of the asset_naming_series (Select) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Asset Naming Series"
-msgstr "Серия наименований активов"
+msgstr "Серия нумерации активов"
 
 #. Label of the asset_owner (Select) field in DocType 'Asset'
 #: erpnext/assets/doctype/asset/asset.json
@@ -7287,7 +7287,7 @@ msgstr "Автоматические заявки на материалы"
 
 #: erpnext/stock/reorder_item.py:331
 msgid "Auto Material Requests Generated"
-msgstr "Автоматически сформированные запросы на материалы"
+msgstr "Автоматически сформированные заявки на материалы"
 
 #. Label of the auto_opt_in (Check) field in DocType 'Loyalty Program'
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.json
@@ -7807,7 +7807,7 @@ msgstr "Создана спецификация"
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
 #: erpnext/workspace_sidebar/manufacturing.json
 msgid "BOM Creator"
-msgstr "Создатель спецификации"
+msgstr "Конструктор спецификаций"
 
 #. Label of the bom_creator_item (Data) field in DocType 'BOM'
 #. Name of a DocType
@@ -10137,8 +10137,8 @@ msgstr ""
 "По умолчанию Имя поставщика устанавливается в соответствии с введенным "
 "именем поставщика. Если вы хотите, чтобы поставщики были названы по <a "
 "href='https://docs.erpnext.com/docs/user/manual/en/setting-"
-"up/settings/naming-series' target='_blank'>серии именования</a>, выберите "
-"опцию «Серия именования»."
+"up/settings/naming-series' target='_blank'>серии нумерации</a>, выберите "
+"опцию «Серия нумерации»."
 
 #. Option for the 'Type' (Select) field in DocType 'BOM Secondary Item'
 #. Option for the 'Type' (Select) field in DocType 'Job Card Secondary Item'
@@ -13509,7 +13509,7 @@ msgstr "Объединить позиции заказов на продажу"
 #. Label of the combine_sub_items (Check) field in DocType 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Consolidate Sub Assembly Items"
-msgstr "Объединить позиции подузлов"
+msgstr "Объединить позиции полуфабрикатов"
 
 #. Option for the 'Status' (Select) field in DocType 'POS Invoice'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
@@ -13860,7 +13860,7 @@ msgstr "Дата окончания договора"
 #. Name of a DocType
 #: erpnext/crm/doctype/contract_fulfilment_checklist/contract_fulfilment_checklist.json
 msgid "Contract Fulfilment Checklist"
-msgstr "Контрольный список выполнения контракта"
+msgstr "Контрольный список выполнения договора"
 
 #. Label of the sb_terms (Section Break) field in DocType 'Contract'
 #: erpnext/crm/doctype/contract/contract.json
@@ -13872,7 +13872,7 @@ msgstr "Период договора"
 #: erpnext/crm/doctype/contract/contract.json
 #: erpnext/crm/doctype/contract_template/contract_template.json
 msgid "Contract Template"
-msgstr "Шаблон контракта"
+msgstr "Шаблон договора"
 
 #. Name of a DocType
 #: erpnext/crm/doctype/contract_template_fulfilment_terms/contract_template_fulfilment_terms.json
@@ -14841,7 +14841,7 @@ msgstr "Создать карточку задания"
 #. 'Operation'
 #: erpnext/manufacturing/doctype/operation/operation.json
 msgid "Create Job Card based on Batch Size"
-msgstr "Создать задание на работу на основе размера партии"
+msgstr "Создавать карточку задания по размеру партии"
 
 #: erpnext/accounts/doctype/payment_order/payment_order.js:39
 msgid "Create Journal Entries"
@@ -15058,7 +15058,7 @@ msgstr "Создать заказ на покупку субподряда"
 #. Label of an action in the Onboarding Step 'Create Subcontracting PO'
 #: erpnext/subcontracting/onboarding_step/create_subcontracting_po/create_subcontracting_po.json
 msgid "Create Subcontracting Purchase Order"
-msgstr "Создать заказ на закупку субподряда"
+msgstr "Создать заказ на покупку для субподряда"
 
 #. Title of an Onboarding Step
 #: erpnext/buying/onboarding_step/create_supplier/create_supplier.json
@@ -17512,7 +17512,7 @@ msgstr "Единица измерения закупок по умолчанию
 #. Label of the default_valid_till (Data) field in DocType 'CRM Settings'
 #: erpnext/crm/doctype/crm_settings/crm_settings.json
 msgid "Default Quotation Validity Days"
-msgstr "Срок действия коммерческого предложения по умолчанию"
+msgstr "Срок действия предложения по умолчанию, дней"
 
 #. Label of the default_receivable_account (Link) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
@@ -20347,7 +20347,7 @@ msgstr "Электронное письмо отправлено поставщ�
 #. Label of the email_verified (Check) field in DocType 'Appointment'
 #: erpnext/crm/doctype/appointment/appointment.json
 msgid "Email Verified"
-msgstr "Email подтвержден"
+msgstr "Эл. почта подтверждена"
 
 #: erpnext/accounts/doctype/payment_request/payment_request.js:57
 msgid "Email couldn't be sent."
@@ -21463,9 +21463,9 @@ msgid ""
 msgstr ""
 "Пример: ABCD.#####. Если серия задана, а номер партии не указан в "
 "транзакциях, то автоматический номер партии будет создан на основе этой "
-"серии. Если вы всегда хотите точно указывать номер партии для этого продукта, "
-"оставьте это поле пустым. Примечание: эта настройка будет иметь приоритет "
-"над префиксом серии именования в настройках запасов."
+"серии. Если вы всегда хотите точно указывать номер партии для этого "
+"продукта, оставьте это поле пустым. Примечание: эта настройка будет иметь "
+"приоритет над префиксом серии нумерации в настройках запасов."
 
 #: banking/src/components/features/BankReconciliation/Rules/RuleForm.tsx:468
 msgid ""
@@ -21740,7 +21740,7 @@ msgstr "Увольнение"
 #. Label of the held_on (Date) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Exit Interview Held On"
-msgstr "Интервью при увольнении проведено"
+msgstr "Собеседование при увольнении проведено"
 
 #: erpnext/accounts/report/deferred_revenue_and_expense/deferred_revenue_and_expense.py:470
 msgid "Expected"
@@ -22077,7 +22077,7 @@ msgstr "Дополнительное потребленное количеств
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:272
 msgid "Extra Job Card Quantity"
-msgstr "Дополнительное количество заданий на работу"
+msgstr "Дополнительное количество по карточке задания"
 
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:278
 msgid "Extra Large"
@@ -23073,8 +23073,8 @@ msgid ""
 "Following Material Requests have been raised automatically based on Item's "
 "re-order level"
 msgstr ""
-"Следующие запросы на материалы были созданы автоматически на основании "
-"минимального уровня запасов продукта"
+"Следующие заявки на материалы были созданы автоматически на основании точки "
+"заказа продукта"
 
 #: erpnext/selling/doctype/customer/customer.py:973
 msgid "Following fields are mandatory to create address:"
@@ -23969,7 +23969,7 @@ msgstr ""
 #. Account'
 #: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
 msgid "Full and Final Statement"
-msgstr "Полный и окончательный отчет"
+msgstr "Окончательный расчет"
 
 #. Option for the 'Billing Status' (Select) field in DocType 'Sales Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
@@ -24464,7 +24464,7 @@ msgstr "Получить заявки на материалы"
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 msgid "Get Outstanding Invoices"
-msgstr "Получить неоплаченные счета"
+msgstr "Получить непогашенные счета"
 
 #. Label of the get_outstanding_orders (Button) field in DocType 'Payment
 #. Entry'
@@ -24519,7 +24519,7 @@ msgstr "Получить информацию о запасах"
 #. Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Get Sub Assembly Items"
-msgstr "Получить комплектующие"
+msgstr "Получить полуфабрикаты"
 
 #: erpnext/buying/doctype/supplier/supplier.js:151
 msgid "Get Supplier Group Details"
@@ -26264,9 +26264,9 @@ msgid ""
 "If set, the system does not use the user's Email or the standard outgoing "
 "Email account for sending request for quotations."
 msgstr ""
-"Если установлено, система не использует адрес электронной почты пользователя"
-" или стандартный исходящий адрес электронной почты для отправки запросов "
-"котировок."
+"Если установлено, система не использует адрес эл. почты пользователя или "
+"стандартную исходящую учетную запись эл. почты для отправки запросов "
+"предложений."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1308
 msgid ""
@@ -27233,7 +27233,7 @@ msgstr "Включено в валовую прибыль"
 #. Entry'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "Including items for sub assemblies"
-msgstr "Включая продукты для узлов сборки"
+msgstr "Включая продукты для полуфабрикатов"
 
 #. Option for the 'Root Type' (Select) field in DocType 'Account'
 #. Option for the 'Root Type' (Select) field in DocType 'Account Category'
@@ -27399,7 +27399,7 @@ msgstr "Использован неправильный серийный ном�
 #. Name of a report
 #: erpnext/stock/report/incorrect_serial_and_batch_bundle/incorrect_serial_and_batch_bundle.json
 msgid "Incorrect Serial and Batch Bundle"
-msgstr "Некорректная комбинация серийных номеров и партий"
+msgstr "Некорректный набор серийных номеров и партий"
 
 #: erpnext/stock/doctype/stock_reposting_settings/stock_reposting_settings.py:303
 msgid "Incorrect Stock Asset Account in {0}"
@@ -27799,7 +27799,7 @@ msgstr "Ссылка на межфирменный заказ"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1152
 msgid "Inter Company Purchase Order"
-msgstr "Заказ на закупку внутри компании"
+msgstr "Межфирменный заказ на покупку"
 
 #. Label of the inter_company_reference (Link) field in DocType 'Delivery
 #. Note'
@@ -27874,7 +27874,7 @@ msgstr ""
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1151
 msgid "Internal Purchase Order"
-msgstr "Внутренний заказ на закупку"
+msgstr "Внутренний заказ на покупку"
 
 #: erpnext/controllers/accounts_controller.py:884
 msgid "Internal Sale or Delivery Reference missing."
@@ -28203,7 +28203,7 @@ msgstr "Недействительная цена продажи"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:2250
 msgid "Invalid Serial and Batch Bundle"
-msgstr "Некорректная комбинация серийных номеров и партий"
+msgstr "Некорректный набор серийных номеров и партий"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1398
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1420
@@ -29040,7 +29040,7 @@ msgstr "Складской продукт"
 #: erpnext/manufacturing/doctype/bom_explosion_item/bom_explosion_item.json
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 msgid "Is Sub Assembly Item"
-msgstr "Является продуктом подсборки"
+msgstr "Является полуфабрикатом"
 
 #. Label of the is_subcontracted (Check) field in DocType 'Purchase Invoice'
 #. Label of the is_subcontracted (Check) field in DocType 'Purchase Order'
@@ -30637,7 +30637,7 @@ msgstr "Вариант продукта {0} с этими атрибутами �
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.py:618
 msgid "Item with name {0} not found in the Purchase Order"
-msgstr "Продукт с именем {0} не найден в заказе на закупку"
+msgstr "Продукт с именем {0} не найден в заказе на покупку"
 
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:95
 msgid ""
@@ -30649,7 +30649,7 @@ msgstr ""
 
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:115
 msgid "Item {0} cannot be added as a sub-assembly of itself"
-msgstr "Продукт {0} не может быть добавлен как подсборка самого себя."
+msgstr "Продукт {0} не может быть добавлен как полуфабрикат самого себя."
 
 #: erpnext/stock/doctype/material_request/material_request.py:716
 msgid "Item {0} cannot be ordered more than once"
@@ -30902,11 +30902,11 @@ msgid ""
 "Purchase Order {0}."
 msgstr ""
 "Обновление позиций невозможно, так как заказ на субподряд создан на основе "
-"заказа на закупку {0}."
+"заказа на покупку {0}."
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1480
 msgid "Items for Raw Material Request"
-msgstr "Продукты для запроса сырья"
+msgstr "Продукты для заявки на сырье"
 
 #: erpnext/selling/page/point_of_sale/pos_item_selector.js:110
 msgid "Items not found."
@@ -32729,7 +32729,7 @@ msgstr "Создать счет поставщика"
 
 #: erpnext/templates/pages/rfq.html:19
 msgid "Make Quotation"
-msgstr "Создать коммерческое предложение"
+msgstr "Создать предложение"
 
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.js:330
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.js:128
@@ -32953,7 +32953,7 @@ msgstr "Производство"
 #. Description of the 'Material Request' (Link) field in DocType 'Work Order'
 #: erpnext/manufacturing/doctype/work_order/work_order.json
 msgid "Manufacture against Material Request"
-msgstr "Изготовление по запросу на материалы"
+msgstr "Производство по заявке на материалы"
 
 #. Label of a number card in the Manufacturing Workspace
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
@@ -33602,7 +33602,7 @@ msgstr "Для продукта {1} по заказу на продажу {2} м
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "Material Request used to make this Stock Entry"
 msgstr ""
-"Запрос на материалы, использованный для создания этой складской проводки"
+"Заявка на материалы, использованная для создания этой складской проводки"
 
 #: erpnext/controllers/subcontracting_controller.py:1350
 msgid "Material Request {0} is cancelled or stopped"
@@ -33635,7 +33635,7 @@ msgstr "Требуются заявки на материалы"
 #: erpnext/buying/workspace/buying/buying.json
 #: erpnext/stock/report/material_requests_for_which_supplier_quotations_are_not_created/material_requests_for_which_supplier_quotations_are_not_created.json
 msgid "Material Requests for which Supplier Quotations are not created"
-msgstr "Запросы на материалы, для которых не создаются предложения поставщика"
+msgstr "Заявки на материалы, по которым не созданы предложения поставщиков"
 
 #. Label of a Link in the Manufacturing Workspace
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
@@ -34413,8 +34413,7 @@ msgstr "Отсутствует склад"
 msgid ""
 "Missing email template for dispatch. Please set one in Delivery Settings."
 msgstr ""
-"Отсутствует шаблон электронной почты для отправки. Установите его в "
-"настройках доставки."
+"Отсутствует шаблон письма для отправки. Укажите его в настройках доставки."
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_engine.py:251
 msgid "Missing required filter: {0}"
@@ -34813,7 +34812,7 @@ msgstr "Префикс серии нумерации"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:96
 msgid "Naming Series is mandatory"
-msgstr "Обязательная серия именования"
+msgstr "Серия нумерации обязательна"
 
 #. Label of the naming_series_details (Small Text) field in DocType 'Buying
 #. Settings'
@@ -35333,7 +35332,7 @@ msgstr "Новый счет поставщика"
 #. Label of the purchase_order (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
 msgid "New Purchase Orders"
-msgstr "Новые заказы на закупку"
+msgstr "Новые заказы на покупку"
 
 #: erpnext/quality_management/doctype/quality_procedure/quality_procedure_tree.js:24
 msgid "New Quality Procedure"
@@ -35342,7 +35341,7 @@ msgstr "Новая процедура качества"
 #. Label of the new_quotations (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
 msgid "New Quotations"
-msgstr "Новые коммерческие предложения"
+msgstr "Новые предложения"
 
 #: banking/src/components/features/BankReconciliation/Rules/CreateNewRule.tsx:68
 msgid "New Rule"
@@ -35371,7 +35370,7 @@ msgstr "Новые заказы на продажу"
 
 #: erpnext/setup/doctype/sales_person/sales_person_tree.js:3
 msgid "New Sales Person Name"
-msgstr "Имя нового менеджера по продажам"
+msgstr "Имя нового продавца"
 
 #: erpnext/stock/doctype/serial_no/serial_no.py:70
 msgid ""
@@ -35500,7 +35499,7 @@ msgstr ""
 
 #: erpnext/public/js/utils/ledger_preview.js:64
 msgid "No Impact on Accounting Ledger"
-msgstr "Без влияния на бухгалтерский журнал"
+msgstr "Без отражения в бухгалтерской книге"
 
 #: erpnext/stock/get_item_details.py:409
 msgid "No Item with Barcode {0}"
@@ -35540,7 +35539,7 @@ msgstr "Нет заметок"
 
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.js:239
 msgid "No Outstanding Invoices found for this party"
-msgstr "Не найдено неоплаченных счетов для данного контрагента"
+msgstr "Для этого контрагента не найдено непогашенных счетов"
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:670
 msgid "No POS Profile found. Please create a New POS Profile first"
@@ -35555,7 +35554,7 @@ msgstr "Нет разрешения"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:791
 msgid "No Purchase Orders were created"
-msgstr "Заказы на закупку не были созданы"
+msgstr "Заказы на покупку не были созданы"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.js:22
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.js:39
@@ -35859,11 +35858,11 @@ msgstr "Нет открытой задачи"
 
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.py:355
 msgid "No outstanding invoices found"
-msgstr "Не найдено неоплаченных счетов"
+msgstr "Непогашенные счета не найдены"
 
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.py:353
 msgid "No outstanding invoices require exchange rate revaluation"
-msgstr "Нет неоплаченных счетов, требующих переоценки валютных остатков"
+msgstr "Нет непогашенных счетов, требующих переоценки валютных остатков"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:2459
 msgid ""
@@ -35951,8 +35950,8 @@ msgid ""
 "No stock ledger entries were created. Please set the quantity or valuation "
 "rate for the items properly and try again."
 msgstr ""
-"Записи в журнале складского учета не созданы. Правильно укажите количество "
-"или оценочную стоимость продуктов и попробуйте снова."
+"Записи книги учета запасов не созданы. Правильно укажите количество или "
+"учетную цену продуктов и повторите попытку."
 
 #. Description of the 'Stock frozen up to' (Date) field in DocType 'Stock
 #. Settings'
@@ -36174,7 +36173,7 @@ msgstr "Нет в наличии"
 
 #: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:1305
 msgid "Not permitted to make Purchase Orders"
-msgstr "Нет прав на создание заказов на закупку"
+msgstr "Нет прав на создание заказов на покупку"
 
 #: erpnext/stock/report/stock_qty_vs_serial_no_count/stock_qty_vs_serial_no_count.py:114
 msgid "Not permitted to update Serial No"
@@ -36635,7 +36634,10 @@ msgid ""
 "On expanding a row in the Items to Manufacture table, you'll see an option "
 "to 'Include Exploded Items'. Ticking this includes raw materials of the sub-"
 "assembly items in the production process."
-msgstr "При раскрытии строки в таблице «Продукты для производства» появится параметр «Включить развернутые позиции спецификации». Если его отметить, в производственный процесс будет добавлено сырье продуктов подсборок."
+msgstr ""
+"При раскрытии строки в таблице «Продукты для производства» появится параметр"
+" «Включить развернутые позиции спецификации». Если его отметить, в "
+"производственный процесс будет добавлено сырье полуфабрикатов."
 
 #. Option for the 'Status' (Select) field in DocType 'Project'
 #: erpnext/projects/doctype/project/project.json
@@ -37622,7 +37624,7 @@ msgstr "Заказано"
 #: erpnext/stock/page/stock_balance/stock_balance.js:60
 #: erpnext/stock/report/stock_projected_qty/stock_projected_qty.py:163
 msgid "Ordered Qty"
-msgstr "Заказанное количество"
+msgstr "Заказанное кол-во"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:205
 msgid "Ordered Qty: Quantity ordered for purchase, but not received."
@@ -40485,8 +40487,8 @@ msgid ""
 "for this item. If not set, value from Accounts Settings will be used."
 msgstr ""
 "Процент, на который допускается перевыставление счета сверх заказа на "
-"продажу/закупку для этого продукта. Если не задан, будет использовано значение"
-" из настроек учета."
+"продажу/покупку для этого продукта. Если не задан, будет использовано "
+"значение из настроек учета."
 
 #. Description of the 'Over Delivery/Receipt Allowance (%)' (Float) field in
 #. DocType 'Item'
@@ -40495,7 +40497,10 @@ msgid ""
 "Percentage by which over-delivery or over-receipt is allowed against a "
 "Sales/Purchase Order for this item. If not set, value from Stock Settings "
 "will be used."
-msgstr "Процент, на который допускается превышение поставки или получения сверх заказа на продажу/закупку для этого продукта. Если не задан, будет использовано значение из настроек склада."
+msgstr ""
+"Процент, на который допускается превышение поставки или получения сверх "
+"заказа на продажу/покупку для этого продукта. Если не задан, будет "
+"использовано значение из настроек склада."
 
 #. Description of the 'Blanket Order Allowance (%)' (Float) field in DocType
 #. 'Buying Settings'
@@ -40989,7 +40994,7 @@ msgstr "Название плана"
 #. Order'
 #: erpnext/manufacturing/doctype/work_order/work_order.json
 msgid "Plan material for sub-assemblies"
-msgstr "Планирование материалов для узлов сборки"
+msgstr "Планирование материалов для полуфабрикатов"
 
 #. Description of the 'Capacity Planning For (Days)' (Int) field in DocType
 #. 'Manufacturing Settings'
@@ -41184,9 +41189,7 @@ msgstr "Сначала добавьте раздел «Операции»."
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:221
 msgid "Please add Request for Quotation to the sidebar in Portal Settings."
-msgstr ""
-"Добавьте запрос коммерческого предложения на боковую панель в настройках "
-"портала."
+msgstr "Добавьте запрос предложений на боковую панель в настройках портала."
 
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:432
 msgid "Please add Root Account for - {0}"
@@ -41364,8 +41367,8 @@ msgid ""
 "Please create Landed Cost Vouchers against Invoices that have 'Update Stock'"
 " enabled."
 msgstr ""
-"Создайте документы на поставку по счетам, для которых включена функция "
-"«Обновить запасы»."
+"Создайте документы дополнительных расходов по счетам, для которых включена "
+"функция «Обновить запасы»."
 
 #: erpnext/accounts/doctype/accounting_dimension/accounting_dimension.py:83
 msgid "Please create a new Accounting Dimension if required."
@@ -41637,7 +41640,7 @@ msgstr "Введите {0} в первую очередь"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:463
 msgid "Please fill the Material Requests table"
-msgstr "Заполните таблицу запросов на материалы"
+msgstr "Заполните таблицу заявок на материалы"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:356
 msgid "Please fill the Sales Orders table"
@@ -41887,7 +41890,7 @@ msgstr "Выберите счет учета товарных запасов"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:2109
 msgid "Please select Subcontracting Order instead of Purchase Order {0}"
-msgstr "Выберите «Заказ на субподряд» вместо «Заказ на закупку» {0}"
+msgstr "Выберите «Заказ на субподряд» вместо «Заказ на покупку» {0}"
 
 #: erpnext/controllers/accounts_controller.py:2913
 msgid ""
@@ -41928,7 +41931,7 @@ msgstr "Выберите список праздников, чтобы вклю�
 
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.py:153
 msgid "Please select a Subcontracting Purchase Order."
-msgstr "Выберите заказ на субподрядную закупку."
+msgstr "Выберите заказ на покупку для субподряда."
 
 #: erpnext/buying/doctype/supplier_quotation/supplier_quotation.js:91
 msgid "Please select a Supplier"
@@ -42052,7 +42055,7 @@ msgstr "Выберите хотя бы один продукт для продо
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:392
 msgid "Please select atleast one operation to create Job Card"
-msgstr "Выберите хотя бы одну операцию для создания производственного наряда"
+msgstr "Выберите хотя бы одну операцию для создания карточки задания"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:1739
 msgid "Please select correct account"
@@ -42399,11 +42402,11 @@ msgstr "Сначала укажите код продукта"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:1910
 msgid "Please set the Target Warehouse in the Job Card"
-msgstr "Укажите целевой склад в производственном наряде"
+msgstr "Укажите целевой склад в карточке задания"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:1914
 msgid "Please set the WIP Warehouse in the Job Card"
-msgstr "Укажите склад незавершенного производства в производственном наряде"
+msgstr "Укажите склад незавершенного производства в карточке задания"
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:182
 msgid ""
@@ -42441,7 +42444,7 @@ msgstr "Установите {0} для адреса {1}"
 
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:241
 msgid "Please set {0} in BOM Creator {1}"
-msgstr "Установите {0} в создателе спецификаций {1}"
+msgstr "Установите {0} в конструкторе спецификаций {1}"
 
 #: erpnext/controllers/buying_controller.py:337
 #: erpnext/controllers/stock_controller.py:935
@@ -43006,8 +43009,8 @@ msgid ""
 "Prevents the system from automatically using the rate from the last purchase"
 " transaction when creating new purchase orders or transactions."
 msgstr ""
-"Предотвращает автоматическое использование системой ставки из последней "
-"транзакции закупки при создании новых заказов на закупку или транзакций."
+"Не позволяет системе автоматически подставлять цену из последней закупки при"
+" создании новых заказов на покупку или других транзакций."
 
 #. Label of the preview (Button) field in DocType 'Request for Quotation'
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:267
@@ -44085,7 +44088,7 @@ msgstr "План производства"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:167
 msgid "Production Plan Already Submitted"
-msgstr "План по производству уже проведен"
+msgstr "План производства уже проведен"
 
 #. Label of the production_plan_item (Data) field in DocType 'Purchase Order
 #. Item'
@@ -44098,7 +44101,7 @@ msgstr "План по производству уже проведен"
 #: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
 #: erpnext/manufacturing/doctype/work_order/work_order.json
 msgid "Production Plan Item"
-msgstr "Позиция производственного плана"
+msgstr "Позиция плана производства"
 
 #. Label of the prod_plan_references (Table) field in DocType 'Production
 #. Plan'
@@ -44111,12 +44114,12 @@ msgstr "Ссылка на продукт плана производства"
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/production_plan_material_request/production_plan_material_request.json
 msgid "Production Plan Material Request"
-msgstr "Заявка на материалы производственного плана"
+msgstr "Заявка на материалы плана производства"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/production_plan_material_request_warehouse/production_plan_material_request_warehouse.json
 msgid "Production Plan Material Request Warehouse"
-msgstr "Склад заявки на материалы производственного плана"
+msgstr "Склад заявки на материалы плана производства"
 
 #. Label of the production_plan_qty (Float) field in DocType 'Sales Order
 #. Item'
@@ -44131,7 +44134,7 @@ msgstr "Превышено количество по плану производ
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/production_plan_sales_order/production_plan_sales_order.json
 msgid "Production Plan Sales Order"
-msgstr "Заказ на продажу производственного плана"
+msgstr "Заказ на продажу плана производства"
 
 #. Label of the production_plan_sub_assembly_item (Data) field in DocType
 #. 'Purchase Order Item'
@@ -44146,7 +44149,7 @@ msgstr "Заказ на продажу производственного пла
 #: erpnext/manufacturing/doctype/work_order/work_order.json
 #: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
 msgid "Production Plan Sub Assembly Item"
-msgstr "Составная позиция в производственном плане"
+msgstr "Полуфабрикат в плане производства"
 
 #. Name of a report
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:110
@@ -44493,7 +44496,7 @@ msgstr "Идентификатор схемы продвижения"
 #: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.json
 #: erpnext/accounts/doctype/promotional_scheme_price_discount/promotional_scheme_price_discount.json
 msgid "Promotional Scheme Price Discount"
-msgstr "Скидка по цене в рекламной схеме"
+msgstr "Скидка по цене в схеме продвижения"
 
 #. Label of the product_discount_slabs (Table) field in DocType 'Promotional
 #. Scheme'
@@ -44501,7 +44504,7 @@ msgstr "Скидка по цене в рекламной схеме"
 #: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.json
 #: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
 msgid "Promotional Scheme Product Discount"
-msgstr "Скидка на продукт в рекламной схеме"
+msgstr "Скидка на продукт в схеме продвижения"
 
 #. Label of the prompt_qty (Check) field in DocType 'Pick List'
 #: erpnext/stock/doctype/pick_list/pick_list.json
@@ -44949,13 +44952,13 @@ msgstr "Позиция заказа на покупку"
 #. Name of a DocType
 #: erpnext/buying/doctype/purchase_order_item_supplied/purchase_order_item_supplied.json
 msgid "Purchase Order Item Supplied"
-msgstr "Продукт заказа на закупку, предоставленный давальческим способом"
+msgstr "Давальческий продукт заказа на покупку"
 
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:1104
 msgid "Purchase Order Item reference is missing in Subcontracting Receipt {0}"
 msgstr ""
-"В накладной на давальческую переработку {0} отсутствует ссылка на позицию "
-"заказа на закупку"
+"В поступлении по субподряду {0} отсутствует ссылка на позицию заказа на "
+"покупку"
 
 #: erpnext/setup/doctype/email_digest/templates/default.html:186
 msgid "Purchase Order Items not received on time"
@@ -44990,11 +44993,11 @@ msgstr "Заказ на покупку уже создан для всех по�
 
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:340
 msgid "Purchase Order number required for Item {0}"
-msgstr "Номер заказа на закупку обязателен для продукта {0}"
+msgstr "Номер заказа на покупку обязателен для продукта {0}"
 
 #: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:1386
 msgid "Purchase Order {0} created"
-msgstr "Создан заказ на закупку {0}"
+msgstr "Создан заказ на покупку {0}"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:741
 msgid "Purchase Order {0} is not submitted"
@@ -45026,13 +45029,13 @@ msgstr ""
 #. Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
 msgid "Purchase Orders to Bill"
-msgstr "Заказы на закупку для выставления счета"
+msgstr "Заказы на покупку к выставлению счета"
 
 #. Label of the purchase_orders_to_receive (Check) field in DocType 'Email
 #. Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
 msgid "Purchase Orders to Receive"
-msgstr "Заказы на закупку для получения"
+msgstr "Заказы на покупку к получению"
 
 #: erpnext/controllers/accounts_controller.py:2104
 msgid "Purchase Orders {0} are un-linked"
@@ -46422,7 +46425,7 @@ msgstr "Сумма по предложению"
 #. in DocType 'Supplier'
 #: erpnext/buying/doctype/supplier/supplier.json
 msgid "RFQ and Purchase Order Settings"
-msgstr "Настройки запроса коммерческого предложения и заказа на закупку"
+msgstr "Настройки запроса предложений и заказа на покупку"
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:140
 msgid "RFQs are not allowed for {0} due to a scorecard standing of {1}"
@@ -48277,7 +48280,7 @@ msgstr "Позиции повторного проведения бухгалт�
 #: erpnext/workspace_sidebar/accounts_setup.json
 #: erpnext/workspace_sidebar/erpnext_settings.json
 msgid "Repost Accounting Ledger Settings"
-msgstr "Повторно применить настройки бухгалтерского журнала"
+msgstr "Настройки перепроведения бухгалтерской книги"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/repost_allowed_types/repost_allowed_types.json
@@ -48780,7 +48783,7 @@ msgstr "Запрос на сырье"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:269
 msgid "Reserve for Sub-assembly"
-msgstr "Резервировать для подузла"
+msgstr "Резервировать для полуфабриката"
 
 #. Option for the 'Status' (Select) field in DocType 'Stock Reservation Entry'
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
@@ -48835,7 +48838,7 @@ msgstr "Зарезервированное количество для прои�
 #: erpnext/stock/doctype/bin/bin.json
 #: erpnext/stock/page/stock_balance/stock_balance.js:57
 msgid "Reserved Qty for Production Plan"
-msgstr "Зарезервированное количество для производственного плана"
+msgstr "Зарезервированное кол-во для плана производства"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:211
 msgid ""
@@ -48933,7 +48936,7 @@ msgstr "Зарезервировано для производства"
 
 #: erpnext/stock/report/stock_projected_qty/stock_projected_qty.py:184
 msgid "Reserved for Production Plan"
-msgstr "Зарезервировано для производственного плана"
+msgstr "Зарезервировано для плана производства"
 
 #: erpnext/stock/report/stock_projected_qty/stock_projected_qty.py:191
 msgid "Reserved for Sub Contracting"
@@ -50502,7 +50505,7 @@ msgstr ""
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:1052
 msgid "Row #{0}: Please select the Sub Assembly Warehouse"
-msgstr "Строка #{0}: Выберите склад узлов сборки"
+msgstr "Строка #{0}: Выберите склад полуфабрикатов"
 
 #: erpnext/stock/doctype/item/item.py:572
 msgid "Row #{0}: Please set reorder quantity"
@@ -50726,7 +50729,7 @@ msgid ""
 "be used for Sub Assembly Items"
 msgstr ""
 "Строка #{0}: Так как включена опция «Отслеживать полуфабрикаты», "
-"спецификацию (BOM) {1} нельзя использовать для подсборок"
+"спецификацию (BOM) {1} нельзя использовать для полуфабрикатов"
 
 #: erpnext/controllers/subcontracting_inward_controller.py:403
 msgid ""
@@ -51594,8 +51597,8 @@ msgid ""
 "Row {idx}: Asset Naming Series is mandatory for the auto creation of assets "
 "for item {item_code}."
 msgstr ""
-"Строка №{idx}: Серия наименования ОС обязательна для автосоздания ОС для "
-"позиции {item_code}."
+"Строка №{idx}: серия нумерации активов обязательна для автоматического "
+"создания активов по продукту {item_code}."
 
 #: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.py:84
 msgid ""
@@ -52521,7 +52524,7 @@ msgstr "Продавец"
 
 #: erpnext/controllers/selling_controller.py:263
 msgid "Sales Person <b>{0}</b> is disabled."
-msgstr "Менеджер по продажам <b>{0}</b> отключен."
+msgstr "Продавец <b>{0}</b> отключен."
 
 #. Name of a report
 #: erpnext/selling/report/sales_person_commission_summary/sales_person_commission_summary.json
@@ -53048,7 +53051,7 @@ msgstr "Поисковые API"
 
 #: erpnext/stock/report/bom_search/bom_search.js:38
 msgid "Search Sub Assemblies"
-msgstr "Поиск подузлов"
+msgstr "Поиск полуфабрикатов"
 
 #. Label of the search_term_param_name (Data) field in DocType 'Support Search
 #. Source'
@@ -53593,7 +53596,7 @@ msgid ""
 "Select whether to get items from a Sales Order or a Material Request. For now select <b>Sales Order</b>.\n"
 " A Production Plan can also be created manually where you can select the Items to manufacture."
 msgstr ""
-"Выберите, получать ли продукты из заказа на продажу или запроса на материалы. Сейчас выберите <b>Заказ на продажу</b>.\n"
+"Выберите, получать ли продукты из заказа на продажу или заявки на материалы. Сейчас выберите <b>Заказ на продажу</b>.\n"
 " План производства также можно создать вручную, где можно выбрать продукты для производства."
 
 #: erpnext/setup/doctype/holiday_list/holiday_list.js:65
@@ -53699,7 +53702,7 @@ msgstr "Объем продаж должен быть больше нуля"
 #: erpnext/stock/doctype/price_list/price_list.json
 #: erpnext/workspace_sidebar/selling.json
 msgid "Selling"
-msgstr "Продажа"
+msgstr "Продажи"
 
 #: erpnext/accounts/report/gross_profit/gross_profit.py:365
 msgid "Selling Amount"
@@ -54639,7 +54642,7 @@ msgstr "Установите новую дату выпуска"
 #. field in DocType 'Manufacturing Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Set Operating Cost / Secondary Items From Sub-assemblies"
-msgstr "Задать эксплуатационные затраты/вторичные продукты из узлов сборки"
+msgstr "Задать эксплуатационные затраты/вторичные продукты из полуфабрикатов"
 
 #. Label of the set_cost_based_on_bom_qty (Check) field in DocType 'BOM
 #. Operation'
@@ -54799,7 +54802,7 @@ msgstr "Установить количество продукта, потеря
 #. DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Set rate of sub-assembly item based on BOM"
-msgstr "Установить цену подсборки на основе спецификации (BOM)"
+msgstr "Установить цену полуфабриката на основе спецификации (BOM)"
 
 #. Description of the 'Sales Person Targets' (Section Break) field in DocType
 #. 'Sales Person'
@@ -55566,7 +55569,7 @@ msgstr "Показать только ближайший предстоящий 
 #. Label of the show_pay_button (Check) field in DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Show pay button in Purchase Order portal"
-msgstr "Показывать кнопку оплаты на портале заказов на закупку"
+msgstr "Показывать кнопку оплаты на портале заказов на покупку"
 
 #: erpnext/stock/utils.py:567
 msgid "Show pending entries"
@@ -56668,7 +56671,7 @@ msgid ""
 "Stock Ledger Entries and GL Entries are reposted for the selected Purchase "
 "Receipts"
 msgstr ""
-"Записи складского журнала и главной книги повторно проведены для выбранных "
+"Записи книги учета запасов и главной книги перепроведены для выбранных "
 "приходных накладных"
 
 #. Name of a DocType
@@ -57344,7 +57347,7 @@ msgid ""
 "against Material Request for Sales Order."
 msgstr ""
 "Запас будет зарезервирован при проведении <b>приходной накладной</b>, "
-"созданной по запросу на материалы для заказа на продажу."
+"созданной по заявке на материалы для заказа на продажу."
 
 #: erpnext/stock/utils.py:558
 msgid ""
@@ -57391,44 +57394,44 @@ msgstr "Линейный метод"
 
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:61
 msgid "Sub Assemblies"
-msgstr "Подузлы"
+msgstr "Полуфабрикаты"
 
 #. Label of the raw_materials_tab (Tab Break) field in DocType 'BOM Creator'
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
 msgid "Sub Assemblies & Raw Materials"
-msgstr "Подузлы и сырье"
+msgstr "Полуфабрикаты и сырье"
 
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:329
 msgid "Sub Assembly Item"
-msgstr "Позиция подузла"
+msgstr "Полуфабрикат"
 
 #. Label of the production_item (Link) field in DocType 'Production Plan Sub
 #. Assembly Item'
 #: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
 msgid "Sub Assembly Item Code"
-msgstr "Код продукта подсборки"
+msgstr "Код полуфабриката"
 
 #. Label of the sub_assembly_item_reference (Data) field in DocType 'Material
 #. Request Plan Item'
 #: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
 msgid "Sub Assembly Item Reference"
-msgstr "Идентификатор узла сборки"
+msgstr "Ссылка на полуфабрикат"
 
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:438
 msgid "Sub Assembly Item is mandatory"
-msgstr "Подсборочный продукт является обязательным"
+msgstr "Полуфабрикат обязателен"
 
 #. Label of the section_break_24 (Section Break) field in DocType 'Production
 #. Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Sub Assembly Items"
-msgstr "Позиции подузлов"
+msgstr "Полуфабрикаты"
 
 #. Label of the sub_assembly_warehouse (Link) field in DocType 'Production
 #. Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Sub Assembly Warehouse"
-msgstr "Склад подузлов"
+msgstr "Склад полуфабрикатов"
 
 #. Label of the operation (Link) field in DocType 'Job Card Time Log'
 #. Name of a DocType
@@ -57456,11 +57459,13 @@ msgstr "Вспомогательная процедура"
 msgid ""
 "Sub assembly item references are missing. Please fetch the sub assemblies "
 "and raw materials again."
-msgstr "Отсутствуют ссылки на продукты подсборок. Повторно получите подсборки и сырье."
+msgstr ""
+"Отсутствуют ссылки на полуфабрикаты. Повторно получите полуфабрикаты и "
+"сырье."
 
 #: erpnext/manufacturing/report/bom_operations_time/bom_operations_time.py:127
 msgid "Sub-assembly BOM Count"
-msgstr "Количество спецификаций подузлов"
+msgstr "Количество спецификаций полуфабрикатов"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order_dashboard.py:34
 msgid "Sub-contracting"
@@ -57690,8 +57695,8 @@ msgid ""
 "Subcontracting Order (Draft) will be auto-created on submission of Purchase "
 "Order."
 msgstr ""
-"Заказ на субподряд (черновик) будет автоматически создан при подаче заказа "
-"на закупку."
+"Заказ на субподряд (черновик) будет автоматически создан при проведении "
+"заказа на покупку."
 
 #. Name of a DocType
 #. Label of the subcontracting_order_item (Data) field in DocType
@@ -58079,7 +58084,7 @@ msgstr "Сводка за эту неделю и предстоящие меро
 
 #: erpnext/buying/report/subcontract_order_summary/subcontract_order_summary.py:145
 msgid "Supplied Item"
-msgstr "Переданный продукт"
+msgstr "Давальческий материал"
 
 #. Label of the supplied_items (Table) field in DocType 'Purchase Invoice'
 #. Label of the supplied_items (Table) field in DocType 'Purchase Order'
@@ -58088,7 +58093,7 @@ msgstr "Переданный продукт"
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
 msgid "Supplied Items"
-msgstr "Переданные продукты"
+msgstr "Давальческие материалы"
 
 #. Label of the supplied_qty (Float) field in DocType 'Purchase Order Item
 #. Supplied'
@@ -58909,7 +58914,7 @@ msgstr "Целевой обменный курс"
 #. Label of the target_fieldname (Data) field in DocType 'Inventory Dimension'
 #: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
 msgid "Target Fieldname (Stock Ledger Entry)"
-msgstr "Название целевого поля (запись в журнале учета запасов)"
+msgstr "Имя целевого поля (запись книги учета запасов)"
 
 #. Label of the target_fixed_asset_account (Link) field in DocType 'Asset
 #. Capitalization'
@@ -60645,9 +60650,9 @@ msgid ""
 "example, if the Material Request has 100 units and the allowance is 10%, you"
 " can order up to 110 units"
 msgstr ""
-"Процент, на который разрешено заказать больше по заказу на закупку, чем "
+"Процент, на который разрешено заказать больше по заказу на покупку, чем "
 "количество, запрошенное в исходной заявке на материалы. Например, если в "
-"запросе материала указано 100 единиц, а допуск составляет 10%, можно "
+"заявке на материалы указано 100 единиц, а допуск составляет 10%, можно "
 "заказать до 110 единиц"
 
 #. Description of the 'Over Billing Allowance (%)' (Currency) field in DocType
@@ -61396,9 +61401,9 @@ msgid ""
 " of the Item you're manufacturing leave this enabled. If you plan and "
 "manufacture the sub-assemblies separately, you can disable this checkbox."
 msgstr ""
-"Это включено по умолчанию. Если вы хотите планировать материалы для узлов "
-"сборки производимого вами продукта, оставьте это включенным. Если вы "
-"планируете и производите сборку отдельно, вы можете отключить этот флажок."
+"Включено по умолчанию. Если нужно планировать материалы для полуфабрикатов "
+"производимого продукта, оставьте флажок установленным. Если полуфабрикаты "
+"планируются и производятся отдельно, флажок можно снять."
 
 #: erpnext/stock/doctype/item/item.js:1293
 msgid ""
@@ -62261,9 +62266,9 @@ msgid ""
 "work order without using a job card, when the 'Use Multi-Level BOM' option "
 "is enabled."
 msgstr ""
-"Для включения затрат на узлы сборки и вторичных продуктов в готовую продукцию "
-"по производственному заказу без использования карточки задания, при "
-"включенном параметре «Использовать многоуровневую спецификацию»."
+"Для включения затрат на полуфабрикаты и вторичных продуктов в готовую "
+"продукцию по производственному заказу без использования карточки задания, "
+"при включенном параметре «Использовать многоуровневую спецификацию»."
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:2273
 #: erpnext/controllers/accounts_controller.py:3336
@@ -62924,7 +62929,7 @@ msgstr "Итого непогашено"
 #: erpnext/accounts/report/accounts_payable_summary/accounts_payable_summary.html:138
 #: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.html:138
 msgid "Total Outstanding Amount"
-msgstr "Общая сумма задолженности"
+msgstr "Общая непогашенная сумма"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:200
 #: erpnext/accounts/report/accounts_payable_summary/accounts_payable_summary.html:136
@@ -64607,7 +64612,7 @@ msgstr "Не резервировать материалы"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:277
 msgid "Unreserve for Sub-assembly"
-msgstr "Снять резерв для подузла"
+msgstr "Снять резерв для полуфабриката"
 
 #: erpnext/public/js/stock_reservation.js:281
 #: erpnext/selling/doctype/sales_order/sales_order.js:522
@@ -64955,8 +64960,8 @@ msgid ""
 "Upon submission of the Sales Order, Work Order, or Production Plan, the "
 "system will automatically reserve the stock."
 msgstr ""
-"После отправки заказа на продажу, производственного заказа или "
-"производственного плана система автоматически зарезервирует запас."
+"После проведения заказа на продажу, производственного заказа или плана "
+"производства система автоматически зарезервирует запас."
 
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:314
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:431
@@ -65149,7 +65154,7 @@ msgstr "Использовать цены из прайс-листа по умо
 #. Item'
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
 msgid "Used for Production Plan"
-msgstr "Использовано для производственного планирования"
+msgstr "Используется для плана производства"
 
 #. Description of the 'Is Internal Supplier' (Check) field in DocType
 #. 'Supplier'
@@ -65287,8 +65292,8 @@ msgstr ""
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Users can make manufacture entry against Job Cards"
 msgstr ""
-"Пользователи могут вносить производственные записи на основании заказ-"
-"нарядов"
+"Пользователи могут вносить производственные записи на основании карточек "
+"задания"
 
 #. Description of the 'Portal Users' (Tab Break) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
@@ -65963,7 +65968,7 @@ msgstr "Кем проверено"
 #: erpnext/templates/emails/confirm_appointment.html:7
 #: erpnext/www/book_appointment/verify/index.html:4
 msgid "Verify Email"
-msgstr "Подтвердить Email"
+msgstr "Подтвердить эл. почту"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -65981,7 +65986,7 @@ msgstr "Через портал клиента"
 #. Valuation'
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
 msgid "Via Landed Cost Voucher"
-msgstr "Через документ о затратах на доставку"
+msgstr "Через документ дополнительных расходов"
 
 #: erpnext/setup/setup_wizard/data/designation.txt:31
 msgid "Vice President"
@@ -66068,7 +66073,7 @@ msgstr "Просмотреть сводку по проекту"
 #. Analysis'
 #: erpnext/buying/onboarding_step/view_purchase_order_analysis/view_purchase_order_analysis.json
 msgid "View Purchase Order Analysis"
-msgstr "Просмотреть анализ заказов на закупку"
+msgstr "Просмотреть анализ заказов на покупку"
 
 #. Title of an Onboarding Step
 #. Label of an action in the Onboarding Step 'View Sales Order Analysis'
@@ -66689,7 +66694,7 @@ msgstr "Предупреждения по запросам предложени�
 #. Label of the warn_pos (Check) field in DocType 'Supplier Scorecard'
 #: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.json
 msgid "Warn for new Purchase Orders"
-msgstr "Предупреждать о новых заказах на закупку"
+msgstr "Предупреждать о новых заказах на покупку"
 
 #. Label of the warn_rfqs (Check) field in DocType 'Supplier Scorecard'
 #: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.json
@@ -67588,7 +67593,7 @@ msgstr "Эксплуатационный компонент рабочего ц�
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/workstation_operating_component_account/workstation_operating_component_account.json
 msgid "Workstation Operating Component Account"
-msgstr "Счет операционного компонента рабочего места"
+msgstr "Счет эксплуатационного компонента рабочего центра"
 
 #. Label of the workstation_status_tab (Tab Break) field in DocType
 #. 'Workstation'
@@ -68441,7 +68446,7 @@ msgstr "производство"
 #. Label of the quotation_item (Data) field in DocType 'Sales Order Item'
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
 msgid "quotation_item"
-msgstr "позиция в коммерческом предложении"
+msgstr "позиция предложения"
 
 #: erpnext/templates/includes/macros.html:202
 msgid "ratings"
@@ -69189,7 +69194,7 @@ msgid ""
 "Invoice' or the 'Get Outstanding Orders' button to get the latest "
 "outstanding amounts."
 msgstr ""
-"{0} {1} уже частично оплачено. Используйте кнопку «Получить неоплаченные "
+"{0} {1} уже частично оплачено. Используйте кнопку «Получить непогашенные "
 "счета» или «Получить невыполненные заказы», чтобы получить актуальные "
 "непогашенные суммы."
 
@@ -69600,10 +69605,10 @@ msgid "Delivery Trends"
 msgstr "Динамика отгрузок"
  
 msgid "Oldest Items"
-msgstr "Номенклатура с наибольшим сроком хранения"
+msgstr "Продукты с наибольшим сроком хранения"
  
 msgid "Item Shortage Summary"
-msgstr "Сводка по дефициту номенклатуры"
+msgstr "Сводка по дефициту продуктов"
  
 msgid "Incoming Bills (Purchase Invoice)"
 msgstr "Входящие счета (Счет поставщика)"
@@ -69660,7 +69665,7 @@ msgid "Monthly Completed Work Order"
 msgstr "Завершенные заказы на производство за месяц"
  
 msgid "Ongoing Job Card"
-msgstr "Незавершенные производственные задания"
+msgstr "Текущая карточка задания"
  
 msgid "Monthly Quality Inspection"
 msgstr "Проверки качества за месяц"
@@ -69675,5 +69680,5 @@ msgid "Top Customers"
 msgstr "Крупнейшие клиенты"
  
 msgid "Item-wise Annual Sales"
-msgstr "Продажи за год по номенклатуре"
+msgstr "Продажи за год по продуктам"
  
