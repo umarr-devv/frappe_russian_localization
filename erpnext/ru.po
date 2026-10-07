@@ -4098,7 +4098,7 @@ msgstr "По складской проводке"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:390
 msgid "Against Supplier Invoice {0}"
-msgstr "По счету поставщика {0}"
+msgstr "По входящему счету {0}"
 
 #. Label of the against_voucher (Dynamic Link) field in DocType 'GL Entry'
 #: erpnext/accounts/doctype/gl_entry/gl_entry.json
@@ -4951,7 +4951,7 @@ msgstr "Разрешить создание счета поставщика бе
 #. (Check) field in DocType 'Supplier'
 #: erpnext/buying/doctype/supplier/supplier.json
 msgid "Allow purchase invoice creation without purchase receipt"
-msgstr "Разрешить создание счета на закупку без приходной накладной"
+msgstr "Разрешить создание счета поставщика без приходной накладной"
 
 #. Label of the dn_required (Check) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
@@ -11619,7 +11619,7 @@ msgstr "Проверить наличие на складе"
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Check Supplier invoice number uniqueness"
-msgstr "Проверять уникальность номера счета поставщика"
+msgstr "Проверять уникальность входящего номера"
 
 #. Description of the 'Is Container' (Check) field in DocType 'Location'
 #: erpnext/assets/doctype/location/location.json
@@ -58351,7 +58351,7 @@ msgstr "Информация о поставщике"
 #. 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 msgid "Supplier Invoice"
-msgstr "Счет поставщика"
+msgstr "Входящий счет"
 
 #. Label of the supplier_invoice_date (Date) field in DocType 'Opening Invoice
 #. Creation Tool Item'
@@ -58360,7 +58360,7 @@ msgstr "Счет поставщика"
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.py:230
 msgid "Supplier Invoice Date"
-msgstr "Дата счета поставщика"
+msgstr "Входящая дата"
 
 #. Label of the bill_no (Data) field in DocType 'Payment Entry Reference'
 #. Label of the bill_no (Data) field in DocType 'Purchase Invoice'
@@ -58371,11 +58371,11 @@ msgstr "Дата счета поставщика"
 #: erpnext/accounts/report/general_ledger/general_ledger.py:813
 #: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.py:224
 msgid "Supplier Invoice No"
-msgstr "Номер счета поставщика"
+msgstr "Входящий номер"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:1903
 msgid "Supplier Invoice No exists in Purchase Invoice {0}"
-msgstr "Номер счета поставщика уже используется в счете поставщика {0}"
+msgstr "Входящий номер уже используется в счете поставщика {0}"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/supplier_item/supplier_item.json
@@ -64868,7 +64868,7 @@ msgstr "Обновить актуальную цену во всех специ�
 
 #: erpnext/assets/doctype/asset/asset.py:475
 msgid "Update stock must be enabled for the purchase invoice {0}"
-msgstr "Для счета на покупку необходимо включить обновление запасов {0}"
+msgstr "В счете поставщика {0} необходимо включить флажок «Обновить запасы»"
 
 #. Description of the 'Update timestamp on new communication' (Check) field in
 #. DocType 'CRM Settings'

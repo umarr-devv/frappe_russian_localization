@@ -542,3 +542,11 @@
 | Full and Final Statement | Окончательный расчет |  | Унифицировано 30.09.2026. Было: Сейчас «Полный и окончательный отчет» (калька). В кадровой практике — «окончательный расчет при увольнении». |
 | Overtime | Сверхурочная работа |  |  |
 | Salary Withholding | Удержание из заработной платы |  |  |
+
+## Новые термины (на утверждение)
+
+| English | Русский | Контекст (модуль / msgctxt) | Пример msgid |
+|---|---|---|---|
+| Supplier Invoice | Входящий счет | accounts / Purchase Invoice (бумажный счет поставщика, в отличие от документа Purchase Invoice → «Счет поставщика») | Supplier Invoice |
+| Supplier Invoice No | Входящий номер | accounts / Purchase Invoice (bill_no) | Supplier Invoice No exists in Purchase Invoice {0} |
+| Supplier Invoice Date | Входящая дата | accounts / Purchase Invoice (bill_date) | Supplier Invoice Date |
