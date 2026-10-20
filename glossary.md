@@ -550,3 +550,30 @@
 | Supplier Invoice | Входящий счет | accounts / Purchase Invoice (бумажный счет поставщика, в отличие от документа Purchase Invoice → «Счет поставщика») | Supplier Invoice |
 | Supplier Invoice No | Входящий номер | accounts / Purchase Invoice (bill_no) | Supplier Invoice No exists in Purchase Invoice {0} |
 | Supplier Invoice Date | Входящая дата | accounts / Purchase Invoice (bill_date) | Supplier Invoice Date |
+| Deal | Сделка | crm / CRM Deal | Create Deal |
+| Organization | Организация | crm / CRM Organization (в CRM; в ERPNext Company → «Компания») | Add Organization... |
+| Call Log | Журнал звонков (одна запись — «запись журнала звонков») | crm / CRM Call Log | Edit Call Log |
+| Assignment Rule | Правило назначения | crm / Assignment Rules | Assignment rule created |
+| Sales User (роль CRM) | Пользователь отдела продаж | crm / роли | Only sales users can access WhatsApp features. |
+| Sales Hierarchy | Иерархия продаж | crm / CRM Sales Hierarchy | Enable Sales Hierarchy |
+| Lead Temperature: Hot / Warm / Cold | Температура лида: Горячий / Теплый / Холодный | crm / CRM Lead | Lead Temperature |
+| Won / Lost (тип статуса) | Выиграно / Проиграно | crm / CRM Deal Status, CRM Lead Status | Won |
+| Enrichment / Domain Enrichment | Обогащение / Обогащение по домену | crm / domain_enrichment | Enrichment Settings |
+| Crawl / Crawler | Обход / Обходчик | crm / CRM Enrichment Settings | Crawl Tuning |
+| Telephony Agent | Оператор телефонии | crm / CRM Telephony Agent | CRM Telephony Agent |
+| Calling Medium | Средство связи | crm / телефония | Default calling medium for logged-in user |
+| Workflow Automation (CRM) / Automation Flow (Frappe) | Автоматизация рабочего процесса / Сценарий автоматизации | crm / WorkflowAutomations; frappe / automation | Automation Flow cannot target a child table: {0} |
+| Trigger | Триггер | crm, frappe / автоматизации | Pick initial trigger |
+| Dock | Док | frappe / desk (Dock, Dock Item) | Bring every entry back onto the dock. |
+| Rail (панель дока) | Панель | frappe / dock_manager | How it reads on the rail. |
+| Layer (app / site / user) | Уровень (приложения / сайта / пользователя) | frappe / Dock, Custom Sidebar | One layer of one app's dock. |
+| Shell (оболочка навигации) | Оболочка | frappe / Dock Item | A URL row has no shell and is gated by nothing. |
+| Customization (изменение поставляемого содержимого) | Настройка | frappe / Workspace, Sidebar | Your changes are saved as a customization. |
+| Snippet | Фрагмент | frappe / Print Format Snippet | Save Field as Snippet |
+| Swimlanes | Дорожки | frappe / Kanban Board | Swimlanes (Group By) |
+| Canvas (конструктор печати) | Холст | frappe / print_format_builder | Add a section to the canvas to see it here. |
+| PDF Renderer | Модуль отрисовки PDF | frappe / Print Format | Typst block requires the Typst renderer |
+| Reposting / Repost | Перепроведение / Перепровести | erpnext / stock | Reposting could not be queued for: |
+| Adjustment Entry (оценка запасов) | Корректировочная запись | erpnext / stock/valuation_adjustment.py | Show Differences Settled by Adjustment Entries |
+| Finished good mapping | Сопоставление с готовой продукцией | erpnext / Stock Entry | Finished good mapping can't be changed for a cancelled entry |
+| Bank/Cash Account | Банковский/кассовый счет | hrms / Employee Advance | Bank/Cash Account Not Set |
