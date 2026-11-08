@@ -57,7 +57,7 @@ msgstr " Склад незавершенного производства по �
 #. Label of the istable (Check) field in DocType 'Inventory Dimension'
 #: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json:82
 msgid " Is Child Table"
-msgstr " Является дочерней таблицей"
+msgstr " Дочерняя таблица"
 
 #: erpnext/accounts/report/customer_ledger_summary/customer_ledger_summary.py:151
 #: erpnext/selling/report/sales_analytics/sales_analytics.py:135
@@ -9511,7 +9511,7 @@ msgstr "Партия {0} отсутствует в исходном докуме
 #. Label of the batch_no (Int) field in DocType 'BOM Update Batch'
 #: erpnext/manufacturing/doctype/bom_update_batch/bom_update_batch.json:24
 msgid "Batch No."
-msgstr "Пакет №"
+msgstr "Партия №"
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:26
 #: erpnext/public/js/utils/serial_no_batch_selector.js:211
@@ -23738,7 +23738,7 @@ msgstr "Номер срочного вклада"
 #. Label of the fixed_email (Link) field in DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json:264
 msgid "Fixed Outgoing Email Account"
-msgstr "Фиксированный аккаунт исходящей эл. почты"
+msgstr "Фиксированная учетная запись исходящей эл. почты"
 
 #. Option for the 'Subscription Price Based On' (Select) field in DocType
 #. 'Subscription Plan'
@@ -26797,7 +26797,7 @@ msgstr "Если заданы, бухгалтерские проводки по 
 #. 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json:261
 msgid "If set, the system does not use the user's Email or the standard outgoing Email account for sending request for quotations."
-msgstr "Если задано, для отправки запросов предложений не используется эл. почта пользователя или стандартный аккаунт исходящей эл. почты."
+msgstr "Если задано, для отправки запросов предложений не используется эл. почта пользователя или стандартная учетная запись исходящей эл. почты."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1342
 msgid "If the BOM results in Scrap material, the Scrap Warehouse needs to be selected."
@@ -27798,7 +27798,7 @@ msgstr "Израсходована не та партия"
 
 #: erpnext/stock/doctype/item/item.py:660
 msgid "Incorrect Check in (group) Warehouse for Reorder"
-msgstr "Неверный флажок проверки на (групповом) складе для дозаказа"
+msgstr "Некорректный (групповой) склад для дозаказа"
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:149
 msgid "Incorrect Company"
@@ -32604,7 +32604,7 @@ msgstr "Уровень (спецификация)"
 #: erpnext/accounts/doctype/account/account.json:165
 #: erpnext/setup/doctype/company/company.json:676
 msgid "Lft"
-msgstr "Lft"
+msgstr "Левая граница"
 
 #: erpnext/accounts/report/balance_sheet/balance_sheet.py:291
 msgid "Liabilities"

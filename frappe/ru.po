@@ -1466,7 +1466,7 @@ msgstr "Добавить пользовательские теги"
 
 #: frappe/email/doctype/email_account/email_account_list.js:130
 msgid "Add Email Account"
-msgstr "Добавить аккаунт эл. почты"
+msgstr "Добавить учетную запись эл. почты"
 
 #: frappe/desk/doctype/number_card/number_card.js:477
 msgid "Add Filter"
@@ -3807,7 +3807,7 @@ msgstr "Можно использовать следующие приложен�
 #: frappe/email/doctype/email_account/email_account.py:442
 #, python-brace-format
 msgid "Authentication failed while receiving emails from Email Account: {0}."
-msgstr "Ошибка аутентификации при получении писем из аккаунта эл. почты {0}."
+msgstr "Ошибка аутентификации при получении писем из учетной записи эл. почты {0}."
 
 #. Label of the author (Data) field in DocType 'Help Article'
 #: frappe/website/doctype/help_article/help_article.json:55
@@ -4041,7 +4041,7 @@ msgstr "Автоматически"
 
 #: frappe/email/doctype/email_account/email_account.py:888
 msgid "Automatic Linking can be activated only for one Email Account."
-msgstr "Автоматическую привязку можно включить только для одного аккаунта эл. почты."
+msgstr "Автоматическую привязку можно включить только для одной учетной записи эл. почты."
 
 #: frappe/email/doctype/email_account/email_account.py:882
 msgid "Automatic Linking can be activated only if Incoming is enabled."
@@ -5732,7 +5732,7 @@ msgstr "Изменения"
 
 #: frappe/email/doctype/email_domain/email_domain.js:5
 msgid "Changing any setting will reflect on all the email accounts associated with this domain."
-msgstr "Изменение любой настройки отразится на всех аккаунтах эл. почты этого домена."
+msgstr "Изменение любой настройки отразится на всех учетных записях эл. почты этого домена."
 
 #: frappe/core/doctype/system_settings/system_settings.js:68
 msgid "Changing rounding method on site with data can result in unexpected behaviour."
@@ -6009,7 +6009,7 @@ msgstr "Очистить все"
 #: frappe/public/js/frappe/list/list_view.js:2830
 msgctxt "Button in list view actions menu"
 msgid "Clear Assignment"
-msgstr "Очистить назначение"
+msgstr "Снять назначение"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:184
 msgid "Clear Customizations"
@@ -11622,29 +11622,29 @@ msgstr "Эл. почта"
 #: frappe/email/doctype/unhandled_email/unhandled_email.json:19
 #: frappe/email/sidebar/email/email.json:18
 msgid "Email Account"
-msgstr "Аккаунт эл. почты"
+msgstr "Учетная запись эл. почты"
 
 #: frappe/email/doctype/email_account/email_account.py:445
 msgid "Email Account Disabled."
-msgstr "Аккаунт эл. почты отключен."
+msgstr "Учетная запись эл. почты отключена."
 
 #. Label of the email_account_name (Data) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json:160
 msgid "Email Account Name"
-msgstr "Название аккаунта эл. почты"
+msgstr "Название учетной записи эл. почты"
 
 #: frappe/core/doctype/user/user.py:889
 msgid "Email Account added multiple times"
-msgstr "Аккаунт эл. почты добавлен несколько раз"
+msgstr "Учетная запись эл. почты добавлена несколько раз"
 
 #: frappe/email/smtp.py:45
 msgid "Email Account not setup. Please create a new Email Account from Settings > Email Account"
-msgstr "Аккаунт эл. почты не настроен. Создайте его в разделе «Настройки > Аккаунт эл. почты»"
+msgstr "Учетная запись эл. почты не настроена. Создайте ее в разделе «Настройки > Учетная запись эл. почты»"
 
 #: frappe/email/doctype/email_account/email_account.py:683
 #, python-brace-format
 msgid "Email Account {0} Disabled"
-msgstr "Аккаунт эл. почты {0} отключен"
+msgstr "Учетная запись эл. почты {0} отключена"
 
 #. Label of the email_id (Data) field in DocType 'Address'
 #. Label of the email_id (Data) field in DocType 'Contact'
@@ -12270,7 +12270,7 @@ msgstr "Включает представления «Календарь» и «
 
 #: frappe/email/doctype/email_account/email_account.js:358
 msgid "Enabling auto reply on an incoming email account will send automated replies to all the synchronized emails. Do you wish to continue?"
-msgstr "При включении автоответа для аккаунта входящей почты автоматические ответы будут отправляться на все синхронизированные письма. Продолжить?"
+msgstr "При включении автоответа для учетной записи входящей почты автоматические ответы будут отправляться на все синхронизированные письма. Продолжить?"
 
 #: frappe/desk/doctype/notification_type/notification_type.py:103
 #, python-brace-format
@@ -12591,7 +12591,7 @@ msgstr "Ошибка проверки «Игнорировать разреше�
 #: frappe/email/doctype/email_account/email_account.py:777
 #, python-brace-format
 msgid "Error while connecting to email account {0}"
-msgstr "Ошибка подключения к аккаунту эл. почты {0}"
+msgstr "Ошибка подключения к учетной записи эл. почты {0}"
 
 #: frappe/email/doctype/notification/notification.py:880
 #, python-brace-format
@@ -13323,7 +13323,7 @@ msgstr "Не удалось запросить вход в Frappe Cloud"
 
 #: frappe/email/doctype/email_account/email_account.py:241
 msgid "Failed to retrieve the list of IMAP folders from the server. Please ensure the mailbox is accessible and the account has permission to list folders."
-msgstr "Не удалось получить с сервера список папок IMAP. Убедитесь, что почтовый ящик доступен и у аккаунта есть разрешение на просмотр папок."
+msgstr "Не удалось получить с сервера список папок IMAP. Убедитесь, что почтовый ящик доступен и у учетной записи есть разрешение на просмотр папок."
 
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:124
 msgid "Failed to save"
@@ -17317,7 +17317,7 @@ msgstr "Настройки входящей почты"
 
 #: frappe/email/doctype/email_domain/email_domain.py:32
 msgid "Incoming email account not correct"
-msgstr "Аккаунт входящей почты настроен неправильно"
+msgstr "Учетная запись входящей почты настроена неправильно"
 
 #: frappe/database/mariadb/schema.py:197
 msgid "Incompatible Values"
@@ -17776,7 +17776,7 @@ msgstr "Неверные учетные данные"
 #: frappe/email/smtp.py:144
 #, python-brace-format
 msgid "Invalid Credentials for Email Account: {0}"
-msgstr "Неверные учетные данные для аккаунта эл. почты: {0}"
+msgstr "Неверные учетные данные учетной записи эл. почты: {0}"
 
 #: frappe/utils/data.py:147 frappe/utils/data.py:310
 msgid "Invalid Date"
@@ -22216,7 +22216,7 @@ msgstr "Новое письмо"
 #: frappe/public/js/frappe/list/list_view_select.js:346
 #: frappe/public/js/frappe/views/inbox/inbox_view.js:185
 msgid "New Email Account"
-msgstr "Новый аккаунт эл. почты"
+msgstr "Новая учетная запись эл. почты"
 
 #: frappe/public/js/frappe/form/footer/form_timeline.js:48
 msgid "New Event"
@@ -22638,11 +22638,11 @@ msgstr "Нет данных..."
 
 #: frappe/public/js/frappe/views/inbox/inbox_view.js:184
 msgid "No Email Account"
-msgstr "Нет аккаунта эл. почты"
+msgstr "Нет учетной записи эл. почты"
 
 #: frappe/public/js/frappe/views/inbox/inbox_view.js:194
 msgid "No Email Accounts Assigned"
-msgstr "Аккаунты эл. почты не назначены"
+msgstr "Учетные записи эл. почты не назначены"
 
 #: frappe/public/js/frappe/form/doctype_settings/tabs/email_template.js:72
 msgid "No Email Templates found"
@@ -22677,7 +22677,7 @@ msgstr "HTML-содержимого пока нет."
 
 #: frappe/email/doctype/email_account/email_account.py:249
 msgid "No IMAP folders were found on the server. Please verify the email account settings and ensure the mailbox contains folders."
-msgstr "На сервере не найдено ни одной папки IMAP. Проверьте настройки аккаунта эл. почты и наличие папок в почтовом ящике."
+msgstr "На сервере не найдено ни одной папки IMAP. Проверьте настройки учетной записи эл. почты и наличие папок в почтовом ящике."
 
 #: frappe/public/js/frappe/ui/capture.js:268
 msgid "No Images"
@@ -22923,7 +22923,7 @@ msgstr "Нет редактируемых полей для массового �
 
 #: frappe/public/js/frappe/views/inbox/inbox_view.js:21
 msgid "No email account associated with the User. Please add an account under User > Settings > User Emails."
-msgstr "С пользователем не связан аккаунт эл. почты. Добавьте его в разделе «Пользователь > Настройки > Адреса эл. почты пользователя»."
+msgstr "С пользователем не связана учетная запись эл. почты. Добавьте ее в разделе «Пользователь > Настройки > Адреса эл. почты пользователя»."
 
 #: frappe/core/api/user_invitation.py:17
 msgid "No email addresses to invite"
@@ -24859,7 +24859,7 @@ msgstr "Настройки исходящей почты"
 
 #: frappe/email/doctype/email_domain/email_domain.py:33
 msgid "Outgoing email account not correct"
-msgstr "Аккаунт исходящей почты настроен неправильно"
+msgstr "Учетная запись исходящей почты настроена неправильно"
 
 #. Option for the 'Service' (Select) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json:182
@@ -24994,7 +24994,7 @@ msgstr "PID"
 #: frappe/email/oauth.py:75
 #, python-brace-format
 msgid "POP3 OAuth authentication failed for Email Account {0}"
-msgstr "Ошибка аутентификации POP3 OAuth для аккаунта эл. почты {0}"
+msgstr "Ошибка аутентификации POP3 OAuth для учетной записи эл. почты {0}"
 
 #. Option for the 'Method' (Select) field in DocType 'Recorder'
 #. Option for the 'Request Method' (Select) field in DocType 'Webhook'
@@ -25443,7 +25443,7 @@ msgstr "Необходимо указать пароль."
 
 #: frappe/public/js/frappe/desk.js:230
 msgid "Password missing in Email Account"
-msgstr "В аккаунте эл. почты не указан пароль"
+msgstr "В учетной записи эл. почты не указан пароль"
 
 #: frappe/utils/password.py:47
 #, python-brace-format
@@ -25985,12 +25985,12 @@ msgstr "Воспроизвести видео"
 #: frappe/email/doctype/email_account/email_account.py:651
 #, python-brace-format
 msgid "Please Authorize OAuth for Email Account {0}"
-msgstr "Авторизуйте OAuth для аккаунта эл. почты {0}"
+msgstr "Авторизуйте OAuth для учетной записи эл. почты {0}"
 
 #: frappe/email/oauth.py:29
 #, python-brace-format
 msgid "Please Authorize OAuth for Email Account {}"
-msgstr "Авторизуйте OAuth для аккаунта эл. почты {}"
+msgstr "Авторизуйте OAuth для учетной записи эл. почты {}"
 
 #: frappe/website/doctype/website_theme/website_theme.py:78
 msgid "Please Duplicate this Website Theme to customize."
@@ -26388,11 +26388,11 @@ msgstr "Сначала настройте сообщение"
 
 #: frappe/core/doctype/user/user.py:507
 msgid "Please setup default outgoing Email Account from Settings > Email Account"
-msgstr "Настройте аккаунт исходящей эл. почты по умолчанию в разделе «Настройки > Аккаунт эл. почты»"
+msgstr "Настройте учетную запись исходящей эл. почты по умолчанию в разделе «Настройки > Учетная запись эл. почты»"
 
 #: frappe/email/doctype/email_account/email_account.py:533
 msgid "Please setup default outgoing Email Account from Tools > Email Account"
-msgstr "Настройте аккаунт исходящей эл. почты по умолчанию в разделе «Инструменты > Аккаунт эл. почты»"
+msgstr "Настройте учетную запись исходящей эл. почты по умолчанию в разделе «Инструменты > Учетная запись эл. почты»"
 
 #: frappe/public/js/frappe/model/model.js:833
 msgid "Please specify"
@@ -37919,7 +37919,7 @@ msgstr "Не удалось определить формат файла {0}"
 
 #: frappe/core/doctype/communication/email.py:228
 msgid "Unable to send mail because of a missing email account. Please setup default Email Account from Settings > Email Account"
-msgstr "Не удалось отправить письмо: отсутствует аккаунт эл. почты. Настройте аккаунт эл. почты по умолчанию в разделе «Настройки > Аккаунт эл. почты»"
+msgstr "Не удалось отправить письмо: отсутствует учетная запись эл. почты. Настройте учетную запись эл. почты по умолчанию в разделе «Настройки > Учетная запись эл. почты»"
 
 #: frappe/public/js/frappe/views/calendar/calendar.js:639
 msgid "Unable to update event"
@@ -41530,7 +41530,7 @@ msgstr "Выбраны черновики или отмененные докум
 
 #: frappe/email/doctype/email_account/email_account_list.js:230
 msgid "You signed in to a different mailbox. Sign in to this account's mailbox."
-msgstr "Вы вошли в другой почтовый ящик. Войдите в почтовый ящик этого аккаунта."
+msgstr "Вы вошли в другой почтовый ящик. Войдите в почтовый ящик этой учетной записи."
 
 #: frappe/public/js/frappe/form/footer/version_timeline_content_builder.js:48
 msgctxt "Form timeline"

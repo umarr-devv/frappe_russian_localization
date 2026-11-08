@@ -2162,7 +2162,7 @@ msgstr "Подключить эл. почту"
 
 #: frontend/src/components/Settings/EmailAccountList.vue:11
 msgid "Connect email accounts to send and receive emails from CRM. Set one as the default for incoming and outgoing emails."
-msgstr "Подключите аккаунты эл. почты, чтобы отправлять и получать письма из CRM. Один из них можно сделать аккаунтом по умолчанию для входящей и исходящей почты."
+msgstr "Подключите учетные записи эл. почты, чтобы отправлять и получать письма из CRM. Одну из них можно сделать учетной записью по умолчанию для входящей и исходящей почты."
 
 #: frontend/src/pages/Welcome.vue:35
 msgid "Connect your Email"
@@ -3499,11 +3499,11 @@ msgstr "Эл. почта"
 
 #: frontend/src/components/Settings/Profile/UserEmailSettings.vue:66
 msgid "Email Account"
-msgstr "Аккаунт эл. почты"
+msgstr "Учетная запись эл. почты"
 
 #: frontend/src/components/Settings/EmailAccountList.vue:7
 msgid "Email Accounts"
-msgstr "Аккаунты эл. почты"
+msgstr "Учетные записи эл. почты"
 
 #: frontend/src/components/Layouts/AppSidebar.vue:658
 msgid "Email Communication"
@@ -3541,15 +3541,15 @@ msgstr "Шаблоны писем"
 
 #: frontend/src/components/Setup/SetupEmail.vue:226
 msgid "Email account connected"
-msgstr "Аккаунт эл. почты подключен"
+msgstr "Учетная запись эл. почты подключена"
 
 #: frontend/src/components/Settings/EmailAdd.vue:147
 msgid "Email account created successfully"
-msgstr "Аккаунт эл. почты создан"
+msgstr "Учетная запись эл. почты создана"
 
 #: frontend/src/components/Settings/EmailEdit.vue:213
 msgid "Email account updated successfully"
-msgstr "Аккаунт эл. почты обновлен"
+msgstr "Учетная запись эл. почты обновлена"
 
 #: frontend/src/components/Setup/SetupEmail.vue:52
 msgid "Email address"
@@ -4160,7 +4160,7 @@ msgstr "Не удалось получить запись разговора Twi
 
 #: frontend/src/components/Settings/EmailAdd.vue:152
 msgid "Failed to create email account: invalid credentials"
-msgstr "Не удалось создать аккаунт эл. почты: неверные учетные данные"
+msgstr "Не удалось создать учетную запись эл. почты: неверные учетные данные"
 
 #: frontend/src/components/Settings/EmailTemplate/NewEmailTemplate.vue:181
 msgid "Failed to create template"
@@ -4269,7 +4269,7 @@ msgstr "Не удалось обновить комментарий"
 
 #: frontend/src/components/Settings/EmailEdit.vue:218
 msgid "Failed to update email account: invalid credentials"
-msgstr "Не удалось обновить аккаунт эл. почты: неверные учетные данные"
+msgstr "Не удалось обновить учетную запись эл. почты: неверные учетные данные"
 
 #: frontend/src/components/Modals/ChangePasswordModal.vue:102
 msgid "Failed to update password"
@@ -4697,7 +4697,7 @@ msgstr "Поле группировки"
 
 #: frontend/src/components/GroupBy.vue:12
 msgid "Group By: "
-msgstr "Группировка:"
+msgstr "Группировка: "
 
 #: frontend/src/components/Settings/Forms/FormBuilderPanel.vue:860
 #, python-brace-format
@@ -8989,7 +8989,7 @@ msgstr "Настройка включена"
 
 #: frontend/src/components/Settings/emailConfig.js:104
 msgid "Setting up Frappe Mail requires you to have an API key and API secret for your email account. Read more"
-msgstr "Для настройки Frappe Mail нужны ключ API и секрет API аккаунта эл. почты. Подробнее"
+msgstr "Для настройки Frappe Mail нужны ключ API и секрет API учетной записи эл. почты. Подробнее"
 
 #: frontend/src/components/Settings/emailConfig.js:114
 msgid "Setting up GMail requires you to enable two factor authentication and app specific passwords. Read more"
@@ -9527,7 +9527,7 @@ msgstr "Переключение между светлой, темной и си
 
 #: frontend/src/components/Settings/Profile/UserEmailSettings.vue:54
 msgid "Switch between outgoing email accounts when sending emails"
-msgstr "Переключение между аккаунтами исходящей почты при отправке писем"
+msgstr "Переключение между учетными записями исходящей почты при отправке писем"
 
 #: frontend/src/components/Settings/Forms/FormBuilderPanel.vue:1382
 #, python-brace-format
@@ -10043,7 +10043,7 @@ msgstr "Новое значение"
 
 #: frontend/src/components/Settings/EmailEdit.vue:121
 msgid "To know more about setting up email accounts, click"
-msgstr "Чтобы узнать больше о настройке аккаунтов эл. почты, нажмите"
+msgstr "Чтобы узнать больше о настройке учетных записей эл. почты, нажмите"
 
 #: frontend/src/components/Filter.vue:711
 #: frontend/src/components/ScheduleSendButton.vue:108
@@ -10886,7 +10886,7 @@ msgstr "Канал звонков по умолчанию можно измен�
 
 #: frontend/src/components/Settings/DashboardSettings.vue:143
 msgid "You can get your access key from "
-msgstr "Ключ доступа можно получить на"
+msgstr "Ключ доступа можно получить на "
 
 #: frontend/src/components/Settings/InviteUserPage.vue:37
 msgid "You can invite multiple users by comma separating their email addresses"

@@ -1490,7 +1490,7 @@ msgstr "Назначение структур..."
 
 #: hrms/payroll/report/employee_ctc_break_up/employee_profile_card.html:108
 msgid "Assignment Date: "
-msgstr "Дата назначения:"
+msgstr "Дата назначения: "
 
 #: hrms/hr/doctype/leave_policy_assignment/leave_policy_assignment.py:564
 msgid "Assignment Failed"
@@ -4802,7 +4802,7 @@ msgstr "Не удалось отправить ссылку для сброса"
 
 #: hrms/hr/doctype/interview/interview.py:147
 msgid "Failed to send the Interview Reschedule notification. Please configure your email account."
-msgstr "Не удалось отправить уведомление о переносе собеседования. Настройте аккаунт эл. почты."
+msgstr "Не удалось отправить уведомление о переносе собеседования. Настройте учетную запись эл. почты."
 
 #: hrms/overrides/company.py:49
 #, python-brace-format
@@ -6016,7 +6016,7 @@ msgstr "В назначении структуры зарплаты не зад�
 
 #: hrms/payroll/report/employee_ctc_break_up/employee_profile_card.html:107
 msgid "Income Tax Slab: "
-msgstr "Шкала подоходного налога:"
+msgstr "Шкала подоходного налога: "
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:1986
 #, python-brace-format
@@ -10494,7 +10494,7 @@ msgstr "Структура зарплаты {0} не относится к ко�
 
 #: hrms/payroll/report/employee_ctc_break_up/employee_profile_card.html:106
 msgid "Salary Structure: "
-msgstr "Структура зарплаты:"
+msgstr "Структура зарплаты: "
 
 #: hrms/payroll/doctype/salary_component/salary_component.js:166
 msgid "Salary Structures updated successfully"
