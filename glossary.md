@@ -38,7 +38,7 @@
 | Read Only | Только чтение | core | Read Only |
 | Hidden | Скрытое | core | Hidden |
 | Default | По умолчанию | core | Default Value |
-| Depends On | Зависит от | core | Depends On |
+| Depends On | Зависит от (отдельно); «X Depends On» → «X, если» | core | Mandatory Depends On → Обязательное, если |
 | Section Break | Разрыв раздела | core / fieldtype | Section Break |
 | Column Break | Разрыв колонки | core / fieldtype | Column Break |
 | Tab Break | Разрыв вкладки | core / fieldtype | Tab Break |
@@ -55,19 +55,19 @@
 | Workspace | Рабочая область | desk | Workspace |
 | Desk | Рабочий стол | desk | Desk User |
 | Sidebar | Боковая панель | desk | Sidebar |
-| Shortcut | Ярлык | desk / Workspace | Shortcut |
+| Shortcut | Ярлык (виджет рабочей области); Keyboard Shortcuts → «Сочетания клавиш» | desk / Workspace | Shortcut |
 | Dashboard | Панель мониторинга | desk | Dashboard Chart |
 | Dashboard Chart | Диаграмма | desk | Dashboard Chart |
 | Number Card | Числовая карточка | desk | Number Card |
 | Kanban Board | Канбан-доска | desk | Kanban Board |
-| List View | Список | desk | List View Settings |
+| List View | Список (переключатель представлений); «представление списка» в настройках и флагах | desk | List View Settings |
 | Report View | Представление отчета | desk | Report View |
 | Report Builder | Конструктор отчетов | desk | Report Builder |
 | Script Report | Отчет-скрипт | core / Report | Script Report |
 | Query Report | Отчет-запрос | core / Report | Query Report |
 | Prepared Report | Подготовленный отчет | core | Prepared Report |
 | Filter | Фильтр | общее | Add Filter |
-| Group By | Группировать по | desk | Group By |
+| Group By | Группировка (лейбл, опция); «Группировать по …» перед именем поля | desk | Group By |
 | Sort | Сортировка | desk | Sort Order |
 | Print Format | Печатная форма | printing | Print Format |
 | Print Format Builder | Конструктор печатных форм | printing | Print Format Builder |
@@ -79,7 +79,7 @@
 | Cancelled | Отменен | документ | Cancelled |
 | Amend | Исправить | документ | Amend |
 | Draft | Черновик | документ | Draft |
-| Discard | Отменить | форма | Discard |
+| Discard | Отменить; для документа — «Отменить черновик» (чтобы не путать с Cancel) | форма | Permanently Discard {0}? |
 | Duplicate | Дублировать | форма | Duplicate |
 | Rename | Переименовать | форма | Rename |
 | Role | Роль | permissions | Role Profile |
@@ -87,6 +87,10 @@
 | Permission | Разрешение | permissions | User Permission |
 | Permissions | Права доступа | permissions | Role Permissions Manager |
 | Permission Level | Уровень доступа | permissions | Perm Level |
+| Permission Rule | Правило доступа | permissions | Add New Permission Rule |
+| Timeline / activity timeline | Хронология | form | Show the activity timeline |
+| Annual / Yearly (Frequency) | Раз в год / Ежегодно | core / Scheduled Job Type | Annual |
+| Cyan / Light Blue (color) | Бирюзовый / Светло-голубой | desk / Indicator | cyan |
 | User Permission | Разрешение пользователя | permissions | User Permission |
 | Role Permissions Manager | Менеджер прав ролей | permissions | Role Permissions Manager |
 | Share | Поделиться / Совместный доступ | desk | Share With |

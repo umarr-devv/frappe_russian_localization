@@ -2054,7 +2054,7 @@ msgstr "После удаления"
 #. Option for the 'DocType Event' (Select) field in DocType 'Server Script'
 #: frappe/core/doctype/server_script/server_script.json:61
 msgid "After Discard"
-msgstr "После сброса"
+msgstr "После отмены черновика"
 
 #. Option for the 'DocType Event' (Select) field in DocType 'Server Script'
 #: frappe/core/doctype/server_script/server_script.json:61
@@ -2349,7 +2349,7 @@ msgstr "Разрешить импорт (через инструмент имп�
 #. Label of the allow_login_after_fail (Int) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json:344
 msgid "Allow Login After Fail"
-msgstr "Разрешить вход после неудачной попытки через"
+msgstr "Пауза после неудачного входа"
 
 #. Label of the allow_login_using_mobile_number (Check) field in DocType
 #. 'System Settings'
@@ -2776,7 +2776,7 @@ msgstr "Всегда"
 #. Label of the always_bcc (Data) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json:712
 msgid "Always BCC Address"
-msgstr "Всегда добавлять в скрытую копию (BCC)"
+msgstr "Постоянная скрытая копия (BCC)"
 
 #. Label of the add_draft_heading (Check) field in DocType 'Print Settings'
 #: frappe/printing/doctype/print_settings/print_settings.json:100
@@ -2909,7 +2909,7 @@ msgstr "Объявления"
 #. Option for the 'Frequency' (Select) field in DocType 'Scheduled Job Type'
 #: frappe/core/doctype/scheduled_job_type/scheduled_job_type.json:77
 msgid "Annual"
-msgstr "Ежегодно"
+msgstr "Раз в год"
 
 #. Label of the anonymization_matrix (Code) field in DocType 'Personal Data
 #. Deletion Request'
@@ -4557,7 +4557,7 @@ msgstr "Перед удалением"
 #. Option for the 'DocType Event' (Select) field in DocType 'Server Script'
 #: frappe/core/doctype/server_script/server_script.json:61
 msgid "Before Discard"
-msgstr "Перед сбросом"
+msgstr "Перед отменой черновика"
 
 #. Option for the 'DocType Event' (Select) field in DocType 'Server Script'
 #: frappe/core/doctype/server_script/server_script.json:61
@@ -8366,7 +8366,7 @@ msgstr "Вырезать"
 #: frappe/core/doctype/doctype_state/doctype_state.json:26
 #: frappe/desk/doctype/kanban_board_column/kanban_board_column.json:34
 msgid "Cyan"
-msgstr "Голубой"
+msgstr "Бирюзовый"
 
 #. Label of the db_tables (Table) field in DocType 'DuckDB Sync'
 #: frappe/core/doctype/duckdb_sync/duckdb_sync.json:20
@@ -9924,7 +9924,7 @@ msgstr "Отменить"
 #: frappe/public/js/frappe/views/communication.js:32
 msgctxt "Discard Email"
 msgid "Discard"
-msgstr "Удалить"
+msgstr "Отменить"
 
 #: frappe/public/js/print_format_builder/components/VersionHistory.vue:51
 msgid "Discard the draft and go back to this"
@@ -9938,7 +9938,7 @@ msgstr "Отменить непримененные изменения и вер
 #: frappe/public/js/frappe/form/form.js:921
 #, python-brace-format
 msgid "Discard {0}"
-msgstr "Отменить {0}"
+msgstr "Отменить черновик {0}"
 
 #: frappe/public/js/frappe/web_form/web_form.js:188
 msgid "Discard?"
@@ -10015,7 +10015,7 @@ msgstr "Показывать в формах боковую панель с вл
 
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:728
 msgid "Display exact timestamps instead of relative time in the activity timeline."
-msgstr "Показывать в ленте активности точное время вместо относительного."
+msgstr "Показывать в хронологии точное время вместо относительного."
 
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:659
 msgid "Display the filter and group-by sidebar in list views."
@@ -24301,7 +24301,7 @@ msgstr "Из сценария можно запустить только сер�
 
 #: frappe/model/document.py:1636
 msgid "Only draft documents can be discarded"
-msgstr "Сбросить можно только черновики"
+msgstr "Отменить можно только черновики"
 
 #: frappe/public/js/frappe/form/sidebar/attachments.js:375
 #, python-brace-format
@@ -25636,7 +25636,7 @@ msgstr "Окончательно отменить {0}?"
 #: frappe/public/js/frappe/form/form.js:1222
 #, python-brace-format
 msgid "Permanently Discard {0}?"
-msgstr "Окончательно сбросить {0}?"
+msgstr "Окончательно отменить черновик {0}?"
 
 #: frappe/public/js/frappe/form/form.js:934
 #, python-brace-format
@@ -31487,7 +31487,7 @@ msgstr "Отправлять оповещение при"
 #. Label of the raw_html (Check) field in DocType 'Email Queue'
 #: frappe/email/doctype/email_queue/email_queue.json:159
 msgid "Send As Raw HTML"
-msgstr "Отправить как HTML без обработки"
+msgstr "Отправлять как HTML без обработки"
 
 #. Label of the send_email_alert (Check) field in DocType 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json:64
@@ -32831,7 +32831,7 @@ msgstr "Показывать боковую панель"
 
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:710
 msgid "Show the activity timeline with comments, emails, and version history."
-msgstr "Показывать ленту активности с комментариями, письмами и историей версий."
+msgstr "Показывать хронологию с комментариями, письмами и историей версий."
 
 #. Description of the 'Show Assigned To' (Check) field in DocType 'Kanban
 #. Board'
@@ -40012,7 +40012,7 @@ msgstr "Слайд-шоу сайта"
 #. Name of a DocType
 #: frappe/website/doctype/website_slideshow_item/website_slideshow_item.json:51
 msgid "Website Slideshow Item"
-msgstr "Слайд слайд-шоу сайта"
+msgstr "Элемент слайд-шоу сайта"
 
 #. Label of the website_theme (Link) field in DocType 'Website Settings'
 #. Name of a DocType
@@ -41919,7 +41919,7 @@ msgstr "пользовательский блок"
 #: frappe/desk/doctype/custom_workspace/custom_workspace.json:87
 #: frappe/desk/doctype/workspace/workspace.json:226
 msgid "cyan"
-msgstr "голубой"
+msgstr "бирюзовый"
 
 #: frappe/public/js/frappe/form/controls/duration.js:248
 #: frappe/public/js/frappe/utils/utils.js:1233
@@ -42137,7 +42137,7 @@ msgstr "зеленый"
 #: frappe/desk/doctype/custom_workspace/custom_workspace.json:87
 #: frappe/desk/doctype/workspace/workspace.json:226
 msgid "grey"
-msgstr "серый"
+msgstr "серый (grey)"
 
 #: frappe/utils/backups.py:399
 msgid "gzip not found in PATH! This is required to take a backup."
@@ -42208,7 +42208,7 @@ msgstr "подпись"
 #: frappe/desk/doctype/custom_workspace/custom_workspace.json:87
 #: frappe/desk/doctype/workspace/workspace.json:226
 msgid "light-blue"
-msgstr "голубой"
+msgstr "светло-голубой"
 
 #. Option for the 'Social Link Type' (Select) field in DocType 'Social Link
 #. Settings'
