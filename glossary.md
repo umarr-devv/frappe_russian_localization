@@ -286,3 +286,127 @@
 | Roles: Sales / Purchase User | Пользователь продаж / закупок | roles | Sales User |
 | Role: System Manager | Системный менеджер | roles | System Manager |
 | Role: Workspace Manager | Менеджер рабочих областей | roles | Workspace Manager |
+| Item | Продукт; строки дочерних таблиц «X Item» — «Позиция X» | erpnext / stock | Item Code → Код продукта |
+| Warehouse | Склад | erpnext / stock | Default Warehouse |
+| Stock | Запасы (объект учета); Остаток (количество) | erpnext / stock | Stock Settings → Настройки запасов; Balance Qty → Остаток, кол-во |
+| Stock Entry | Складская проводка | erpnext / stock | Stock Entry Type |
+| Stock Ledger / Stock Ledger Entry | Книга учета запасов / Запись книги учета запасов | erpnext / stock | Cancel Stock Ledger Entries |
+| Stock Reconciliation | Инвентаризация запасов | erpnext / stock | Create Stock Reconciliation |
+| Stock Closing Entry | Закрытие запасов | erpnext / stock | Duplicate Stock Closing Entry |
+| Batch / Serial No | Партия / Серийный номер | erpnext / stock | Batch No is mandatory |
+| Serial and Batch Bundle | Набор серийных номеров и партий | erpnext / stock | Add Serial / Batch Bundle |
+| UOM | Единица измерения; в узких лейблах — «Ед. изм.» | erpnext / stock | Stock UOM → Ед. изм. запасов |
+| Qty | Кол-во (лейблы); количество (предложения) | erpnext / общее | Actual Qty → Факт. кол-во |
+| Valuation Rate | Учетная цена | erpnext / stock | Current Valuation Rate |
+| Bin | Ячейка | erpnext / stock | Delete Bins |
+| Perpetual Inventory | Непрерывный учет запасов | erpnext / Company | Enable Perpetual Inventory |
+| Repost / Reposting | Перепровести / Перепроведение | erpnext / stock, accounts | Repost Item Valuation |
+| Landed Cost Voucher | Документ дополнительных расходов | erpnext / stock | Accounting Entry for Landed Cost Voucher |
+| Pick List / Packing Slip | Лист отбора / Упаковочный лист | erpnext / stock | Create Pick List |
+| Delivery Trip / Delivery Stop | Маршрут доставки / Точка доставки | erpnext / stock | Create Delivery Trip |
+| Backflush | Обратное списание | erpnext / manufacturing | Backflush Raw Materials |
+| Account | Счет | erpnext / accounts | Account Name |
+| Chart of Accounts | План счетов | erpnext / accounts | Chart of Accounts Importer → Импорт плана счетов |
+| Ledger (non-group account) | Негрупповой счет; Convert to Ledger / Non-Group → «Преобразовать в негрупповой» | erpnext / accounts | Account with child nodes cannot be converted to ledger |
+| GL Entry / General Ledger | Запись главной книги / Главная книга | erpnext / accounts | Book Stock Expense GL Entries |
+| Journal Entry | Запись журнала | erpnext / accounts | Create Journal Entry |
+| Payment Entry | Запись оплаты | erpnext / accounts | Create Payment Entry |
+| Accounting Entry | Бухгалтерская проводка | erpnext / accounts | Accounting Entry for Asset |
+| Against / Against Account (GL) | Корр. счет | erpnext / GL Entry, Bank Clearance | Against Account |
+| Against Voucher / Against Sales Order | По документу / По заказу на продажу | erpnext / accounts, stock | Against Voucher Type → Тип документа-основания |
+| Voucher | Документ | erpnext / accounts | Voucher No → Номер документа |
+| Party | Контрагент | erpnext / accounts | All Parties |
+| Cost Center | Центр затрат | erpnext / accounts | Cost Center Allocation |
+| Accounting Dimension | Учетное измерение | erpnext / accounts | Accounting Dimension Filter |
+| Fiscal Year / Finance Book | Финансовый год / Финансовая книга | erpnext / accounts | Fiscal Year Company |
+| Period Closing Voucher | Документ закрытия периода | erpnext / accounts | Period Closing Voucher |
+| Accounts Receivable / Payable | Дебиторская / Кредиторская задолженность | erpnext / accounts | Accounts Receivable Summary |
+| Outstanding Amount | Непогашенная сумма | erpnext / accounts | Collect Outstanding Amount |
+| Credit Note / Debit Note | Кредит-нота / Дебет-нота | erpnext / accounts | Credit Note Issued |
+| Exchange Rate Revaluation | Переоценка валютных остатков | erpnext / accounts | Exchange Rate Revaluation Account |
+| Exchange Gain/Loss | Курсовая прибыль/убыток | erpnext / accounts | Exchange Gain / Loss Account |
+| Contra Entry | Взаимозачет | erpnext / Journal Entry | Contra Entry |
+| Immutable Ledger | Неизменяемая книга учета | erpnext / Accounts Settings | Enable Immutable Ledger |
+| Provisional Account | Временный счет | erpnext / Company | Default Provisional Account |
+| Capital Work in Progress (CWIP) | Незавершенное капитальное строительство | erpnext / accounts, assets | CWIP Account |
+| Deferred Revenue / Expense | Отложенные доходы / Отложенные расходы | erpnext / accounts | Deferred Revenue Account |
+| Tax Withholding | Удержание налога | erpnext / accounts | Tax Withholding Category |
+| Lower Deduction Certificate | Сертификат о пониженной ставке удержания | erpnext / regional | Deduction Certificate |
+| Dunning | Напоминание; Dunning Letter → «Письмо-напоминание» | erpnext / accounts | Dunning Type |
+| Bank Clearance / Clearance Date | Банковское подтверждение / Дата подтверждения | erpnext / accounts, banking | Clearance Date not mentioned |
+| Cheque | Чек | erpnext / accounts | Cheque Print Template → Шаблон печати чека |
+| Bisect Accounting Statements | Бисекция финансовой отчетности | erpnext / accounts | Bisect Left |
+| Sales Invoice / Purchase Invoice | Счет покупателю / Счет поставщика | erpnext / accounts | Create Sales Invoice |
+| Sales Order / Purchase Order | Заказ на продажу / Заказ на покупку | erpnext / selling, buying | Create Sales Order |
+| Delivery Note / Purchase Receipt | Расходная накладная / Приходная накладная | erpnext / stock | Create Delivery Note |
+| Quotation / Supplier Quotation | Предложение / Предложение поставщика | erpnext / selling, buying | Create Quotation |
+| Request for Quotation (RFQ) | Запрос предложений | erpnext / buying | Download PDF for Supplier |
+| Material Request | Заявка на материалы | erpnext / stock | Auto Material Request |
+| Blanket Order | Рамочный заказ | erpnext / manufacturing | Blanket Order Rate |
+| Customer Provided Item | Давальческий продукт клиента | erpnext / stock | Customer Provided Item Cost |
+| Drop Ship | Прямая поставка | erpnext / selling | Delivered by Supplier (Drop Ship) |
+| POS / POS Profile / POS Invoice | Точка продаж / Профиль точки продаж / Счет точки продаж | erpnext / accounts | POS Profile |
+| POS Opening / Closing Entry | Открытие / Закрытие смены точки продаж | erpnext / accounts | Create POS Opening Entry |
+| Pricing Rule / Promotional Scheme | Правило ценообразования / Схема продвижения | erpnext / accounts | Apply Multiple Pricing Rules |
+| Price List / Price List Rate | Прайс-лист / Цена по прайс-листу | erpnext / stock | Default Price List |
+| Lead / Prospect / Opportunity | Лид / Потенциальный клиент / Возможность | erpnext / crm | Add Lead to Prospect |
+| Appointment | Встреча | erpnext / crm | Appointment Booking Settings → Настройки записи на встречи |
+| Email Campaign | Кампания рассылки | erpnext / crm | Email Campaign |
+| Email Digest | Сводка по эл. почте | erpnext / setup | Email Digest Settings |
+| Contract | Договор | erpnext / crm | Contract Template |
+| Sales Partner / Sales Person | Партнер по продажам / Продавец | erpnext / selling | All Sales Person |
+| BOM | Спецификация | erpnext / manufacturing | BOM Update Tool |
+| BOM Creator | Конструктор спецификаций | erpnext / manufacturing | BOM Creator Item |
+| Design (BOM Creator, v16) | Конструкция | erpnext / manufacturing / BOM Creator | Design File |
+| BOM Secondary Item | Вторичный продукт спецификации; By-Product → «Побочный продукт», Co-Product → «Сопутствующий продукт» | erpnext / manufacturing | BOM Secondary Item |
+| Work Order / Job Card | Производственный заказ / Карточка задания | erpnext / manufacturing | Create Job Card |
+| Workstation / Plant Floor | Рабочий центр / Производственный участок | erpnext / manufacturing | Create Workstation |
+| Sub Assembly | Полуфабрикат | erpnext / manufacturing | Add Sub-Assembly BOM |
+| Finished Good / Raw Material | Готовая продукция / Сырье | erpnext / manufacturing | Finished Good Item Code |
+| Process Loss | Потери в процессе | erpnext / manufacturing | % Process Loss |
+| Work In Progress (WIP) | Незавершенное производство (НЗП) | erpnext / manufacturing | Available Qty at WIP Warehouse |
+| Disassemble | Разборка | erpnext / manufacturing | Disassemble Order |
+| MPS (Master Production Schedule) | ГПП (главный производственный план) | erpnext / manufacturing | Create MPS |
+| Asset / Fixed Asset | Актив / Основное средство | erpnext / assets | Fixed Asset Register |
+| Asset Capitalization | Капитализация актива | erpnext / assets | Capitalize Asset |
+| Depreciation / Depreciation Schedule | Амортизация / График амортизации | erpnext / assets | Depreciation Entry |
+| Available-for-use Date | Дата ввода в эксплуатацию | erpnext / assets | Available for Use Date |
+| Custodian | Ответственное лицо | erpnext / assets | Custodian |
+| Scrap (asset) | Списать / Списание | erpnext / assets | Asset scrapped |
+| Timesheet / Activity Type | Табель / Вид деятельности | erpnext / projects | Create Timesheet |
+| Issue (support) | Обращение | erpnext / support | Close Issue After Days |
+| Service Level Agreement (SLA) | Соглашение об уровне обслуживания (SLA) | erpnext / support | Default Service Level Agreement |
+| Quality Inspection | Контроль качества | erpnext / stock | Create Quality Inspection |
+| Incoterms (titles) | Русские наименования Инкотермс: Ex Works → «Франко-завод», Free On Board → «Франко-борт», Delivered Duty Paid → «Поставка с оплатой пошлины» и т. д. | erpnext / setup / Incoterm | Carriage Paid To |
+| Job Worker (Subcontracting Order) | Субподрядчик | erpnext / subcontracting | Job Worker Warehouse |
+| Inventory Dimension | Складское измерение | erpnext / stock | Inventory Dimension Negative Stock |
+| Item Lead Time | Срок получения продукта; Lead Time — «Срок поставки» | erpnext / stock | Lead Time Days |
+| Opening Invoice Creation Tool | Инструмент создания начальных счетов | erpnext / accounts | Opening Invoice Tool |
+| Process Statement Of Accounts (PSOA) | Рассылка выписок по счетам | erpnext / accounts | Process Statement Of Accounts Customer |
+| Pegged Currency | Привязанная валюта | erpnext / accounts | Pegged Currency Details |
+| Over Billing / Delivery / Receipt Allowance | Допуск на превышение счета / сверхпоставку / сверхполучение | erpnext / accounts, stock | Over Billing Allowance (%) |
+| Pickup (Shipment) | Забор груза | erpnext / stock / Shipment | Pickup Date |
+| Loyalty Point Redemption | Списание баллов лояльности | erpnext / accounts | Redemption Account |
+| Quality Action / Feedback / Review / Goal | Действие по качеству / Отзыв о качестве / Анализ качества / Цель качества | erpnext / quality | Quality Action Resolution |
+| Payment Ledger | Книга платежей | erpnext / accounts | Payment Ledger Entry |
+| Ledger Health Monitor | Мониторинг состояния книг учета | erpnext / accounts | Ledger Health Monitor |
+| Subcontracting Order / Subcontracting Receipt | Заказ на субподряд / Поступление по субподряду | erpnext / subcontracting | Subcontracting Order Item |
+| Subcontracting Inward Order | Входящий заказ на субподряд | erpnext / subcontracting | Subcontracting Inward Order Item |
+| Stock Reservation Entry | Резервирование запасов; Unreserve → «Снять резерв» | erpnext / stock | Stock Reservation Entries Created |
+| Supplier Scorecard / Standing | Оценочная карта поставщика / Уровень оценочной карты | erpnext / buying | Supplier Scorecard Standing |
+| Shipping Rule | Правило доставки | erpnext / accounts | Shipping Rule Condition |
+| Shipment / Shipment Parcel | Отправка / Посылка | erpnext / stock | Shipment Parcel Template |
+| Shareholder / Share Transfer | Акционер / Передача акций | erpnext / accounts | Share Transfer |
+| Subscription / Subscription Plan | Подписка / План подписки | erpnext / accounts | Subscription Plan Detail |
+| Trial Balance | Оборотно-сальдовая ведомость | erpnext / accounts | Trial Balance for Party |
+| Unreconcile | Отменить сверку / Отмена сверки | erpnext / accounts, banking | Unreconcile Payment |
+| Write Off | Списание; Write Off Account → «Счет списания» | erpnext / accounts | Write Off Amount |
+| Routing | Маршрут | erpnext / manufacturing | Routing Name |
+| Rounded Total / Rounding Adjustment | Итого с округлением / Корректировка округления | erpnext / accounts | Rounded Total (Company Currency) |
+| Transaction Deletion Record | Запись удаления операций | erpnext / setup | Transaction Deletion Record Item |
+| Vendor Invoice (Landed Cost Voucher) | Счет поставщика услуг | erpnext / stock | Total Vendor Invoices Cost |
+| Service Item (subcontracting) | Услуга | erpnext / subcontracting | Service Item Qty |
+| Territory | Территория | erpnext / selling | Territory Targets |
+| Sales Taxes and Charges (Template) | Налоги и сборы с продаж (шаблон) | erpnext / accounts | Sales Taxes and Charges Template |
+| Salvage Value | Ликвидационная стоимость | erpnext / assets | Salvage Value Percentage |
+| Supply (MRP, vs Demand) | Обеспечение | erpnext / manufacturing / MRP report | Supply |
