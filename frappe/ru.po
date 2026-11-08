@@ -41813,7 +41813,7 @@ msgstr "и еще {0}"
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:291
 msgid "app ships this off"
-msgstr "приложение поставляет выключенным"
+msgstr "Отключен по умолчанию"
 
 #: frappe/printing/doctype/print_format/print_format.py:606
 msgid "applied the editor draft"
