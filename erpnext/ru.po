@@ -10,7 +10,10 @@ msgstr ""
 "POT-Creation-Date: 2026-11-07 14:20+0000\n"
 "PO-Revision-Date: 2026-11-07 14:20+0000\n"
 "Last-Translator: hello@frappe.io\n"
+"Language: ru\n"
 "Language-Team: hello@frappe.io\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -147,7 +150,6 @@ msgid "% Delivered"
 msgstr "% отгружено"
 
 #: erpnext/manufacturing/doctype/bom/bom.js:1188
-#, python-format
 msgid "% Finished Item Quantity"
 msgstr "% количества готовой продукции"
 
@@ -241,31 +243,26 @@ msgstr "% возвращено"
 #: erpnext/manufacturing/doctype/bom_secondary_item/bom_secondary_item.json:185
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json:685
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json:627
-#, python-format
 msgid "% of Component Cost"
 msgstr "% стоимости компонента"
 
 #: erpnext/selling/report/lost_quotations/lost_quotations.py:40
-#, python-format
 msgid "% of Lost Quotations"
 msgstr "% проигранных предложений"
 
 #. Description of the '% Amount Billed' (Percent) field in DocType 'Sales
 #. Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json:1279
-#, python-format
 msgid "% of materials billed against this Sales Order"
 msgstr "% материалов, по которым выставлены счета по этому заказу на продажу"
 
 #. Description of the '% Delivered' (Percent) field in DocType 'Pick List'
 #: erpnext/stock/doctype/pick_list/pick_list.json:240
-#, python-format
 msgid "% of materials delivered against this Pick List"
 msgstr "% материалов, отгруженных по этому листу отбора"
 
 #. Description of the '%  Delivered' (Percent) field in DocType 'Sales Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json:1257
-#, python-format
 msgid "% of materials delivered against this Sales Order"
 msgstr "% материалов, отгруженных по этому заказу на продажу"
 
@@ -331,7 +328,7 @@ msgstr "Укажите «По дату»"
 
 #: erpnext/stock/doctype/packing_slip/packing_slip.py:105
 msgid "'To Package No.' cannot be less than 'From Package No.'"
-msgstr "«По упаковку №» не может быть меньше, чем «С упаковки №»"
+msgstr "«№ упаковки по» не может быть меньше, чем «№ упаковки с»"
 
 #: erpnext/controllers/sales_and_purchase_return.py:80
 #, python-brace-format
@@ -675,7 +672,7 @@ msgstr "<0"
 #: erpnext/assets/doctype/asset/asset.py:563
 #, python-brace-format
 msgid "<b>Cannot create asset.</b><br><br>You're trying to create <b>{0} asset(s)</b> from {2} {3}.<br>However, only <b>{1} item(s)</b> were purchased and <b>{4} asset(s)</b> already exist against {5}."
-msgstr "<b>Невозможно создать актив.</b><br><br>Вы пытаетесь создать <b>{0} акт.</b> по документу {2} {3}.<br>Однако куплено только <b>{1} поз.</b>, и по {5} уже существует <b>{4} акт.</b>"
+msgstr "<b>Невозможно создать актив.</b><br><br>Вы пытаетесь создать активы в количестве <b>{0}</b> по документу {2} {3}.<br>Однако куплено продуктов: <b>{1}</b>, а по {5} уже существует активов: <b>{4}</b>."
 
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.py:69
 #, python-brace-format
@@ -2230,7 +2227,7 @@ msgstr "Счет для учета дополнительных расходов
 #. 'Item Default'
 #: erpnext/stock/doctype/item_default/item_default.json:204
 msgid "Account to track value added to stock via Stock Entry, Stock Reconciliation or Landed Cost Voucher"
-msgstr "Счет для учета стоимости, добавленной к запасам через складскую проводку, инвентаризацию запасов или документ дополнительных расходов"
+msgstr "Счет для учета стоимости, добавленной к запасам через складскую проводку, инвентаризацию или документ дополнительных расходов"
 
 #. Description of the 'Default COGS Account' (Link) field in DocType 'Item
 #. Default'
@@ -2766,7 +2763,7 @@ msgstr "Учетный период пересекается с {0}"
 #. 'Company'
 #: erpnext/setup/doctype/company/company.json:1035
 msgid "Accounting entries are frozen up to this date. Only users with the specified role can create or modify entries before this date."
-msgstr "Бухгалтерские записи заблокированы до этой даты. Создавать и изменять записи до этой даты могут только пользователи с указанной ролью."
+msgstr "Бухгалтерские проводки заблокированы до этой даты. Создавать и изменять проводки до этой даты могут только пользователи с указанной ролью."
 
 #. Label of the applicable_on_account (Link) field in DocType 'Applicable On
 #. Account'
@@ -4295,7 +4292,7 @@ msgstr "Корректировочная запись"
 
 #: erpnext/stock/valuation_adjustment.py:435
 msgid "Adjustment Entry can only be used by the system from the Stock Valuation Comparison report. Users can only select the purpose Opening Stock to add opening stock, or Stock Reconciliation to update stock quantity or valuation rate."
-msgstr "Корректировочная запись используется только системой из отчета «Сравнение оценки запасов». Пользователь может выбрать только цель «Начальный остаток» для ввода начальных остатков или «Инвентаризация запасов» для изменения количества или учетной цены."
+msgstr "Корректировочная запись используется только системой из отчета «Сравнение оценки запасов». Пользователь может выбрать только цель «Начальный остаток» для ввода начальных остатков или «Инвентаризация» для изменения количества или учетной цены."
 
 #: erpnext/stock/report/stock_valuation_comparison/stock_valuation_comparison.js:232
 msgid "Adjustment Time"
@@ -9662,7 +9659,7 @@ msgstr "Следующие планы подписки имеют валюту, 
 #: banking/src/components/features/BankReconciliation/BankClearanceSummary.tsx:206
 #, python-brace-format
 msgid "Below is a list of all accounting entries posted against the bank account {0} between {1} and {2}."
-msgstr "Ниже приведены все бухгалтерские записи по банковскому счету {0} за период с {1} по {2}."
+msgstr "Ниже приведены все бухгалтерские проводки по банковскому счету {0} за период с {1} по {2}."
 
 #: banking/src/components/features/BankReconciliation/BankTransactionList.tsx:246
 #, python-brace-format
@@ -10083,7 +10080,7 @@ msgstr "Заблокировать поставщика"
 #. Description of the 'Is Frozen' (Check) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json:428
 msgid "Blocks new transactions and further accounting entries on this customer's account. Only users with the role set in Company's \"Roles Allowed to Set and Edit Frozen Account Entries\" can transact."
-msgstr "Запрещает новые операции и бухгалтерские записи по счету этого клиента. Совершать операции могут только пользователи с ролью, указанной в поле компании «Роли, которым разрешено устанавливать и изменять записи заблокированных счетов»."
+msgstr "Запрещает новые операции и бухгалтерские проводки по счету этого клиента. Совершать операции могут только пользователи с ролью, указанной в поле компании «Роли, которым разрешено устанавливать и изменять записи заблокированных счетов»."
 
 #. Description of the 'Disabled' (Check) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json:235
@@ -10201,7 +10198,7 @@ msgstr "Учет закрыт по"
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json:784
 msgid "Books Purchase Expense and Expenses Added To Stock account pairs against stock value. On enabling this, the accounts become mandatory in Company or Item Defaults for Purchase Receipt, Purchase Invoice, Stock Entry, Stock Reconciliation and Landed Cost Voucher"
-msgstr "Создает проводки по парам счетов «Расходы на покупку» и «Расходы, добавленные к запасам» на стоимость запасов. При включении эти счета становятся обязательными в настройках компании или продукта по умолчанию для приходной накладной, счета поставщика, складской проводки, инвентаризации запасов и документа дополнительных расходов"
+msgstr "Создает проводки по парам счетов «Расходы на покупку» и «Расходы, добавленные к запасам» на стоимость запасов. При включении эти счета становятся обязательными в настройках компании или продукта по умолчанию для приходной накладной, счета поставщика, складской проводки, инвентаризации и документа дополнительных расходов"
 
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:417
 #, python-brace-format
@@ -11186,7 +11183,7 @@ msgstr "Нельзя отменить закрытие смены точки п�
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.py:231
 #, python-brace-format
 msgid "Cannot cancel Stock Closing Entry {0} because the later Stock Closing Entry {1} is built on it. Cancel {1} first."
-msgstr "Нельзя отменить закрытие запасов {0}: на нем основано более позднее закрытие запасов {1}. Сначала отмените {1}."
+msgstr "Нельзя отменить закрывающую проводку по запасам {0}: на ней основана более поздняя закрывающая проводка по запасам {1}. Сначала отмените {1}."
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:194
 #, python-brace-format
@@ -11323,7 +11320,7 @@ msgstr "Нельзя создать лист отбора для заказа н
 #: erpnext/accounts/general_ledger.py:151
 #, python-brace-format
 msgid "Cannot create accounting entries against disabled accounts: {0}"
-msgstr "Нельзя создать бухгалтерские записи по отключенным счетам: {0}"
+msgstr "Нельзя создать бухгалтерские проводки по отключенным счетам: {0}"
 
 #: erpnext/controllers/accounts_controller.py:1251
 #, python-brace-format
@@ -11457,7 +11454,7 @@ msgstr "Не найден {0} для продукта {1}"
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.py:329
 #, python-brace-format
 msgid "Cannot generate the closing balance of Stock Closing Entry {0} while Repost Item Valuation entries dated on or before {1} are pending. Try again once they are completed."
-msgstr "Нельзя сформировать конечный остаток закрытия запасов {0}, пока не завершены перепроведения оценки продуктов с датой {1} или ранее. Повторите попытку после их завершения."
+msgstr "Нельзя сформировать конечный остаток закрывающей проводки по запасам {0}, пока не завершены перепроведения оценки продуктов с датой {1} или ранее. Повторите попытку после их завершения."
 
 #: erpnext/public/js/utils/party.js:87 erpnext/public/js/utils/party.js:96
 #, python-brace-format
@@ -11472,7 +11469,7 @@ msgstr "Нельзя учитывать время по отмененным з�
 #: erpnext/accounts/party.py:1159
 #, python-brace-format
 msgid "Cannot merge {0} '{1}' into '{2}' as both have existing accounting entries in different currencies for company '{3}'."
-msgstr "Нельзя объединить {0} «{1}» с «{2}»: у обоих есть бухгалтерские записи в разных валютах для компании «{3}»."
+msgstr "Нельзя объединить {0} «{1}» с «{2}»: у обоих есть бухгалтерские проводки в разных валютах для компании «{3}»."
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:686
 #, python-brace-format
@@ -11501,7 +11498,7 @@ msgstr "Для этого типа сбора нельзя ссылаться н
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.py:240
 #, python-brace-format
 msgid "Cannot regenerate Stock Closing Entry {0} because the later Stock Closing Entry {1} is built on it. Cancel {1} first."
-msgstr "Нельзя пересоздать закрытие запасов {0}: на нем основано более позднее закрытие запасов {1}. Сначала отмените {1}."
+msgstr "Нельзя пересоздать закрывающую проводку по запасам {0}: на ней основана более поздняя закрывающая проводка по запасам {1}. Сначала отмените {1}."
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:238
 #, python-brace-format
@@ -12165,7 +12162,6 @@ msgstr "Отметьте, если запись перемещения мате�
 #. Description of the 'Not Applicable' (Check) field in DocType 'Item Tax
 #. Template Detail'
 #: erpnext/accounts/doctype/item_tax_template_detail/item_tax_template_detail.json:30
-#, python-format
 msgid "Check if this tax is not applicable to items (distinct from 0% rate)"
 msgstr "Отметьте, если налог не применяется к продуктам (в отличие от ставки 0%)"
 
@@ -15610,7 +15606,7 @@ msgstr "Создать складскую проводку"
 #. Label of an action in the Onboarding Step 'Enter the stock you have today'
 #: erpnext/stock/onboarding_step/create_opening_stock/create_opening_stock.json:3
 msgid "Create Stock Reconciliation"
-msgstr "Создать инвентаризацию запасов"
+msgstr "Создать инвентаризацию"
 
 #. Label of an action in the Onboarding Step 'Record a supplier's quote'
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:181
@@ -15679,7 +15675,7 @@ msgstr "Создать рабочий центр"
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:260
 #, python-brace-format
 msgid "Create a Stock Closing Entry for the entire company with To Date as {0} before submitting the Period Closing Voucher."
-msgstr "Перед проведением документа закрытия периода создайте закрытие запасов для всей компании с датой окончания {0}."
+msgstr "Перед проведением документа закрытия периода создайте закрывающую проводку по запасам для всей компании с датой окончания {0}."
 
 #: banking/src/components/features/BankReconciliation/MatchAndReconcile.tsx:683
 msgid "Create a journal entry for expenses, income or split transactions"
@@ -18442,7 +18438,7 @@ msgstr "Сводка просроченных задач"
 #. Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json:273
 msgid "Delete Accounting and Stock Ledger entries on deletion of transaction"
-msgstr "Удалять бухгалтерские записи и записи книги учета запасов при удалении операции"
+msgstr "Удалять бухгалтерские проводки и записи книги учета запасов при удалении операции"
 
 #. Label of the delete_bin_data_status (Select) field in DocType 'Transaction
 #. Deletion Record'
@@ -19363,7 +19359,7 @@ msgstr "Счет разницы должен иметь тип «Актив» и
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:1146
 msgid "Difference Account must be a Asset/Liability type account, since this Stock Reconciliation is an Opening Entry"
-msgstr "Счет разницы должен иметь тип «Актив» или «Обязательство», так как эта инвентаризация запасов является начальной записью"
+msgstr "Счет разницы должен иметь тип «Актив» или «Обязательство», так как эта инвентаризация является начальной записью"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:1136
 #, python-brace-format
@@ -20564,7 +20560,7 @@ msgstr "Срок в течение 7 дней"
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:216
 #, python-brace-format
 msgid "Due to stock closing entry {0}, you cannot repost item valuation before {1}"
-msgstr "Из-за закрытия запасов {0} нельзя перепровести оценку продукта до {1}"
+msgstr "Из-за закрывающей проводки по запасам {0} нельзя перепровести оценку продукта до {1}"
 
 #. Name of a DocType
 #. Label of the dunning (Link) field in DocType 'Payment Entry Deduction'
@@ -20688,7 +20684,7 @@ msgstr "Ошибка дублирования серийного номера"
 
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.py:210
 msgid "Duplicate Stock Closing Entry"
-msgstr "Дублирующееся закрытие запасов"
+msgstr "Дублирующаяся закрывающая проводка по запасам"
 
 #: erpnext/accounts/doctype/pos_profile/pos_profile.py:189
 msgid "Duplicate customer group found in the customer group table"
@@ -24448,7 +24444,7 @@ msgstr "С №"
 #. Label of the from_case_no (Int) field in DocType 'Packing Slip'
 #: erpnext/stock/doctype/packing_slip/packing_slip.json:80
 msgid "From Package No."
-msgstr "С упаковки №"
+msgstr "№ упаковки с"
 
 #. Label of the from_payment_date (Date) field in DocType 'Payment
 #. Reconciliation'
@@ -24981,7 +24977,7 @@ msgstr "Сформировать график"
 
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.js:12
 msgid "Generate Stock Closing Entry"
-msgstr "Сформировать закрытие запасов"
+msgstr "Сформировать закрывающую проводку по запасам"
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:112
 msgid "Generate To Delete List"
@@ -26285,7 +26281,7 @@ msgstr "Насколько быстрее амортизируется акти�
 #. Description of the Onboarding Step 'Enter the stock you have today'
 #: erpnext/stock/onboarding_step/create_opening_stock/create_opening_stock.json:5
 msgid "How much of each item is on your shelves, and what it is worth. From here, every receipt and delivery keeps it up to date. See [Stock Reconciliation](https://docs.frappe.io/erpnext/user/manual/en/stock-reconciliation)."
-msgstr "Сколько каждого продукта на складе и сколько это стоит. Дальше каждое поступление и отгрузка будут обновлять эти данные. См. [Инвентаризация запасов](https://docs.frappe.io/erpnext/user/manual/en/stock-reconciliation)."
+msgstr "Сколько каждого продукта на складе и сколько это стоит. Дальше каждое поступление и отгрузка будут обновлять эти данные. См. [Инвентаризация](https://docs.frappe.io/erpnext/user/manual/en/stock-reconciliation)."
 
 #. Description of a DocType
 #: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.json:6
@@ -26518,13 +26514,13 @@ msgstr "При установке флажка сумма налога буде�
 #. Description of the 'Update Stock' (Check) field in DocType 'Sales Invoice'
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json:725
 msgid "If checked, updates inventory; stock and accounting entries are created together. Leave unchecked if a Delivery Note is created separately."
-msgstr "При установке флажка обновляются запасы: складские и бухгалтерские записи создаются одновременно. Не отмечайте, если расходная накладная создается отдельно."
+msgstr "При установке флажка обновляются запасы: складские и бухгалтерские проводки создаются одновременно. Не отмечайте, если расходная накладная создается отдельно."
 
 #. Description of the 'Update Stock' (Check) field in DocType 'Purchase
 #. Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json:618
 msgid "If checked, updates inventory; stock and accounting entries are created together. Leave unchecked if a Purchase Receipt is created separately."
-msgstr "При установке флажка обновляются запасы: складские и бухгалтерские записи создаются одновременно. Не отмечайте, если приходная накладная создается отдельно."
+msgstr "При установке флажка обновляются запасы: складские и бухгалтерские проводки создаются одновременно. Не отмечайте, если приходная накладная создается отдельно."
 
 #. Description of the 'Service Address' (Small Text) field in DocType 'Warranty
 #. Claim'
@@ -26795,7 +26791,7 @@ msgstr "Если выбранное правило ценообразовани�
 #. Description of the 'Default Accounts' (Table) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json:384
 msgid "If set, accounting entries for this customer will post to these accounts instead of the company default."
-msgstr "Если заданы, бухгалтерские записи по этому клиенту будут делаться на эти счета вместо счетов компании по умолчанию."
+msgstr "Если заданы, бухгалтерские проводки по этому клиенту будут делаться на эти счета вместо счетов компании по умолчанию."
 
 #. Description of the 'Fixed Outgoing Email Account' (Link) field in DocType
 #. 'Buying Settings'
@@ -27404,7 +27400,6 @@ msgid "In the case of multi-tier program, Customers will be auto assigned to the
 msgstr "В многоуровневой программе клиенты автоматически получают уровень в зависимости от суммы покупок"
 
 #: banking/src/components/features/BankReconciliation/Rules/RuleForm.tsx:753
-#, python-format
 msgid "In this case, the amount will be calculated as 25% of the transaction amount. If the transaction amount is 200, then this will be calculated as 200 * 0.25 = 50."
 msgstr "В этом случае сумма составит 25% от суммы транзакции. Если сумма транзакции равна 200, расчет будет таким: 200 * 0.25 = 50."
 
@@ -28763,7 +28758,7 @@ msgstr "Недопустимый адрес"
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.py:456
 #, python-brace-format
 msgid "Invalid amount in accounting entries of {} {} for Account {}: {}"
-msgstr "Недопустимая сумма в бухгалтерских записях {} {} по счету {}: {}"
+msgstr "Недопустимая сумма в бухгалтерских проводках {} {} по счету {}: {}"
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:352
 msgid "Invalid condition expression"
@@ -31318,7 +31313,7 @@ msgstr "Продукт {0} на складе {1} нельзя скорректи
 #: erpnext/stock/valuation_adjustment.py:929
 #, python-brace-format
 msgid "Item {0} in Warehouse {1} was adjusted by {2} on {3}, so no stock transaction dated before it can be posted or cancelled. Post it on or after that date, or cancel the Adjustment Entry first."
-msgstr "Продукт {0} на складе {1} скорректирован {3} (кем: {2}), поэтому складские операции с более ранней датой нельзя провести или отменить. Проведите операцию на эту дату или позже либо сначала отмените корректировочную запись."
+msgstr "Продукт {0} на складе {1} скорректирован документом {2} от {3}, поэтому складские операции с более ранней датой нельзя провести или отменить. Проведите операцию на эту дату или позже либо сначала отмените корректировочную запись."
 
 #: erpnext/selling/doctype/product_bundle/product_bundle.py:116
 #, python-brace-format
@@ -32305,7 +32300,7 @@ msgstr "Дата последнего {0}"
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.py:233
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.py:242
 msgid "Later Stock Closing Entry Exists"
-msgstr "Существует более позднее закрытие запасов"
+msgstr "Существует более поздняя закрывающая проводка по запасам"
 
 #: erpnext/stock/report/stock_ageing/stock_ageing.py:227
 msgid "Latest"
@@ -34596,7 +34591,6 @@ msgstr "Максимальное значение"
 
 #. Description of the 'Max Discount (%)' (Float) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json:737
-#, python-format
 msgid "Maximum discount % allowed when selling this item. Eg: if set to 20%, a discount greater than 20% cannot be applied in sales transactions."
 msgstr "Максимальный % скидки при продаже продукта. Например, при значении 20% скидку больше 20% нельзя применить в операциях продажи."
 
@@ -36409,7 +36403,7 @@ msgstr "Счет не задан"
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:884
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:1108
 msgid "No accounting entries for the following warehouses"
-msgstr "Нет бухгалтерских записей для следующих складов"
+msgstr "Нет бухгалтерских проводок для следующих складов"
 
 #: banking/src/components/features/BankReconciliation/Rules/RuleForm.tsx:413
 msgid "No accounts configured"
@@ -37071,12 +37065,12 @@ msgstr "Примечание: запись оплаты не будет созд
 
 #: erpnext/accounts/doctype/cost_center/cost_center.js:30
 msgid "Note: This Cost Center is a Group. Cannot make accounting entries against groups."
-msgstr "Примечание: этот центр затрат является группой. По группам нельзя делать бухгалтерские записи."
+msgstr "Примечание: этот центр затрат является группой. По группам нельзя делать бухгалтерские проводки."
 
 #: erpnext/stock/doctype/item/item.py:762
 #, python-brace-format
 msgid "Note: To merge the items, create a separate Stock Reconciliation for the old item {0}"
-msgstr "Примечание: чтобы объединить продукты, создайте отдельную инвентаризацию запасов для старого продукта {0}"
+msgstr "Примечание: чтобы объединить продукты, создайте отдельную инвентаризацию для старого продукта {0}"
 
 #. Label of the notes (Small Text) field in DocType 'Asset Depreciation
 #. Schedule'
@@ -38139,7 +38133,7 @@ msgstr "Нельзя создать начальный остаток: по пр
 
 #: erpnext/stock/doctype/item/item.py:1849
 msgid "Opening Stock for serialised or batch items must be set via the Stock Reconciliation form."
-msgstr "Начальный остаток для продуктов с серийными номерами или партиями нужно задавать через инвентаризацию запасов."
+msgstr "Начальный остаток для продуктов с серийными номерами или партиями нужно задавать через инвентаризацию."
 
 #: erpnext/stock/doctype/item/item.py:400
 #, python-brace-format
@@ -38167,7 +38161,7 @@ msgstr "Для отчета о движении денежных средств 
 
 #: erpnext/stock/doctype/item/item.py:209
 msgid "Opening stock creation has been queued and will be created in the background. Please check the Stock Reconciliation after some time."
-msgstr "Создание начального остатка поставлено в очередь и будет выполнено в фоновом режиме. Проверьте инвентаризацию запасов через некоторое время."
+msgstr "Создание начального остатка поставлено в очередь и будет выполнено в фоновом режиме. Проверьте инвентаризацию через некоторое время."
 
 #. Description of a DocType
 #: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.json:5
@@ -41805,12 +41799,12 @@ msgstr "Периодический учет"
 #. Option for the 'Entry Type' (Select) field in DocType 'Journal Entry'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json:111
 msgid "Periodic Accounting Entry"
-msgstr "Запись периодического учета"
+msgstr "Проводка периодического учета"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:267
 #, python-brace-format
 msgid "Periodic Accounting Entry is not allowed for company {0} with perpetual inventory enabled"
-msgstr "Записи периодического учета не допускаются для компании {0} с включенным непрерывным учетом запасов"
+msgstr "Проводки периодического учета не допускаются для компании {0} с включенным непрерывным учетом запасов"
 
 #. Label of the periodic_entry_difference_account (Link) field in DocType
 #. 'Journal Entry'
@@ -42327,7 +42321,7 @@ msgstr "Планирует производственные заказы и ма
 #. Label of the plant_dashboard (HTML) field in DocType 'Plant Floor'
 #: erpnext/manufacturing/doctype/plant_floor/plant_floor.json:39
 msgid "Plant Dashboard"
-msgstr "Панель участка"
+msgstr "Дашборд участка"
 
 #. Name of a DocType
 #. Label of the plant_floor (Link) field in DocType 'Workstation'
@@ -43030,7 +43024,7 @@ msgstr "Сначала выберите тип контрагента"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:272
 msgid "Please select Periodic Accounting Entry Difference Account"
-msgstr "Выберите счет разницы записи периодического учета"
+msgstr "Выберите счет разницы проводки периодического учета"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:522
 msgid "Please select Posting Date before selecting Party"
@@ -45477,7 +45471,6 @@ msgid "Profitability Analysis"
 msgstr "Анализ рентабельности"
 
 #: erpnext/projects/doctype/task/task.py:217
-#, python-format
 msgid "Progress % for a task must be between 0 and 100."
 msgstr "Процент выполнения задачи должен быть от 0 до 100."
 
@@ -49280,7 +49273,7 @@ msgstr "С уважением,"
 
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.js:27
 msgid "Regenerate Stock Closing Entry"
-msgstr "Пересоздать закрытие запасов"
+msgstr "Пересоздать закрывающую проводку по запасам"
 
 #. Option for the 'Check' (Select) field in DocType 'Bank Transaction Rule
 #. Description Conditions'
@@ -51440,7 +51433,7 @@ msgid "Row #{0} (Payment Table): Amount must be positive"
 msgstr "Строка №{0} (таблица оплат): сумма должна быть положительной"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:2174
-#, python-brace-format, python-format
+#, python-brace-format
 msgid "Row #{0}: % of Component Cost needs a BOM secondary item. Choose Valuation Rate or Manual for {1}."
 msgstr "Строка №{0}: для «% от стоимости компонентов» нужен вторичный продукт спецификации. Выберите для {1} «Учетная цена» или «Вручную»."
 
@@ -52232,7 +52225,7 @@ msgid "Row #{0}: Please update deferred revenue/expense account in item row or d
 msgstr "Строка №{0}: укажите счет отложенных доходов/расходов в строке продукта или счет по умолчанию в карточке компании"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:420
-#, python-brace-format, python-format
+#, python-brace-format
 msgid "Row #{0}: Process Loss Percentage should be less than 100% for {1} Item {2}"
 msgstr "Строка №{0}: процент потерь в процессе для {1} продукта {2} должен быть меньше 100%"
 
@@ -52612,7 +52605,7 @@ msgstr "Строка №{0}: после этого возврата произв
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:139
 #, python-brace-format
 msgid "Row #{0}: You cannot use the inventory dimension '{1}' in Stock Reconciliation to modify the quantity or valuation rate. Stock reconciliation with inventory dimensions is intended solely for performing opening entries."
-msgstr "Строка №{0}: складское измерение «{1}» нельзя использовать в инвентаризации запасов для изменения количества или учетной цены. Инвентаризация со складскими измерениями предназначена только для ввода начальных остатков."
+msgstr "Строка №{0}: складское измерение «{1}» нельзя использовать в инвентаризации для изменения количества или учетной цены. Инвентаризация со складскими измерениями предназначена только для ввода начальных остатков."
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:460
 #, python-brace-format
@@ -53480,7 +53473,7 @@ msgstr "Найдены строки со сроками оплаты, дубли
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:1171
 #, python-brace-format
 msgid "Rows {0}: the items already have stock transactions in these warehouses, use the purpose Stock Reconciliation instead of Opening Stock"
-msgstr "Строки {0}: по этим продуктам на этих складах уже есть складские операции. Используйте назначение «Инвентаризация запасов» вместо «Начальные остатки»"
+msgstr "Строки {0}: по этим продуктам на этих складах уже есть складские операции. Используйте назначение «Инвентаризация» вместо «Начальные остатки»"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.js:148
 #, python-brace-format
@@ -54168,7 +54161,7 @@ msgstr "Для продукта {0} требуется заказ на прод�
 #: erpnext/selling/doctype/sales_order/sales_order.py:380
 #, python-brace-format
 msgid "Sales Order {0} already exists against Customer's Purchase Order {1}. To allow multiple Sales Orders, Enable {2} in {3}"
-msgstr "Заказ на продажу {0} уже существует по заказу клиента на покупку {1}. Чтобы разрешить несколько заказов на продажу, включите {2} в {3}"
+msgstr "Заказ на продажу {0} уже существует по заказу клиента {1}. Чтобы разрешить несколько заказов на продажу, включите {2} в {3}"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:2019
 #: erpnext/selling/doctype/sales_order/sales_order.py:2032
@@ -56772,7 +56765,7 @@ msgstr "Отметить как открытую"
 #. Description of the 'From Date' (Date) field in DocType 'Stock Closing Entry'
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.json:51
 msgid "Set automatically to the day after the previous Stock Closing Entry, or to the first stock transaction's date"
-msgstr "Устанавливается автоматически на день, следующий за предыдущим закрытием запасов, или на дату первой складской операции"
+msgstr "Устанавливается автоматически на день, следующий за предыдущей закрывающей проводкой по запасам, или на дату первой складской операции"
 
 #. Label of the set_by_item_tax_template (Check) field in DocType 'Advance
 #. Taxes and Charges'
@@ -58655,43 +58648,43 @@ msgstr "Конечный остаток запасов"
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.json:82
 #: erpnext/stock/workspace/stock/stock.json:572
 msgid "Stock Closing Entry"
-msgstr "Закрытие запасов"
+msgstr "Закрывающая проводка по запасам"
 
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.py:410
 msgid "Stock Closing Entry Failed"
-msgstr "Ошибка закрытия запасов"
+msgstr "Ошибка закрывающей проводки по запасам"
 
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:273
 msgid "Stock Closing Entry In Progress"
-msgstr "Закрытие запасов выполняется"
+msgstr "Закрывающая проводка по запасам выполняется"
 
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:294
 msgid "Stock Closing Entry Outdated"
-msgstr "Закрытие запасов устарело"
+msgstr "Закрывающая проводка по запасам устарела"
 
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:262
 msgid "Stock Closing Entry Required"
-msgstr "Требуется закрытие запасов"
+msgstr "Требуется закрывающая проводка по запасам"
 
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.py:209
 #, python-brace-format
 msgid "Stock Closing Entry {0} already exists for the selected date range"
-msgstr "Для выбранного диапазона дат уже существует закрытие запасов {0}"
+msgstr "Для выбранного диапазона дат уже существует закрывающая проводка по запасам {0}"
 
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.py:268
 #, python-brace-format
 msgid "Stock Closing Entry {0} belongs to a closed accounting period. Cancel the Period Closing Voucher {1} first."
-msgstr "Закрытие запасов {0} относится к закрытому учетному периоду. Сначала отмените документ закрытия периода {1}."
+msgstr "Закрывающая проводка по запасам {0} относится к закрытому учетному периоду. Сначала отмените документ закрытия периода {1}."
 
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.py:346
 #, python-brace-format
 msgid "Stock Closing Entry {0} has been queued for processing, system will take sometime to complete it."
-msgstr "Закрытие запасов {0} поставлено в очередь на обработку, это займет некоторое время."
+msgstr "Закрывающая проводка по запасам {0} поставлена в очередь на обработку, это займет некоторое время."
 
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.py:276
 #, python-brace-format
 msgid "Stock Closing Entry {0} must be submitted to generate the closing balance"
-msgstr "Чтобы сформировать конечный остаток, закрытие запасов {0} должно быть проведено"
+msgstr "Чтобы сформировать конечный остаток, закрывающая проводка по запасам {0} должна быть проведена"
 
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry_dashboard.py:9
 msgid "Stock Closing Log"
@@ -59051,16 +59044,16 @@ msgstr "Запасы получены, но счет не выставлен"
 #: erpnext/stock/sidebar/stock/stock.json:114
 #: erpnext/workspace_sidebar/stock.json:110
 msgid "Stock Reconciliation"
-msgstr "Инвентаризация запасов"
+msgstr "Инвентаризация"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/stock_reconciliation_item/stock_reconciliation_item.json:273
 msgid "Stock Reconciliation Item"
-msgstr "Позиция инвентаризации запасов"
+msgstr "Позиция инвентаризации"
 
 #: erpnext/stock/doctype/item/item.py:752
 msgid "Stock Reconciliations"
-msgstr "Инвентаризации запасов"
+msgstr "Инвентаризации"
 
 #. Label of a Card Break in the Stock Workspace
 #: erpnext/stock/workspace/stock/stock.json:24
@@ -59545,7 +59538,7 @@ msgstr "Складские операции до {0} заморожены"
 #: erpnext/stock/stock_ledger.py:101
 #, python-brace-format
 msgid "Stock transactions dated on or before {0} are frozen because the period is closed and the Stock Closing Entry {1} has been generated. To make changes, cancel the Period Closing Voucher first."
-msgstr "Складские операции с датой {0} и ранее заморожены, так как период закрыт и сформировано закрытие запасов {1}. Чтобы внести изменения, сначала отмените документ закрытия периода."
+msgstr "Складские операции с датой {0} и ранее заморожены, так как период закрыт и сформирована закрывающая проводка по запасам {1}. Чтобы внести изменения, сначала отмените документ закрытия периода."
 
 #. Description of the 'Freeze stocks older than (days)' (Int) field in DocType
 #. 'Stock Settings'
@@ -59556,7 +59549,7 @@ msgstr "Складские операции старше указанного к
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:292
 #, python-brace-format
 msgid "Stock transactions were created or modified after the Stock Closing Entry {0} was generated. Regenerate it before submitting the Period Closing Voucher."
-msgstr "После формирования закрытия запасов {0} были созданы или изменены складские операции. Сформируйте его заново перед проведением документа закрытия периода."
+msgstr "После формирования закрывающей проводки по запасам {0} были созданы или изменены складские операции. Сформируйте ее заново перед проведением документа закрытия периода."
 
 #. Description of the 'Auto reserve Stock for Sales Order on Purchase' (Check)
 #. field in DocType 'Stock Settings'
@@ -62284,7 +62277,7 @@ msgstr "Текст, отображаемый в финансовом отчет�
 
 #: erpnext/stock/doctype/packing_slip/packing_slip.py:101
 msgid "The 'From Package No.' field must neither be empty nor it's value less than 1."
-msgstr "Поле «С номера упаковки» не должно быть пустым или меньше 1."
+msgstr "Поле «№ упаковки с» не должно быть пустым, а его значение не может быть меньше 1."
 
 #: erpnext/public/js/bom_creator/model_loaders.js:108
 msgid "The 3D file could not be loaded."
@@ -62453,7 +62446,7 @@ msgstr "Набор серийных номеров и партий {0} недо�
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:271
 #, python-brace-format
 msgid "The Stock Closing Entry for {0} is not completed yet. Wait for it to complete before submitting the Period Closing Voucher."
-msgstr "Закрытие запасов для {0} еще не завершено. Дождитесь его завершения перед проведением документа закрытия периода."
+msgstr "Закрывающая проводка по запасам для {0} еще не завершена. Дождитесь ее завершения перед проведением документа закрытия периода."
 
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.js:17
 msgid "The Stock Entry of type 'Manufacture' is known as backflush. Raw materials being consumed to manufacture finished goods is known as backflushing. <br><br> When creating Manufacture Entry, raw-material items are backflushed based on BOM of production item. If you want raw-material items to be backflushed based on Material Transfer entry made against that Work Order instead, then you can set it under this field."
@@ -63069,7 +63062,7 @@ msgstr "Остаток продукта {0} на складе {1} был отр�
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:829
 #, python-brace-format
 msgid "The stock has been reserved for the following Items and Warehouses, un-reserve the same to {0} the Stock Reconciliation: <br /><br /> {1}"
-msgstr "Запасы зарезервированы для следующих продуктов и складов. Снимите резерв, чтобы {0} инвентаризацию запасов: <br /><br /> {1}"
+msgstr "Запасы зарезервированы для следующих продуктов и складов. Снимите резерв, чтобы {0} инвентаризацию: <br /><br /> {1}"
 
 #: erpnext/stock/report/stock_valuation_comparison/stock_valuation_comparison.js:218
 msgid "The stock qty and value of the selected items are set right on this date, without reposting. Stock and accounting reports before it keep the old values, and no stock transaction can be posted before it for these items afterwards."
@@ -63102,11 +63095,11 @@ msgstr "Код ТН ВЭД, под которым продукт деклари�
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:1379
 msgid "The task has been enqueued as a background job. In case there is any issue on processing in background, the system will add a comment about the error on this Stock Reconciliation and revert to the Draft stage"
-msgstr "Задача поставлена в очередь как фоновое задание. Если при фоновой обработке возникнет ошибка, система добавит комментарий об ошибке в эту инвентаризацию запасов и вернет ее в статус «Черновик»"
+msgstr "Задача поставлена в очередь как фоновое задание. Если при фоновой обработке возникнет ошибка, система добавит комментарий об ошибке в эту инвентаризацию и вернет ее в статус «Черновик»"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:1390
 msgid "The task has been enqueued as a background job. In case there is any issue on processing in background, the system will add a comment about the error on this Stock Reconciliation and revert to the Submitted stage"
-msgstr "Задача поставлена в очередь как фоновое задание. Если при фоновой обработке возникнет ошибка, система добавит комментарий об ошибке в эту инвентаризацию запасов и вернет ее в статус «Проведен»"
+msgstr "Задача поставлена в очередь как фоновое задание. Если при фоновой обработке возникнет ошибка, система добавит комментарий об ошибке в эту инвентаризацию и вернет ее в статус «Проведен»"
 
 #. Description of a DocType
 #: erpnext/accounts/doctype/purchase_taxes_and_charges_template/purchase_taxes_and_charges_template.json:6
@@ -63275,7 +63268,7 @@ msgstr "Нет операций с ошибками"
 #: banking/src/components/features/BankReconciliation/BankClearanceSummary.tsx:237
 #: banking/src/components/features/BankReconciliation/BankReconciliationStatement.tsx:228
 msgid "There are no accounting entries in the system for the selected account and dates."
-msgstr "Для выбранного счета и дат в системе нет бухгалтерских записей."
+msgstr "Для выбранного счета и дат в системе нет бухгалтерских проводок."
 
 #: erpnext/stock/report/stock_valuation_comparison/stock_valuation_comparison.js:117
 msgid "There are no differences to fix."
@@ -63726,7 +63719,7 @@ msgstr "Этот график создан при списании актива 
 #: erpnext/assets/doctype/asset/asset.py:1584
 #, python-brace-format
 msgid "This schedule was created when Asset {0} was {1} into new Asset {2}."
-msgstr "Этот график создан, когда актив {0} был {1} в новый актив {2}."
+msgstr "Этот график создан в результате разделения актива {0} на новый актив {2} (операция: {1})."
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1697
 #, python-brace-format
@@ -64115,7 +64108,7 @@ msgstr "Конечная дата обязательна"
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.py:164
 #, python-brace-format
 msgid "To Date must be after {0}, the To Date of the last Stock Closing Entry {1}"
-msgstr "Конечная дата должна быть позже {0} — конечной даты последнего закрытия запасов {1}"
+msgstr "Конечная дата должна быть позже {0} — конечной даты последней закрывающей проводки по запасам {1}"
 
 #: erpnext/buying/report/subcontracted_item_to_be_received/subcontracted_item_to_be_received.py:11
 #: erpnext/buying/report/subcontracted_raw_materials_to_be_transferred/subcontracted_raw_materials_to_be_transferred.py:11
@@ -64222,7 +64215,7 @@ msgstr "К заказу"
 #. Label of the to_case_no (Int) field in DocType 'Packing Slip'
 #: erpnext/stock/doctype/packing_slip/packing_slip.json:94
 msgid "To Package No."
-msgstr "По номер упаковки"
+msgstr "№ упаковки по"
 
 #. Name of a list layout for Purchase Invoice
 #. Option for the 'Status' (Select) field in DocType 'Purchase Order'
@@ -67782,7 +67775,6 @@ msgstr "Отсутствует учетная цена"
 #. Description of the 'Valuation Type' (Select) field in DocType 'BOM Secondary
 #. Item'
 #: erpnext/manufacturing/doctype/bom_secondary_item/bom_secondary_item.json:181
-#, python-format
 msgid "Valuation Rate and Manual value this item on its own and deduct that cost from the raw material cost, like the pre-v16 scrap items. % of Component Cost allocates a percentage of the remaining raw material cost."
 msgstr "«Учетная цена» и «Вручную» оценивают этот продукт отдельно и вычитают эту стоимость из стоимости сырья, как отходы до v16. «% от стоимости компонентов» распределяет процент оставшейся стоимости сырья."
 
@@ -68895,7 +68887,7 @@ msgstr "Внимание: количество превышает максима
 #: erpnext/selling/doctype/sales_order/sales_order.py:373
 #, python-brace-format
 msgid "Warning: Sales Order {0} already exists against Customer's Purchase Order {1}"
-msgstr "Внимание: заказ на продажу {0} по заказу клиента на покупку {1} уже существует"
+msgstr "Внимание: заказ на продажу {0} по заказу клиента {1} уже существует"
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:75
 msgid "Warning: This action cannot be undone!"
@@ -69298,7 +69290,6 @@ msgstr "Если включено, операции с этим поставщи
 
 #. Description of a DocType
 #: erpnext/accounts/doctype/payment_term/payment_term.json:7
-#, python-format
 msgid "When part of an invoice is due, like 50% in 30 days."
 msgstr "Когда наступает срок оплаты части счета, например 50% через 30 дней."
 
@@ -69650,7 +69641,7 @@ msgstr "Производственный заказ нельзя создать 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:3540
 #, python-brace-format
 msgid "Work Order has been {0}"
-msgstr "Производственный заказ {0}"
+msgstr "Новый статус производственного заказа: {0}"
 
 #: erpnext/manufacturing/doctype/production_plan/work_order_quantities.py:75
 #, python-brace-format
@@ -69805,7 +69796,7 @@ msgstr "Стоимость рабочего центра"
 #. Label of the workstation_dashboard (HTML) field in DocType 'Workstation'
 #: erpnext/manufacturing/doctype/workstation/workstation.json:201
 msgid "Workstation Dashboard"
-msgstr "Панель рабочего центра"
+msgstr "Дашборд рабочего центра"
 
 #. Label of the workstation_name (Data) field in DocType 'Workstation'
 #: erpnext/manufacturing/doctype/workstation/workstation.json:49
@@ -70199,11 +70190,11 @@ msgstr "Нельзя создать {0} в закрытом учетном пе�
 #: erpnext/accounts/general_ledger.py:185
 #, python-brace-format
 msgid "You cannot create or cancel any accounting entries with in the closed Accounting Period {0}"
-msgstr "Нельзя создавать или отменять бухгалтерские записи в закрытом учетном периоде {0}"
+msgstr "Нельзя создавать или отменять бухгалтерские проводки в закрытом учетном периоде {0}"
 
 #: erpnext/accounts/general_ledger.py:854
 msgid "You cannot create/amend any accounting entries till this date."
-msgstr "До этой даты нельзя создавать или исправлять бухгалтерские записи."
+msgstr "До этой даты нельзя создавать или исправлять бухгалтерские проводки."
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:971
 msgid "You cannot credit and debit same account at the same time"
@@ -71542,7 +71533,7 @@ msgstr "В систему будет импортировано транзакц
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:819
 #, python-brace-format
 msgid "{0} units are reserved for Item {1} in Warehouse {2}, please un-reserve the same to {3} the Stock Reconciliation."
-msgstr "{0} ед. продукта {1} зарезервированы на складе {2}. Снимите резерв, чтобы {3} инвентаризацию запасов."
+msgstr "{0} ед. продукта {1} зарезервированы на складе {2}. Снимите резерв, чтобы {3} инвентаризацию."
 
 #: erpnext/stock/doctype/pick_list/pick_list.py:1225
 #, python-brace-format
@@ -71655,7 +71646,7 @@ msgstr "{0} {1} не существует"
 #: erpnext/accounts/party.py:626
 #, python-brace-format
 msgid "{0} {1} has accounting entries in currency {2} for company {3}. Please select a receivable or payable account with currency {2}."
-msgstr "У {0} {1} есть бухгалтерские записи в валюте {2} для компании {3}. Выберите счет дебиторской или кредиторской задолженности в валюте {2}."
+msgstr "У {0} {1} есть бухгалтерские проводки в валюте {2} для компании {3}. Выберите счет дебиторской или кредиторской задолженности в валюте {2}."
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:529
 #, python-brace-format
@@ -71885,7 +71876,7 @@ msgid "{0}% Delivered"
 msgstr "Отгружено: {0}%"
 
 #: erpnext/accounts/doctype/payment_term/payment_term.js:15
-#, python-brace-format, python-format
+#, python-brace-format
 msgid "{0}% of total invoice value will be given as discount."
 msgstr "{0}% от общей суммы счета будет предоставлено в качестве скидки."
 

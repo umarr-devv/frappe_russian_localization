@@ -22,391 +22,393 @@
 
 ## Новые термины (на утверждение)
 
-| English | Русский | Контекст (модуль / msgctxt) | Пример msgid |
-|---|---|---|---|
-| DocType | Тип документа | core | Create a new DocType |
-| Child Table | Дочерняя таблица | core | Child Table |
-| Single (DocType) | Одиночный | core / DocType | Is Single |
-| Submittable | Проводимый | core / DocType | Is Submittable |
-| Document | Документ | общее | Document Name |
-| Field | Поле | core | Field Name |
-| Fieldname | Имя поля | core | Fieldname |
-| Fieldtype | Тип поля | core | Fieldtype |
-| Label | Подпись | core | Label |
-| Options (field) | Параметры | core | Options |
-| Mandatory | Обязательное | core | Mandatory Depends On |
-| Read Only | Только чтение | core | Read Only |
-| Hidden | Скрытое | core | Hidden |
-| Default | По умолчанию | core | Default Value |
-| Depends On | Зависит от (отдельно); «X Depends On» → «X, если» | core | Mandatory Depends On → Обязательное, если |
-| Section Break | Разрыв раздела | core / fieldtype | Section Break |
-| Column Break | Разрыв колонки | core / fieldtype | Column Break |
-| Tab Break | Разрыв вкладки | core / fieldtype | Tab Break |
-| Row | Строка | общее | Add Row |
-| Column | Колонка | общее | Add Column |
-| Naming Series | Серия нумерации | core | Naming Series |
-| Autoname | Автоименование | core | Auto Name |
-| Customize Form | Настройка формы | custom | Customize Form |
-| Custom Field | Пользовательское поле | custom | Custom Field |
-| Property Setter | Установщик свойств | custom | Property Setter |
-| Module | Модуль | core | Module Def |
-| Module Def | Определение модуля | core | Module Def |
-| App | Приложение | общее | Installed Apps |
-| Workspace | Рабочая область | desk | Workspace |
-| Desk | Рабочий стол | desk | Desk User |
-| Sidebar | Боковая панель | desk | Sidebar |
-| Shortcut | Ярлык (виджет рабочей области); Keyboard Shortcuts → «Сочетания клавиш» | desk / Workspace | Shortcut |
-| Dashboard | Панель мониторинга | desk | Dashboard Chart |
-| Dashboard Chart | Диаграмма | desk | Dashboard Chart |
-| Number Card | Числовая карточка | desk | Number Card |
-| Kanban Board | Канбан-доска | desk | Kanban Board |
-| List View | Список (переключатель представлений); «представление списка» в настройках и флагах | desk | List View Settings |
-| Report View | Представление отчета | desk | Report View |
-| Report Builder | Конструктор отчетов | desk | Report Builder |
-| Script Report | Отчет-скрипт | core / Report | Script Report |
-| Query Report | Отчет-запрос | core / Report | Query Report |
-| Prepared Report | Подготовленный отчет | core | Prepared Report |
-| Filter | Фильтр | общее | Add Filter |
-| Group By | Группировка (лейбл, опция); «Группировать по …» перед именем поля | desk | Group By |
-| Sort | Сортировка | desk | Sort Order |
-| Print Format | Печатная форма | printing | Print Format |
-| Print Format Builder | Конструктор печатных форм | printing | Print Format Builder |
-| Letter Head | Фирменный бланк | printing | Letter Head |
-| Print | Печать / Печать (кнопка) | printing | Print |
-| Submit | Провести | документ | Submit |
-| Submitted | Проведен | документ | Submitted |
-| Cancel | Отменить / Отмена (вторичная кнопка диалога) | документ / диалог | Cancel |
-| Cancelled | Отменен | документ | Cancelled |
-| Amend | Исправить | документ | Amend |
-| Draft | Черновик | документ | Draft |
-| Discard | Отменить; для документа — «Отменить черновик» (чтобы не путать с Cancel) | форма | Permanently Discard {0}? |
-| Duplicate | Дублировать | форма | Duplicate |
-| Rename | Переименовать | форма | Rename |
-| Role | Роль | permissions | Role Profile |
-| Role Profile | Профиль ролей | permissions | Role Profile |
-| Permission | Разрешение | permissions | User Permission |
-| Permissions | Права доступа | permissions | Role Permissions Manager |
-| Permission Level | Уровень доступа | permissions | Perm Level |
-| Permission Rule | Правило доступа | permissions | Add New Permission Rule |
-| Timeline / activity timeline | Хронология | form | Show the activity timeline |
-| Annual / Yearly (Frequency) | Раз в год / Ежегодно | core / Scheduled Job Type | Annual |
-| Cyan / Light Blue (color) | Бирюзовый / Светло-голубой | desk / Indicator | cyan |
-| User Permission | Разрешение пользователя | permissions | User Permission |
-| Role Permissions Manager | Менеджер прав ролей | permissions | Role Permissions Manager |
-| Share | Поделиться / Совместный доступ | desk | Share With |
-| Assign To | Назначить | desk | Assign To |
-| Assignment | Назначение | desk | Assignment Rule |
-| Assigned To | Назначено | desk | Assigned To |
-| ToDo | Задача | desk | ToDo |
-| Attachment | Вложение | общее | Attachments |
-| Attach | Прикрепить | общее | Attach File |
-| Comment | Комментарий | общее | Add a comment |
-| Tag | Тег | общее | Add Tags |
-| Like | Нравится | общее | Liked By |
-| Follow | Отслеживать | desk | Follow |
-| Owner | Владелец | общее | Owner |
-| Created On | Дата создания | общее | Created On |
-| Modified / Last Updated | Изменено | общее | Last Modified |
-| Modified By | Изменил | общее | Modified By |
-| User | Пользователь | core | User |
-| System User | Системный пользователь | core / User | System User |
-| Website User | Пользователь сайта | core / User | Website User |
-| Login | Вход / Войти (кнопка) | auth | Login |
-| Logout | Выйти | auth | Logout |
-| Session | Сеанс | auth | Session Expiry |
-| Two Factor Authentication | Двухфакторная аутентификация | auth | Enable Two Factor Auth |
-| OTP | Одноразовый пароль | auth | OTP App |
-| API Key | Ключ API | integrations | API Key |
-| API Secret | Секрет API | integrations | API Secret |
-| Token | Токен | integrations | Access Token |
-| Webhook | Вебхук | integrations | Webhook |
-| Integration | Интеграция | integrations | Integrations |
-| Social Login | Вход через соцсети | integrations | Social Login Key |
-| Email | Эл. почта | email | Email |
-| Email Account | Учетная запись эл. почты | email | Email Account |
-| Email Domain | Почтовый домен | email | Email Domain |
-| Email Queue | Очередь эл. почты | email | Email Queue |
-| Email Template | Шаблон письма | email | Email Template |
-| Inbox | Входящие | email | Inbox |
-| Unsubscribe | Отписаться | email | Unsubscribe |
-| Newsletter | Рассылка | email | Newsletter |
-| Notification | Уведомление | общее | Notification Settings |
-| Auto Repeat | Автоповтор | automation | Auto Repeat |
-| Assignment Rule | Правило назначения | automation | Assignment Rule |
-| Workflow | Рабочий процесс | workflow | Workflow |
-| Workflow State | Состояние рабочего процесса | workflow | Workflow State |
-| Workflow Action | Действие рабочего процесса | workflow | Workflow Action |
-| Transition | Переход | workflow | Transition Rules |
-| Scheduler | Планировщик | core | Scheduler Status |
-| Scheduled Job | Запланированное задание | core | Scheduled Job Type |
-| Background Job | Фоновое задание | core | Background Jobs |
-| Queue | Очередь | core | Queued |
-| Server Script | Серверный скрипт | core | Server Script |
-| Client Script | Клиентский скрипт | custom | Client Script |
-| Log | Журнал | core | Error Log |
-| Error Log | Журнал ошибок | core | Error Log |
-| Activity Log | Журнал активности | core | Activity Log |
-| Access Log | Журнал доступа | core | Access Log |
-| Version | Версия | core | Version |
-| Data Import | Импорт данных | core | Data Import |
-| Data Export | Экспорт данных | core | Data Export |
-| Backup | Резервная копия | core | Download Backups |
-| Translation | Перевод | core | Translation |
-| Language | Язык | core | Language |
-| Currency | Валюта | geo | Currency |
-| Country | Страна | geo | Country |
-| Address | Адрес | contacts | Address Template |
-| Contact | Контакт | contacts | Contact |
-| Website | Сайт | website | Website Settings |
-| Web Page | Веб-страница | website | Web Page |
-| Web Form | Веб-форма | website | Web Form |
-| Web Template | Веб-шаблон | website | Web Template |
-| Blog Post | Публикация блога | website | Blog Post |
-| Blogger | Автор блога | website | Blogger |
-| Portal | Портал | website | Portal Settings |
-| Route | Маршрут | website | Route |
-| Help Article | Статья справки | website | Help Article |
-| Energy Point | Балл активности | social | Energy Point Log |
-| Event | Событие | desk | Event |
-| Note | Заметка | desk | Note |
-| Setup Wizard | Мастер настройки | desk | Setup Wizard |
-| Onboarding | Знакомство | desk | Module Onboarding |
-| Dock | Док | desk | Dock |
-| Recorder | Регистратор запросов | core | Recorder |
-| Patch | Патч | core | Patch Log |
-| Report | Отчет | общее | Report |
-| Settings | Настройки | общее | System Settings |
-| System Settings | Системные настройки | core | System Settings |
-| Enabled / Disabled | Включено / Отключено | общее | Enabled |
-| Active / Inactive | Активен / Неактивен | общее | Active |
-| Pending | В ожидании | общее | Pending |
-| Completed | Завершено | общее | Completed |
-| Failed | Ошибка | статус задания | Failed |
-| Approved / Rejected | Утвержден / Отклонен | workflow | Approved |
-| Open / Closed | Открыт / Закрыт | общее | Open |
-| Posting Date | Дата проводки | общее | Posting Date |
-| Due Date | Срок | общее | Due Date |
-| Timestamp | Отметка времени | общее | Posting Timestamp |
-| Timeline | Хронология | form | Timeline |
-| Link (fieldtype) | Ссылка | core / fieldtype | Link |
-| Dynamic Link | Динамическая ссылка | core / fieldtype | Dynamic Link |
-| Check (fieldtype) | Флажок | core / fieldtype | Check |
-| Select (fieldtype) | Выбор | core / fieldtype | Select |
-| Table MultiSelect | Таблица множественного выбора | core / fieldtype | Table MultiSelect |
-| Attach Image | Прикрепить изображение | core / fieldtype | Attach Image |
-| Rating | Оценка | core / fieldtype | Rating |
-| Geolocation | Геолокация | core / fieldtype | Geolocation |
-| Data (fieldtype) | Данные | core / fieldtype | Data |
-| Small Text / Long Text | Короткий текст / Длинный текст | core / fieldtype | Small Text |
-| Text Editor | Текстовый редактор | core / fieldtype | Text Editor |
-| Float / Int | Число с плавающей точкой / Целое число | core / fieldtype | Float |
-| Datetime | Дата и время | core / fieldtype | Datetime |
-| Fold | Сгиб | core / fieldtype | Fold |
-| Quick Entry | Быстрый ввод | core / DocType | Quick Entry |
-| Fetch From | Получать из | core / DocField | Fetch From |
-| Perm Level | Уровень доступа | permissions | Perm Level |
-| Only If Creator / If Owner | Только для автора / Если владелец | permissions | Only if Creator |
-| Select (permission) | Выбор | permissions | Select |
-| Read / Write | Чтение / Запись | permissions | Read |
-| Mask | Маскировать | permissions | Mask |
-| Impersonate | Вход от имени | core / User | Impersonate as {0} |
-| Document Status (docstatus) | Статус документа | core | Doc Status |
-| Amended Document Naming | Именование исправленных документов | core | Amended Document Naming Settings |
-| Amend Counter | Счетчик исправлений | core | Amend Counter |
-| Deleted Document | Удаленный документ | core | Deleted Document |
-| Submission Queue | Очередь проведения | core | Submission Queue |
-| Prepared Report | Подготовленный отчет | core / Report | Prepared Report |
-| Snapshot Report | Отчет-снимок | core / Report | Snapshot Report |
-| Report Builder | Конструктор отчетов | desk | Report Builder |
-| Auto Email Report | Автоотправка отчета по эл. почте | email | Auto Email Report |
-| Communication | Сообщение | core | Communication |
-| Email Group | Группа рассылки | email | Email Group |
-| Email Template | Шаблон письма | email | Email Template |
-| Unhandled Email | Необработанное письмо | email | Unhandled Email |
-| Reply-To | Адрес для ответа (Reply-To) | email | Reply-To Addresses |
-| BCC / CC | Скрытая копия / Копия | email | BCC |
-| Read Receipt | Уведомление о прочтении | email | Send Read Receipt |
-| Automation Flow | Сценарий автоматизации | automation | Automation Flow |
-| Automation Run | Запуск автоматизации | automation | Automation Run |
-| Trigger | Триггер | automation | Trigger Type |
-| Step Condition | Условие шага | automation | Step Condition |
-| Alias (record alias) | Псевдоним | automation | Output Alias |
-| Rate Limit | Ограничение частоты | core | Enable Rate Limit |
-| Background Worker (RQ Worker) | Фоновый обработчик / Обработчик RQ | core | RQ Worker |
-| Recorder | Регистратор запросов | core | Recorder |
-| System Console | Системная консоль | desk | System Console |
-| System Health Report | Отчет о состоянии системы | desk | System Health Report |
-| Dock | Док | desk / navigation | Dock Item |
-| Dock / Sidebar layer | Слой (приложения / сайта / пользователя) | desk / navigation | site layer |
-| Arrangement | Компоновка | desk / navigation | the site's arrangement |
-| Shell | Оболочка | desk / navigation | which shell comes up |
-| Desktop Icon | Значок рабочего стола | desk | Desktop Icon |
-| Quick List | Быстрый список | desk / Workspace | Quick List |
-| Custom Block | Пользовательский блок | desk / Workspace | Custom Block |
-| Card Break | Разрыв карточки | desk / Workspace | Card Break |
-| Widget | Виджет | desk | Added Widgets |
-| Layout | Макет | desk | Manage Layouts |
-| Swimlanes | Дорожки | desk / Kanban | Swimlanes |
-| Form Tour | Тур по форме | desk | Form Tour |
-| Module Onboarding | Знакомство с модулем | desk | Module Onboarding |
-| Milestone | Веха | automation | Milestone Tracker |
-| Reminder | Напоминание | automation | Reminder |
-| Awesome Bar | Строка поиска | desk | Open Awesomebar |
-| Global Search | Глобальный поиск | desk | Global Search Settings |
-| Session Defaults | Значения сеанса по умолчанию | desk | Session Defaults |
-| Print Format Builder / Editor | Конструктор / редактор печатных форм | printing | Print Format Editor |
-| Print Style | Стиль печати | printing | Print Style |
-| Print Heading | Заголовок печати | printing | Print Heading |
-| Raw Printing | Прямая печать | printing | Enable Raw Printing |
-| PDF Renderer / Generator | Модуль отрисовки PDF / Генератор PDF | printing | PDF Renderer |
-| Snippet | Фрагмент | printing | Print Format Snippet |
-| Header / Footer (print) | Верхний / нижний колонтитул | printing | Footer HTML |
-| Website Theme | Тема сайта | website | Website Theme |
-| Web Page Block | Блок веб-страницы | website | Web Page Block |
-| Slideshow | Слайд-шоу | website | Website Slideshow |
-| Meta Title / Description / Image | Мета-заголовок / мета-описание / мета-изображение | website | Meta Title |
-| Breadcrumbs | Навигационная цепочка | website | Breadcrumbs |
-| Route Redirect | Перенаправление маршрута | website | Website Route Redirect |
-| Connected App | Подключенное приложение | integrations | Connected App |
-| Social Login Key | Ключ входа через соцсети | integrations | Social Login Key |
-| Push Notification | Push-уведомление | integrations | Push Notification Settings |
-| Relay Server | Сервер-ретранслятор | integrations | Relay Server URL |
-| Scope (OAuth) | Область доступа | integrations | OAuth Scope |
-| Grant Type | Тип гранта | integrations | Grant Type |
-| Redirect URI | URI перенаправления | integrations | Redirect URIs |
-| Personal Data Deletion Request | Запрос на удаление персональных данных | website / GDPR | Personal Data Deletion Request |
-| Energy Point | Балл активности | social | Energy Point Log |
-| Salutation | Обращение | contacts | Salutation |
-| Mr / Mrs / Ms / Miss / Dr / Prof | Г-н / Г-жа / Г-жа / Мисс / Д-р / Проф. | contacts / setup | Mr |
-| Address Line 1 / 2 | Адрес, строка 1 / 2 | contacts | Address Line 1 |
-| Billing / Shipping (address type) | Для выставления счетов / Доставка | contacts | Billing |
-| Roles: Accounts Manager / User | Менеджер по бухгалтерии / Пользователь бухгалтерии | roles | Accounts Manager |
-| Roles: Sales / Purchase Manager | Менеджер по продажам / закупкам | roles | Sales Manager |
-| Roles: Sales / Purchase Master Manager | Главный менеджер по продажам / закупкам | roles | Sales Master Manager |
-| Roles: Sales / Purchase User | Пользователь продаж / закупок | roles | Sales User |
-| Role: System Manager | Системный менеджер | roles | System Manager |
-| Role: Workspace Manager | Менеджер рабочих областей | roles | Workspace Manager |
-| Item | Продукт; строки дочерних таблиц «X Item» — «Позиция X» | erpnext / stock | Item Code → Код продукта |
-| Warehouse | Склад | erpnext / stock | Default Warehouse |
-| Stock | Запасы (объект учета); Остаток (количество) | erpnext / stock | Stock Settings → Настройки запасов; Balance Qty → Остаток, кол-во |
-| Stock Entry | Складская проводка | erpnext / stock | Stock Entry Type |
-| Stock Ledger / Stock Ledger Entry | Книга учета запасов / Запись книги учета запасов | erpnext / stock | Cancel Stock Ledger Entries |
-| Stock Reconciliation | Инвентаризация запасов | erpnext / stock | Create Stock Reconciliation |
-| Stock Closing Entry | Закрытие запасов | erpnext / stock | Duplicate Stock Closing Entry |
-| Batch / Serial No | Партия / Серийный номер | erpnext / stock | Batch No is mandatory |
-| Serial and Batch Bundle | Набор серийных номеров и партий | erpnext / stock | Add Serial / Batch Bundle |
-| UOM | Единица измерения; в узких лейблах — «Ед. изм.» | erpnext / stock | Stock UOM → Ед. изм. запасов |
-| Qty | Кол-во (лейблы); количество (предложения) | erpnext / общее | Actual Qty → Факт. кол-во |
-| Valuation Rate | Учетная цена | erpnext / stock | Current Valuation Rate |
-| Bin | Ячейка | erpnext / stock | Delete Bins |
-| Perpetual Inventory | Непрерывный учет запасов | erpnext / Company | Enable Perpetual Inventory |
-| Repost / Reposting | Перепровести / Перепроведение | erpnext / stock, accounts | Repost Item Valuation |
-| Landed Cost Voucher | Документ дополнительных расходов | erpnext / stock | Accounting Entry for Landed Cost Voucher |
-| Pick List / Packing Slip | Лист отбора / Упаковочный лист | erpnext / stock | Create Pick List |
-| Delivery Trip / Delivery Stop | Маршрут доставки / Точка доставки | erpnext / stock | Create Delivery Trip |
-| Backflush | Обратное списание | erpnext / manufacturing | Backflush Raw Materials |
-| Account | Счет | erpnext / accounts | Account Name |
-| Chart of Accounts | План счетов | erpnext / accounts | Chart of Accounts Importer → Импорт плана счетов |
-| Ledger (non-group account) | Негрупповой счет; Convert to Ledger / Non-Group → «Преобразовать в негрупповой» | erpnext / accounts | Account with child nodes cannot be converted to ledger |
-| GL Entry / General Ledger | Запись главной книги / Главная книга | erpnext / accounts | Book Stock Expense GL Entries |
-| Journal Entry | Запись журнала | erpnext / accounts | Create Journal Entry |
-| Payment Entry | Запись оплаты | erpnext / accounts | Create Payment Entry |
-| Accounting Entry | Бухгалтерская проводка | erpnext / accounts | Accounting Entry for Asset |
-| Against / Against Account (GL) | Корр. счет | erpnext / GL Entry, Bank Clearance | Against Account |
-| Against Voucher / Against Sales Order | По документу / По заказу на продажу | erpnext / accounts, stock | Against Voucher Type → Тип документа-основания |
-| Voucher | Документ | erpnext / accounts | Voucher No → Номер документа |
-| Party | Контрагент | erpnext / accounts | All Parties |
-| Cost Center | Центр затрат | erpnext / accounts | Cost Center Allocation |
-| Accounting Dimension | Учетное измерение | erpnext / accounts | Accounting Dimension Filter |
-| Fiscal Year / Finance Book | Финансовый год / Финансовая книга | erpnext / accounts | Fiscal Year Company |
-| Period Closing Voucher | Документ закрытия периода | erpnext / accounts | Period Closing Voucher |
-| Accounts Receivable / Payable | Дебиторская / Кредиторская задолженность | erpnext / accounts | Accounts Receivable Summary |
-| Outstanding Amount | Непогашенная сумма | erpnext / accounts | Collect Outstanding Amount |
-| Credit Note / Debit Note | Кредит-нота / Дебет-нота | erpnext / accounts | Credit Note Issued |
-| Exchange Rate Revaluation | Переоценка валютных остатков | erpnext / accounts | Exchange Rate Revaluation Account |
-| Exchange Gain/Loss | Курсовая прибыль/убыток | erpnext / accounts | Exchange Gain / Loss Account |
-| Contra Entry | Взаимозачет | erpnext / Journal Entry | Contra Entry |
-| Immutable Ledger | Неизменяемая книга учета | erpnext / Accounts Settings | Enable Immutable Ledger |
-| Provisional Account | Временный счет | erpnext / Company | Default Provisional Account |
-| Capital Work in Progress (CWIP) | Незавершенное капитальное строительство | erpnext / accounts, assets | CWIP Account |
-| Deferred Revenue / Expense | Отложенные доходы / Отложенные расходы | erpnext / accounts | Deferred Revenue Account |
-| Tax Withholding | Удержание налога | erpnext / accounts | Tax Withholding Category |
-| Lower Deduction Certificate | Сертификат о пониженной ставке удержания | erpnext / regional | Deduction Certificate |
-| Dunning | Напоминание; Dunning Letter → «Письмо-напоминание» | erpnext / accounts | Dunning Type |
-| Bank Clearance / Clearance Date | Банковское подтверждение / Дата подтверждения | erpnext / accounts, banking | Clearance Date not mentioned |
-| Cheque | Чек | erpnext / accounts | Cheque Print Template → Шаблон печати чека |
-| Bisect Accounting Statements | Бисекция финансовой отчетности | erpnext / accounts | Bisect Left |
-| Sales Invoice / Purchase Invoice | Счет покупателю / Счет поставщика | erpnext / accounts | Create Sales Invoice |
-| Sales Order / Purchase Order | Заказ на продажу / Заказ на покупку | erpnext / selling, buying | Create Sales Order |
-| Delivery Note / Purchase Receipt | Расходная накладная / Приходная накладная | erpnext / stock | Create Delivery Note |
-| Quotation / Supplier Quotation | Предложение / Предложение поставщика | erpnext / selling, buying | Create Quotation |
-| Request for Quotation (RFQ) | Запрос предложений | erpnext / buying | Download PDF for Supplier |
-| Material Request | Заявка на материалы | erpnext / stock | Auto Material Request |
-| Blanket Order | Рамочный заказ | erpnext / manufacturing | Blanket Order Rate |
-| Customer Provided Item | Давальческий продукт клиента | erpnext / stock | Customer Provided Item Cost |
-| Drop Ship | Прямая поставка | erpnext / selling | Delivered by Supplier (Drop Ship) |
-| POS / POS Profile / POS Invoice | Точка продаж / Профиль точки продаж / Счет точки продаж | erpnext / accounts | POS Profile |
-| POS Opening / Closing Entry | Открытие / Закрытие смены точки продаж | erpnext / accounts | Create POS Opening Entry |
-| Pricing Rule / Promotional Scheme | Правило ценообразования / Схема продвижения | erpnext / accounts | Apply Multiple Pricing Rules |
-| Price List / Price List Rate | Прайс-лист / Цена по прайс-листу | erpnext / stock | Default Price List |
-| Lead / Prospect / Opportunity | Лид / Потенциальный клиент / Возможность | erpnext / crm | Add Lead to Prospect |
-| Appointment | Встреча | erpnext / crm | Appointment Booking Settings → Настройки записи на встречи |
-| Email Campaign | Кампания рассылки | erpnext / crm | Email Campaign |
-| Email Digest | Сводка по эл. почте | erpnext / setup | Email Digest Settings |
-| Contract | Договор | erpnext / crm | Contract Template |
-| Sales Partner / Sales Person | Партнер по продажам / Продавец | erpnext / selling | All Sales Person |
-| BOM | Спецификация | erpnext / manufacturing | BOM Update Tool |
-| BOM Creator | Конструктор спецификаций | erpnext / manufacturing | BOM Creator Item |
-| Design (BOM Creator, v16) | Конструкция | erpnext / manufacturing / BOM Creator | Design File |
-| BOM Secondary Item | Вторичный продукт спецификации; By-Product → «Побочный продукт», Co-Product → «Сопутствующий продукт» | erpnext / manufacturing | BOM Secondary Item |
-| Work Order / Job Card | Производственный заказ / Карточка задания | erpnext / manufacturing | Create Job Card |
-| Workstation / Plant Floor | Рабочий центр / Производственный участок | erpnext / manufacturing | Create Workstation |
-| Sub Assembly | Полуфабрикат | erpnext / manufacturing | Add Sub-Assembly BOM |
-| Finished Good / Raw Material | Готовая продукция / Сырье | erpnext / manufacturing | Finished Good Item Code |
-| Process Loss | Потери в процессе | erpnext / manufacturing | % Process Loss |
-| Work In Progress (WIP) | Незавершенное производство (НЗП) | erpnext / manufacturing | Available Qty at WIP Warehouse |
-| Disassemble | Разборка | erpnext / manufacturing | Disassemble Order |
-| MPS (Master Production Schedule) | ГПП (главный производственный план) | erpnext / manufacturing | Create MPS |
-| Asset / Fixed Asset | Актив / Основное средство | erpnext / assets | Fixed Asset Register |
-| Asset Capitalization | Капитализация актива | erpnext / assets | Capitalize Asset |
-| Depreciation / Depreciation Schedule | Амортизация / График амортизации | erpnext / assets | Depreciation Entry |
-| Available-for-use Date | Дата ввода в эксплуатацию | erpnext / assets | Available for Use Date |
-| Custodian | Ответственное лицо | erpnext / assets | Custodian |
-| Scrap (asset) | Списать / Списание | erpnext / assets | Asset scrapped |
-| Timesheet / Activity Type | Табель / Вид деятельности | erpnext / projects | Create Timesheet |
-| Issue (support) | Обращение | erpnext / support | Close Issue After Days |
-| Service Level Agreement (SLA) | Соглашение об уровне обслуживания (SLA) | erpnext / support | Default Service Level Agreement |
-| Quality Inspection | Контроль качества | erpnext / stock | Create Quality Inspection |
-| Incoterms (titles) | Русские наименования Инкотермс: Ex Works → «Франко-завод», Free On Board → «Франко-борт», Delivered Duty Paid → «Поставка с оплатой пошлины» и т. д. | erpnext / setup / Incoterm | Carriage Paid To |
-| Job Worker (Subcontracting Order) | Субподрядчик | erpnext / subcontracting | Job Worker Warehouse |
-| Inventory Dimension | Складское измерение | erpnext / stock | Inventory Dimension Negative Stock |
-| Item Lead Time | Срок получения продукта; Lead Time — «Срок поставки» | erpnext / stock | Lead Time Days |
-| Opening Invoice Creation Tool | Инструмент создания начальных счетов | erpnext / accounts | Opening Invoice Tool |
-| Process Statement Of Accounts (PSOA) | Рассылка выписок по счетам | erpnext / accounts | Process Statement Of Accounts Customer |
-| Pegged Currency | Привязанная валюта | erpnext / accounts | Pegged Currency Details |
-| Over Billing / Delivery / Receipt Allowance | Допуск на превышение счета / сверхпоставку / сверхполучение | erpnext / accounts, stock | Over Billing Allowance (%) |
-| Pickup (Shipment) | Забор груза | erpnext / stock / Shipment | Pickup Date |
-| Loyalty Point Redemption | Списание баллов лояльности | erpnext / accounts | Redemption Account |
-| Quality Action / Feedback / Review / Goal | Действие по качеству / Отзыв о качестве / Анализ качества / Цель качества | erpnext / quality | Quality Action Resolution |
-| Payment Ledger | Книга платежей | erpnext / accounts | Payment Ledger Entry |
-| Ledger Health Monitor | Мониторинг состояния книг учета | erpnext / accounts | Ledger Health Monitor |
-| Subcontracting Order / Subcontracting Receipt | Заказ на субподряд / Поступление по субподряду | erpnext / subcontracting | Subcontracting Order Item |
-| Subcontracting Inward Order | Входящий заказ на субподряд | erpnext / subcontracting | Subcontracting Inward Order Item |
-| Stock Reservation Entry | Резервирование запасов; Unreserve → «Снять резерв» | erpnext / stock | Stock Reservation Entries Created |
-| Supplier Scorecard / Standing | Оценочная карта поставщика / Уровень оценочной карты | erpnext / buying | Supplier Scorecard Standing |
-| Shipping Rule | Правило доставки | erpnext / accounts | Shipping Rule Condition |
-| Shipment / Shipment Parcel | Отправка / Посылка | erpnext / stock | Shipment Parcel Template |
-| Shareholder / Share Transfer | Акционер / Передача акций | erpnext / accounts | Share Transfer |
-| Subscription / Subscription Plan | Подписка / План подписки | erpnext / accounts | Subscription Plan Detail |
-| Trial Balance | Оборотно-сальдовая ведомость | erpnext / accounts | Trial Balance for Party |
-| Unreconcile | Отменить сверку / Отмена сверки | erpnext / accounts, banking | Unreconcile Payment |
-| Write Off | Списание; Write Off Account → «Счет списания» | erpnext / accounts | Write Off Amount |
-| Routing | Маршрут | erpnext / manufacturing | Routing Name |
-| Rounded Total / Rounding Adjustment | Итого с округлением / Корректировка округления | erpnext / accounts | Rounded Total (Company Currency) |
-| Transaction Deletion Record | Запись удаления операций | erpnext / setup | Transaction Deletion Record Item |
-| Vendor Invoice (Landed Cost Voucher) | Счет поставщика услуг | erpnext / stock | Total Vendor Invoices Cost |
-| Service Item (subcontracting) | Услуга | erpnext / subcontracting | Service Item Qty |
-| Territory | Территория | erpnext / selling | Territory Targets |
-| Sales Taxes and Charges (Template) | Налоги и сборы с продаж (шаблон) | erpnext / accounts | Sales Taxes and Charges Template |
-| Salvage Value | Ликвидационная стоимость | erpnext / assets | Salvage Value Percentage |
-| Supply (MRP, vs Demand) | Обеспечение | erpnext / manufacturing / MRP report | Supply |
+| English                                       | Русский                                                                                                                                              | Контекст (модуль / msgctxt)           | Пример msgid                                                      |
+| --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------------------------------------- |
+| DocType                                       | Тип документа                                                                                                                                        | core                                  | Create a new DocType                                              |
+| Child Table                                   | Дочерняя таблица                                                                                                                                     | core                                  | Child Table                                                       |
+| Single (DocType)                              | Одиночный                                                                                                                                            | core / DocType                        | Is Single                                                         |
+| Submittable                                   | Проводимый                                                                                                                                           | core / DocType                        | Is Submittable                                                    |
+| Document                                      | Документ                                                                                                                                             | общее                                 | Document Name                                                     |
+| Field                                         | Поле                                                                                                                                                 | core                                  | Field Name                                                        |
+| Fieldname                                     | Имя поля                                                                                                                                             | core                                  | Fieldname                                                         |
+| Fieldtype                                     | Тип поля                                                                                                                                             | core                                  | Fieldtype                                                         |
+| Label                                         | Подпись                                                                                                                                              | core                                  | Label                                                             |
+| Options (field)                               | Параметры                                                                                                                                            | core                                  | Options                                                           |
+| Mandatory                                     | Обязательное                                                                                                                                         | core                                  | Mandatory Depends On                                              |
+| Read Only                                     | Только чтение                                                                                                                                        | core                                  | Read Only                                                         |
+| Hidden                                        | Скрытое                                                                                                                                              | core                                  | Hidden                                                            |
+| Default                                       | По умолчанию                                                                                                                                         | core                                  | Default Value                                                     |
+| Depends On                                    | Зависит от (отдельно); «X Depends On» → «X, если»                                                                                                    | core                                  | Mandatory Depends On → Обязательное, если                         |
+| Section Break                                 | Разрыв раздела                                                                                                                                       | core / fieldtype                      | Section Break                                                     |
+| Column Break                                  | Разрыв колонки                                                                                                                                       | core / fieldtype                      | Column Break                                                      |
+| Tab Break                                     | Разрыв вкладки                                                                                                                                       | core / fieldtype                      | Tab Break                                                         |
+| Row                                           | Строка                                                                                                                                               | общее                                 | Add Row                                                           |
+| Column                                        | Колонка                                                                                                                                              | общее                                 | Add Column                                                        |
+| Naming Series                                 | Серия нумерации                                                                                                                                      | core                                  | Naming Series                                                     |
+| Autoname                                      | Автоименование                                                                                                                                       | core                                  | Auto Name                                                         |
+| Customize Form                                | Настройка формы                                                                                                                                      | custom                                | Customize Form                                                    |
+| Custom Field                                  | Пользовательское поле                                                                                                                                | custom                                | Custom Field                                                      |
+| Property Setter                               | Установщик свойств                                                                                                                                   | custom                                | Property Setter                                                   |
+| Module                                        | Модуль                                                                                                                                               | core                                  | Module Def                                                        |
+| Module Def                                    | Определение модуля                                                                                                                                   | core                                  | Module Def                                                        |
+| App                                           | Приложение                                                                                                                                           | общее                                 | Installed Apps                                                    |
+| Workspace                                     | Рабочая область                                                                                                                                      | desk                                  | Workspace                                                         |
+| Desk                                          | Рабочий стол                                                                                                                                         | desk                                  | Desk User                                                         |
+| Sidebar                                       | Боковая панель                                                                                                                                       | desk                                  | Sidebar                                                           |
+| Shortcut                                      | Ярлык (виджет рабочей области); Keyboard Shortcuts → «Сочетания клавиш»                                                                              | desk / Workspace                      | Shortcut                                                          |
+| Dashboard                                     | Дашборд                                                                                                                                              | desk                                  | Dashboard Chart                                                   |
+| Dashboard Chart                               | Диаграмма                                                                                                                                            | desk                                  | Dashboard Chart                                                   |
+| Number Card                                   | Числовая карточка                                                                                                                                    | desk                                  | Number Card                                                       |
+| Kanban Board                                  | Канбан-доска                                                                                                                                         | desk                                  | Kanban Board                                                      |
+| List View                                     | Вид Списка (переключатель представлений); «представление списка» в настройках и флагах                                                               | desk                                  | List View Settings                                                |
+| Report View                                   | Вид Отчета                                                                                                                                           | desk                                  | Report View                                                       |
+| Report Builder                                | Конструктор отчетов                                                                                                                                  | desk                                  | Report Builder                                                    |
+| Script Report                                 | Отчет-скрипт                                                                                                                                         | core / Report                         | Script Report                                                     |
+| Query Report                                  | Отчет-запрос                                                                                                                                         | core / Report                         | Query Report                                                      |
+| Prepared Report                               | Подготовленный отчет                                                                                                                                 | core                                  | Prepared Report                                                   |
+| Filter                                        | Фильтр                                                                                                                                               | общее                                 | Add Filter                                                        |
+| Group By                                      | Группировка (лейбл, опция); «Группировать по …» перед именем поля                                                                                    | desk                                  | Group By                                                          |
+| Sort                                          | Сортировка                                                                                                                                           | desk                                  | Sort Order                                                        |
+| Print Format                                  | Печатная форма                                                                                                                                       | printing                              | Print Format                                                      |
+| Print Format Builder                          | Конструктор печатных форм                                                                                                                            | printing                              | Print Format Builder                                              |
+| Letter Head                                   | Фирменный бланк                                                                                                                                      | printing                              | Letter Head                                                       |
+| Print                                         | Печать / Печать (кнопка)                                                                                                                             | printing                              | Print                                                             |
+| Submit                                        | Провести                                                                                                                                             | документ                              | Submit                                                            |
+| Submitted                                     | Проведен                                                                                                                                             | документ                              | Submitted                                                         |
+| Cancel                                        | Отменить / Отмена (вторичная кнопка диалога)                                                                                                         | документ / диалог                     | Cancel                                                            |
+| Cancelled                                     | Отменен                                                                                                                                              | документ                              | Cancelled                                                         |
+| Amend                                         | Исправить                                                                                                                                            | документ                              | Amend                                                             |
+| Draft                                         | Черновик                                                                                                                                             | документ                              | Draft                                                             |
+| Discard                                       | Отменить; для документа — «Отменить черновик» (чтобы не путать с Cancel)                                                                             | форма                                 | Permanently Discard {0}?                                          |
+| Duplicate                                     | Дублировать                                                                                                                                          | форма                                 | Duplicate                                                         |
+| Rename                                        | Переименовать                                                                                                                                        | форма                                 | Rename                                                            |
+| Role                                          | Роль                                                                                                                                                 | permissions                           | Role Profile                                                      |
+| Role Profile                                  | Профиль ролей                                                                                                                                        | permissions                           | Role Profile                                                      |
+| Permission                                    | Разрешение                                                                                                                                           | permissions                           | User Permission                                                   |
+| Permissions                                   | Права доступа                                                                                                                                        | permissions                           | Role Permissions Manager                                          |
+| Permission Level                              | Уровень доступа                                                                                                                                      | permissions                           | Perm Level                                                        |
+| Permission Rule                               | Правило доступа                                                                                                                                      | permissions                           | Add New Permission Rule                                           |
+| Timeline / activity timeline                  | Хронология                                                                                                                                           | form                                  | Show the activity timeline                                        |
+| Annual / Yearly (Frequency)                   | Раз в год / Ежегодно                                                                                                                                 | core / Scheduled Job Type             | Annual                                                            |
+| Cyan / Light Blue (color)                     | Бирюзовый / Светло-голубой                                                                                                                           | desk / Indicator                      | cyan                                                              |
+| User Permission                               | Разрешение пользователя                                                                                                                              | permissions                           | User Permission                                                   |
+| Role Permissions Manager                      | Менеджер прав ролей                                                                                                                                  | permissions                           | Role Permissions Manager                                          |
+| Share                                         | Поделиться / Совместный доступ                                                                                                                       | desk                                  | Share With                                                        |
+| Assign To                                     | Назначить                                                                                                                                            | desk                                  | Assign To                                                         |
+| Assignment                                    | Назначение                                                                                                                                           | desk                                  | Assignment Rule                                                   |
+| Assigned To                                   | Назначено                                                                                                                                            | desk                                  | Assigned To                                                       |
+| ToDo                                          | Задача                                                                                                                                               | desk                                  | ToDo                                                              |
+| Attachment                                    | Вложение                                                                                                                                             | общее                                 | Attachments                                                       |
+| Attach                                        | Прикрепить                                                                                                                                           | общее                                 | Attach File                                                       |
+| Comment                                       | Комментарий                                                                                                                                          | общее                                 | Add a comment                                                     |
+| Tag                                           | Тег                                                                                                                                                  | общее                                 | Add Tags                                                          |
+| Like                                          | Нравится                                                                                                                                             | общее                                 | Liked By                                                          |
+| Follow                                        | Отслеживать                                                                                                                                          | desk                                  | Follow                                                            |
+| Owner                                         | Владелец                                                                                                                                             | общее                                 | Owner                                                             |
+| Created On                                    | Дата создания                                                                                                                                        | общее                                 | Created On                                                        |
+| Modified / Last Updated                       | Изменено                                                                                                                                             | общее                                 | Last Modified                                                     |
+| Modified By                                   | Изменил                                                                                                                                              | общее                                 | Modified By                                                       |
+| User                                          | Пользователь                                                                                                                                         | core                                  | User                                                              |
+| System User                                   | Системный пользователь                                                                                                                               | core / User                           | System User                                                       |
+| Website User                                  | Пользователь сайта                                                                                                                                   | core / User                           | Website User                                                      |
+| Login                                         | Вход / Войти (кнопка)                                                                                                                                | auth                                  | Login                                                             |
+| Logout                                        | Выйти                                                                                                                                                | auth                                  | Logout                                                            |
+| Session                                       | Сеанс                                                                                                                                                | auth                                  | Session Expiry                                                    |
+| Two Factor Authentication                     | Двухфакторная аутентификация                                                                                                                         | auth                                  | Enable Two Factor Auth                                            |
+| OTP                                           | Одноразовый пароль                                                                                                                                   | auth                                  | OTP App                                                           |
+| API Key                                       | Ключ API                                                                                                                                             | integrations                          | API Key                                                           |
+| API Secret                                    | Секрет API                                                                                                                                           | integrations                          | API Secret                                                        |
+| Token                                         | Токен                                                                                                                                                | integrations                          | Access Token                                                      |
+| Webhook                                       | Вебхук                                                                                                                                               | integrations                          | Webhook                                                           |
+| Integration                                   | Интеграция                                                                                                                                           | integrations                          | Integrations                                                      |
+| Social Login                                  | Вход через соцсети                                                                                                                                   | integrations                          | Social Login Key                                                  |
+| Email                                         | Эл. почта                                                                                                                                            | email                                 | Email                                                             |
+| Email Account                                 | Учетная запись эл. почты                                                                                                                             | email                                 | Email Account                                                     |
+| Email Domain                                  | Почтовый домен                                                                                                                                       | email                                 | Email Domain                                                      |
+| Email Queue                                   | Очередь эл. почты                                                                                                                                    | email                                 | Email Queue                                                       |
+| Email Template                                | Шаблон письма                                                                                                                                        | email                                 | Email Template                                                    |
+| Inbox                                         | Входящие                                                                                                                                             | email                                 | Inbox                                                             |
+| Unsubscribe                                   | Отписаться                                                                                                                                           | email                                 | Unsubscribe                                                       |
+| Newsletter                                    | Рассылка                                                                                                                                             | email                                 | Newsletter                                                        |
+| Notification                                  | Уведомление                                                                                                                                          | общее                                 | Notification Settings                                             |
+| Auto Repeat                                   | Автоповтор                                                                                                                                           | automation                            | Auto Repeat                                                       |
+| Assignment Rule                               | Правило назначения                                                                                                                                   | automation                            | Assignment Rule                                                   |
+| Workflow                                      | Рабочий процесс                                                                                                                                      | workflow                              | Workflow                                                          |
+| Workflow State                                | Состояние рабочего процесса                                                                                                                          | workflow                              | Workflow State                                                    |
+| Workflow Action                               | Действие рабочего процесса                                                                                                                           | workflow                              | Workflow Action                                                   |
+| Transition                                    | Переход                                                                                                                                              | workflow                              | Transition Rules                                                  |
+| Scheduler                                     | Планировщик                                                                                                                                          | core                                  | Scheduler Status                                                  |
+| Scheduled Job                                 | Запланированное задание                                                                                                                              | core                                  | Scheduled Job Type                                                |
+| Background Job                                | Фоновое задание                                                                                                                                      | core                                  | Background Jobs                                                   |
+| Queue                                         | Очередь                                                                                                                                              | core                                  | Queued                                                            |
+| Server Script                                 | Серверный скрипт                                                                                                                                     | core                                  | Server Script                                                     |
+| Client Script                                 | Клиентский скрипт                                                                                                                                    | custom                                | Client Script                                                     |
+| Log                                           | Журнал                                                                                                                                               | core                                  | Error Log                                                         |
+| Error Log                                     | Журнал ошибок                                                                                                                                        | core                                  | Error Log                                                         |
+| Activity Log                                  | Журнал активности                                                                                                                                    | core                                  | Activity Log                                                      |
+| Access Log                                    | Журнал доступа                                                                                                                                       | core                                  | Access Log                                                        |
+| Version                                       | Версия                                                                                                                                               | core                                  | Version                                                           |
+| Data Import                                   | Импорт данных                                                                                                                                        | core                                  | Data Import                                                       |
+| Data Export                                   | Экспорт данных                                                                                                                                       | core                                  | Data Export                                                       |
+| Backup                                        | Резервная копия                                                                                                                                      | core                                  | Download Backups                                                  |
+| Translation                                   | Перевод                                                                                                                                              | core                                  | Translation                                                       |
+| Language                                      | Язык                                                                                                                                                 | core                                  | Language                                                          |
+| Currency                                      | Валюта                                                                                                                                               | geo                                   | Currency                                                          |
+| Country                                       | Страна                                                                                                                                               | geo                                   | Country                                                           |
+| Address                                       | Адрес                                                                                                                                                | contacts                              | Address Template                                                  |
+| Contact                                       | Контакт                                                                                                                                              | contacts                              | Contact                                                           |
+| Website                                       | Сайт                                                                                                                                                 | website                               | Website Settings                                                  |
+| Web Page                                      | Веб-страница                                                                                                                                         | website                               | Web Page                                                          |
+| Web Form                                      | Веб-форма                                                                                                                                            | website                               | Web Form                                                          |
+| Web Template                                  | Веб-шаблон                                                                                                                                           | website                               | Web Template                                                      |
+| Blog Post                                     | Публикация блога                                                                                                                                     | website                               | Blog Post                                                         |
+| Blogger                                       | Автор блога                                                                                                                                          | website                               | Blogger                                                           |
+| Portal                                        | Портал                                                                                                                                               | website                               | Portal Settings                                                   |
+| Route                                         | Маршрут                                                                                                                                              | website                               | Route                                                             |
+| Help Article                                  | Статья справки                                                                                                                                       | website                               | Help Article                                                      |
+| Energy Point                                  | Балл активности                                                                                                                                      | social                                | Energy Point Log                                                  |
+| Event                                         | Событие                                                                                                                                              | desk                                  | Event                                                             |
+| Note                                          | Заметка                                                                                                                                              | desk                                  | Note                                                              |
+| Setup Wizard                                  | Мастер настройки                                                                                                                                     | desk                                  | Setup Wizard                                                      |
+| Onboarding                                    | Знакомство                                                                                                                                           | desk                                  | Module Onboarding                                                 |
+| Dock                                          | Док                                                                                                                                                  | desk                                  | Dock                                                              |
+| Recorder                                      | Регистратор запросов                                                                                                                                 | core                                  | Recorder                                                          |
+| Patch                                         | Патч                                                                                                                                                 | core                                  | Patch Log                                                         |
+| Report                                        | Отчет                                                                                                                                                | общее                                 | Report                                                            |
+| Settings                                      | Настройки                                                                                                                                            | общее                                 | System Settings                                                   |
+| System Settings                               | Системные настройки                                                                                                                                  | core                                  | System Settings                                                   |
+| Enabled / Disabled                            | Включено / Отключено                                                                                                                                 | общее                                 | Enabled                                                           |
+| Active / Inactive                             | Активен / Неактивен                                                                                                                                  | общее                                 | Active                                                            |
+| Pending                                       | В ожидании                                                                                                                                           | общее                                 | Pending                                                           |
+| Completed                                     | Завершено                                                                                                                                            | общее                                 | Completed                                                         |
+| Failed                                        | Ошибка                                                                                                                                               | статус задания                        | Failed                                                            |
+| Approved / Rejected                           | Утвержден / Отклонен                                                                                                                                 | workflow                              | Approved                                                          |
+| Open / Closed                                 | Открыт / Закрыт                                                                                                                                      | общее                                 | Open                                                              |
+| Posting Date                                  | Дата проводки                                                                                                                                        | общее                                 | Posting Date                                                      |
+| Due Date                                      | Срок                                                                                                                                                 | общее                                 | Due Date                                                          |
+| Timestamp                                     | Отметка времени                                                                                                                                      | общее                                 | Posting Timestamp                                                 |
+| Timeline                                      | Хронология                                                                                                                                           | form                                  | Timeline                                                          |
+| Link (fieldtype)                              | Ссылка                                                                                                                                               | core / fieldtype                      | Link                                                              |
+| Dynamic Link                                  | Динамическая ссылка                                                                                                                                  | core / fieldtype                      | Dynamic Link                                                      |
+| Check (fieldtype)                             | Флажок                                                                                                                                               | core / fieldtype                      | Check                                                             |
+| Select (fieldtype)                            | Выбор                                                                                                                                                | core / fieldtype                      | Select                                                            |
+| Table MultiSelect                             | Таблица множественного выбора                                                                                                                        | core / fieldtype                      | Table MultiSelect                                                 |
+| Attach Image                                  | Прикрепить изображение                                                                                                                               | core / fieldtype                      | Attach Image                                                      |
+| Rating                                        | Оценка                                                                                                                                               | core / fieldtype                      | Rating                                                            |
+| Geolocation                                   | Геолокация                                                                                                                                           | core / fieldtype                      | Geolocation                                                       |
+| Data (fieldtype)                              | Данные                                                                                                                                               | core / fieldtype                      | Data                                                              |
+| Small Text / Long Text                        | Короткий текст / Длинный текст                                                                                                                       | core / fieldtype                      | Small Text                                                        |
+| Text Editor                                   | Текстовый редактор                                                                                                                                   | core / fieldtype                      | Text Editor                                                       |
+| Float / Int                                   | Число с плавающей точкой / Целое число                                                                                                               | core / fieldtype                      | Float                                                             |
+| Datetime                                      | Дата и время                                                                                                                                         | core / fieldtype                      | Datetime                                                          |
+| Fold                                          | Сгиб                                                                                                                                                 | core / fieldtype                      | Fold                                                              |
+| Quick Entry                                   | Быстрый ввод                                                                                                                                         | core / DocType                        | Quick Entry                                                       |
+| Fetch From                                    | Получать из                                                                                                                                          | core / DocField                       | Fetch From                                                        |
+| Perm Level                                    | Уровень доступа                                                                                                                                      | permissions                           | Perm Level                                                        |
+| Only If Creator / If Owner                    | Только для автора / Если владелец                                                                                                                    | permissions                           | Only if Creator                                                   |
+| Select (permission)                           | Выбор                                                                                                                                                | permissions                           | Select                                                            |
+| Read / Write                                  | Чтение / Запись                                                                                                                                      | permissions                           | Read                                                              |
+| Mask                                          | Маскировать                                                                                                                                          | permissions                           | Mask                                                              |
+| Impersonate                                   | Вход от имени                                                                                                                                        | core / User                           | Impersonate as {0}                                                |
+| Document Status (docstatus)                   | Статус документа                                                                                                                                     | core                                  | Doc Status                                                        |
+| Amended Document Naming                       | Именование исправленных документов                                                                                                                   | core                                  | Amended Document Naming Settings                                  |
+| Amend Counter                                 | Счетчик исправлений                                                                                                                                  | core                                  | Amend Counter                                                     |
+| Deleted Document                              | Удаленный документ                                                                                                                                   | core                                  | Deleted Document                                                  |
+| Submission Queue                              | Очередь проведения                                                                                                                                   | core                                  | Submission Queue                                                  |
+| Prepared Report                               | Подготовленный отчет                                                                                                                                 | core / Report                         | Prepared Report                                                   |
+| Snapshot Report                               | Отчет-снимок                                                                                                                                         | core / Report                         | Snapshot Report                                                   |
+| Report Builder                                | Конструктор отчетов                                                                                                                                  | desk                                  | Report Builder                                                    |
+| Auto Email Report                             | Автоотправка отчета по эл. почте                                                                                                                     | email                                 | Auto Email Report                                                 |
+| Communication                                 | Сообщение                                                                                                                                            | core                                  | Communication                                                     |
+| Email Group                                   | Группа рассылки                                                                                                                                      | email                                 | Email Group                                                       |
+| Email Template                                | Шаблон письма                                                                                                                                        | email                                 | Email Template                                                    |
+| Unhandled Email                               | Необработанное письмо                                                                                                                                | email                                 | Unhandled Email                                                   |
+| Reply-To                                      | Адрес для ответа (Reply-To)                                                                                                                          | email                                 | Reply-To Addresses                                                |
+| BCC / CC                                      | Скрытая копия / Копия                                                                                                                                | email                                 | BCC                                                               |
+| Read Receipt                                  | Уведомление о прочтении                                                                                                                              | email                                 | Send Read Receipt                                                 |
+| Automation Flow                               | Сценарий автоматизации                                                                                                                               | automation                            | Automation Flow                                                   |
+| Automation Run                                | Запуск автоматизации                                                                                                                                 | automation                            | Automation Run                                                    |
+| Trigger                                       | Триггер                                                                                                                                              | automation                            | Trigger Type                                                      |
+| Step Condition                                | Условие шага                                                                                                                                         | automation                            | Step Condition                                                    |
+| Alias (record alias)                          | Псевдоним                                                                                                                                            | automation                            | Output Alias                                                      |
+| Rate Limit                                    | Ограничение частоты                                                                                                                                  | core                                  | Enable Rate Limit                                                 |
+| Background Worker (RQ Worker)                 | Фоновый обработчик / Обработчик RQ                                                                                                                   | core                                  | RQ Worker                                                         |
+| Recorder                                      | Регистратор запросов                                                                                                                                 | core                                  | Recorder                                                          |
+| System Console                                | Системная консоль                                                                                                                                    | desk                                  | System Console                                                    |
+| System Health Report                          | Отчет о состоянии системы                                                                                                                            | desk                                  | System Health Report                                              |
+| Dock                                          | Док                                                                                                                                                  | desk / navigation                     | Dock Item                                                         |
+| Dock / Sidebar layer                          | Слой (приложения / сайта / пользователя)                                                                                                             | desk / navigation                     | site layer                                                        |
+| Arrangement                                   | Компоновка                                                                                                                                           | desk / navigation                     | the site's arrangement                                            |
+| Shell                                         | Оболочка                                                                                                                                             | desk / navigation                     | which shell comes up                                              |
+| Desktop Icon                                  | Значок рабочего стола                                                                                                                                | desk                                  | Desktop Icon                                                      |
+| Quick List                                    | Быстрый список                                                                                                                                       | desk / Workspace                      | Quick List                                                        |
+| Custom Block                                  | Пользовательский блок                                                                                                                                | desk / Workspace                      | Custom Block                                                      |
+| Card Break                                    | Разрыв карточки                                                                                                                                      | desk / Workspace                      | Card Break                                                        |
+| Widget                                        | Виджет                                                                                                                                               | desk                                  | Added Widgets                                                     |
+| Layout                                        | Макет                                                                                                                                                | desk                                  | Manage Layouts                                                    |
+| Swimlanes                                     | Дорожки                                                                                                                                              | desk / Kanban                         | Swimlanes                                                         |
+| Form Tour                                     | Тур по форме                                                                                                                                         | desk                                  | Form Tour                                                         |
+| Module Onboarding                             | Знакомство с модулем                                                                                                                                 | desk                                  | Module Onboarding                                                 |
+| Milestone                                     | Веха                                                                                                                                                 | automation                            | Milestone Tracker                                                 |
+| Reminder                                      | Напоминание                                                                                                                                          | automation                            | Reminder                                                          |
+| Awesome Bar                                   | Строка поиска                                                                                                                                        | desk                                  | Open Awesomebar                                                   |
+| Global Search                                 | Глобальный поиск                                                                                                                                     | desk                                  | Global Search Settings                                            |
+| Session Defaults                              | Значения сеанса по умолчанию                                                                                                                         | desk                                  | Session Defaults                                                  |
+| Print Format Builder / Editor                 | Конструктор / редактор печатных форм                                                                                                                 | printing                              | Print Format Editor                                               |
+| Print Style                                   | Стиль печати                                                                                                                                         | printing                              | Print Style                                                       |
+| Print Heading                                 | Заголовок печати                                                                                                                                     | printing                              | Print Heading                                                     |
+| Raw Printing                                  | Прямая печать                                                                                                                                        | printing                              | Enable Raw Printing                                               |
+| PDF Renderer / Generator                      | Модуль отрисовки PDF / Генератор PDF                                                                                                                 | printing                              | PDF Renderer                                                      |
+| Snippet                                       | Фрагмент                                                                                                                                             | printing                              | Print Format Snippet                                              |
+| Header / Footer (print)                       | Верхний / нижний колонтитул                                                                                                                          | printing                              | Footer HTML                                                       |
+| Website Theme                                 | Тема сайта                                                                                                                                           | website                               | Website Theme                                                     |
+| Web Page Block                                | Блок веб-страницы                                                                                                                                    | website                               | Web Page Block                                                    |
+| Slideshow                                     | Слайд-шоу                                                                                                                                            | website                               | Website Slideshow                                                 |
+| Meta Title / Description / Image              | Мета-заголовок / мета-описание / мета-изображение                                                                                                    | website                               | Meta Title                                                        |
+| Breadcrumbs                                   | Навигационная цепочка                                                                                                                                | website                               | Breadcrumbs                                                       |
+| Route Redirect                                | Перенаправление маршрута                                                                                                                             | website                               | Website Route Redirect                                            |
+| Connected App                                 | Подключенное приложение                                                                                                                              | integrations                          | Connected App                                                     |
+| Social Login Key                              | Ключ входа через соцсети                                                                                                                             | integrations                          | Social Login Key                                                  |
+| Push Notification                             | Push-уведомление                                                                                                                                     | integrations                          | Push Notification Settings                                        |
+| Relay Server                                  | Сервер-ретранслятор                                                                                                                                  | integrations                          | Relay Server URL                                                  |
+| Scope (OAuth)                                 | Область доступа                                                                                                                                      | integrations                          | OAuth Scope                                                       |
+| Grant Type                                    | Тип гранта                                                                                                                                           | integrations                          | Grant Type                                                        |
+| Redirect URI                                  | URI перенаправления                                                                                                                                  | integrations                          | Redirect URIs                                                     |
+| Personal Data Deletion Request                | Запрос на удаление персональных данных                                                                                                               | website / GDPR                        | Personal Data Deletion Request                                    |
+| Energy Point                                  | Балл активности                                                                                                                                      | social                                | Energy Point Log                                                  |
+| Salutation                                    | Обращение                                                                                                                                            | contacts                              | Salutation                                                        |
+| Mr / Mrs / Ms / Miss / Dr / Prof              | Г-н / Г-жа / Г-жа / Мисс / Д-р / Проф.                                                                                                               | contacts / setup                      | Mr                                                                |
+| Address Line 1 / 2                            | Адрес, строка 1 / 2                                                                                                                                  | contacts                              | Address Line 1                                                    |
+| Billing / Shipping (address type)             | Для выставления счетов / Доставка                                                                                                                    | contacts                              | Billing                                                           |
+| Roles: Accounts Manager / User                | Менеджер по бухгалтерии / Пользователь бухгалтерии                                                                                                   | roles                                 | Accounts Manager                                                  |
+| Roles: Sales / Purchase Manager               | Менеджер по продажам / закупкам                                                                                                                      | roles                                 | Sales Manager                                                     |
+| Roles: Sales / Purchase Master Manager        | Главный менеджер по продажам / закупкам                                                                                                              | roles                                 | Sales Master Manager                                              |
+| Roles: Sales / Purchase User                  | Пользователь продаж / закупок                                                                                                                        | roles                                 | Sales User                                                        |
+| Role: System Manager                          | Системный менеджер                                                                                                                                   | roles                                 | System Manager                                                    |
+| Role: Workspace Manager                       | Менеджер рабочих областей                                                                                                                            | roles                                 | Workspace Manager                                                 |
+| Item                                          | Продукт; строки дочерних таблиц «X Item» — «Позиция X»                                                                                               | erpnext / stock                       | Item Code → Код продукта                                          |
+| Warehouse                                     | Склад                                                                                                                                                | erpnext / stock                       | Default Warehouse                                                 |
+| Stock                                         | Запасы (объект учета); Остаток (количество)                                                                                                          | erpnext / stock                       | Stock Settings → Настройки запасов; Balance Qty → Остаток, кол-во |
+| Stock Entry                                   | Складская проводка                                                                                                                                   | erpnext / stock                       | Stock Entry Type                                                  |
+| Stock Ledger / Stock Ledger Entry             | Книга учета запасов / Запись книги учета запасов                                                                                                     | erpnext / stock                       | Cancel Stock Ledger Entries                                       |
+| Stock Reconciliation                          | Инвентаризация                                                                                                                                       | erpnext / stock                       | Create Stock Reconciliation                                       |
+| Stock Closing Entry                           | Закрывающая проводка по запасам                                                                                                                      | erpnext / stock                       | Duplicate Stock Closing Entry                                     |
+| Batch / Serial No                             | Партия / Серийный номер                                                                                                                              | erpnext / stock                       | Batch No is mandatory                                             |
+| Serial and Batch Bundle                       | Набор серийных номеров и партий                                                                                                                      | erpnext / stock                       | Add Serial / Batch Bundle                                         |
+| UOM                                           | Единица измерения; в узких лейблах — «Ед. изм.»                                                                                                      | erpnext / stock                       | Stock UOM → Ед. изм. запасов                                      |
+| Qty                                           | Кол-во (лейблы); количество (предложения)                                                                                                            | erpnext / общее                       | Actual Qty → Факт. кол-во                                         |
+| Valuation Rate                                | Учетная цена                                                                                                                                         | erpnext / stock                       | Current Valuation Rate                                            |
+| Bin                                           | Ячейка                                                                                                                                               | erpnext / stock                       | Delete Bins                                                       |
+| Perpetual Inventory                           | Непрерывный учет запасов                                                                                                                             | erpnext / Company                     | Enable Perpetual Inventory                                        |
+| Repost / Reposting                            | Перепровести / Перепроведение                                                                                                                        | erpnext / stock, accounts             | Repost Item Valuation                                             |
+| Landed Cost Voucher                           | Документ дополнительных расходов                                                                                                                     | erpnext / stock                       | Accounting Entry for Landed Cost Voucher                          |
+| Pick List / Packing Slip                      | Лист отбора / Упаковочный лист                                                                                                                       | erpnext / stock                       | Create Pick List                                                  |
+| Delivery Trip / Delivery Stop                 | Маршрут доставки / Точка доставки                                                                                                                    | erpnext / stock                       | Create Delivery Trip                                              |
+| Backflush                                     | Обратное списание                                                                                                                                    | erpnext / manufacturing               | Backflush Raw Materials                                           |
+| Account                                       | Счет                                                                                                                                                 | erpnext / accounts                    | Account Name                                                      |
+| Chart of Accounts                             | План счетов                                                                                                                                          | erpnext / accounts                    | Chart of Accounts Importer → Импорт плана счетов                  |
+| Ledger (non-group account)                    | Негрупповой счет; Convert to Ledger / Non-Group → «Преобразовать в негрупповой»                                                                      | erpnext / accounts                    | Account with child nodes cannot be converted to ledger            |
+| GL Entry / General Ledger                     | Запись главной книги / Главная книга                                                                                                                 | erpnext / accounts                    | Book Stock Expense GL Entries                                     |
+| Journal Entry                                 | Запись журнала                                                                                                                                       | erpnext / accounts                    | Create Journal Entry                                              |
+| Payment Entry                                 | Запись оплаты                                                                                                                                        | erpnext / accounts                    | Create Payment Entry                                              |
+| Accounting Entry                              | Бухгалтерская проводка                                                                                                                               | erpnext / accounts                    | Accounting Entry for Asset                                        |
+| Against / Against Account (GL)                | Корр. счет                                                                                                                                           | erpnext / GL Entry, Bank Clearance    | Against Account                                                   |
+| Against Voucher / Against Sales Order         | По документу / По заказу на продажу                                                                                                                  | erpnext / accounts, stock             | Against Voucher Type → Тип документа-основания                    |
+| Voucher                                       | Документ                                                                                                                                             | erpnext / accounts                    | Voucher No → Номер документа                                      |
+| Party                                         | Контрагент                                                                                                                                           | erpnext / accounts                    | All Parties                                                       |
+| Cost Center                                   | Центр затрат                                                                                                                                         | erpnext / accounts                    | Cost Center Allocation                                            |
+| Accounting Dimension                          | Учетное измерение                                                                                                                                    | erpnext / accounts                    | Accounting Dimension Filter                                       |
+| Fiscal Year / Finance Book                    | Финансовый год / Финансовая книга                                                                                                                    | erpnext / accounts                    | Fiscal Year Company                                               |
+| Period Closing Voucher                        | Документ закрытия периода                                                                                                                            | erpnext / accounts                    | Period Closing Voucher                                            |
+| Accounts Receivable / Payable                 | Дебиторская / Кредиторская задолженность                                                                                                             | erpnext / accounts                    | Accounts Receivable Summary                                       |
+| Outstanding Amount                            | Непогашенная сумма                                                                                                                                   | erpnext / accounts                    | Collect Outstanding Amount                                        |
+| Credit Note / Debit Note                      | Кредит-нота / Дебет-нота                                                                                                                             | erpnext / accounts                    | Credit Note Issued                                                |
+| Exchange Rate Revaluation                     | Переоценка валютных остатков                                                                                                                         | erpnext / accounts                    | Exchange Rate Revaluation Account                                 |
+| Exchange Gain/Loss                            | Курсовая прибыль/убыток                                                                                                                              | erpnext / accounts                    | Exchange Gain / Loss Account                                      |
+| Contra Entry                                  | Взаимозачет                                                                                                                                          | erpnext / Journal Entry               | Contra Entry                                                      |
+| Immutable Ledger                              | Неизменяемая книга учета                                                                                                                             | erpnext / Accounts Settings           | Enable Immutable Ledger                                           |
+| Provisional Account                           | Временный счет                                                                                                                                       | erpnext / Company                     | Default Provisional Account                                       |
+| Capital Work in Progress (CWIP)               | Незавершенное капитальное строительство                                                                                                              | erpnext / accounts, assets            | CWIP Account                                                      |
+| Deferred Revenue / Expense                    | Отложенные доходы / Отложенные расходы                                                                                                               | erpnext / accounts                    | Deferred Revenue Account                                          |
+| Tax Withholding                               | Удержание налога                                                                                                                                     | erpnext / accounts                    | Tax Withholding Category                                          |
+| Lower Deduction Certificate                   | Сертификат о пониженной ставке удержания                                                                                                             | erpnext / regional                    | Deduction Certificate                                             |
+| Dunning                                       | Напоминание; Dunning Letter → «Письмо-напоминание»                                                                                                   | erpnext / accounts                    | Dunning Type                                                      |
+| Bank Clearance / Clearance Date               | Банковское подтверждение / Дата подтверждения                                                                                                        | erpnext / accounts, banking           | Clearance Date not mentioned                                      |
+| Cheque                                        | Чек                                                                                                                                                  | erpnext / accounts                    | Cheque Print Template → Шаблон печати чека                        |
+| Bisect Accounting Statements                  | Бисекция финансовой отчетности                                                                                                                       | erpnext / accounts                    | Bisect Left                                                       |
+| Sales Invoice / Purchase Invoice              | Счет покупателю / Счет поставщика                                                                                                                    | erpnext / accounts                    | Create Sales Invoice                                              |
+| Sales Order / Purchase Order                  | Заказ на продажу / Заказ на покупку                                                                                                                  | erpnext / selling, buying             | Create Sales Order                                                |
+| Delivery Note / Purchase Receipt              | Расходная накладная / Приходная накладная                                                                                                            | erpnext / stock                       | Create Delivery Note                                              |
+| Quotation / Supplier Quotation                | Предложение / Предложение поставщика                                                                                                                 | erpnext / selling, buying             | Create Quotation                                                  |
+| Request for Quotation (RFQ)                   | Запрос предложений                                                                                                                                   | erpnext / buying                      | Download PDF for Supplier                                         |
+| Material Request                              | Заявка на материалы                                                                                                                                  | erpnext / stock                       | Auto Material Request                                             |
+| Blanket Order                                 | Рамочный заказ                                                                                                                                       | erpnext / manufacturing               | Blanket Order Rate                                                |
+| Customer Provided Item                        | Давальческий продукт клиента                                                                                                                         | erpnext / stock                       | Customer Provided Item Cost                                       |
+| Drop Ship                                     | Прямая поставка                                                                                                                                      | erpnext / selling                     | Delivered by Supplier (Drop Ship)                                 |
+| POS / POS Profile / POS Invoice               | Точка продаж / Профиль точки продаж / Счет точки продаж                                                                                              | erpnext / accounts                    | POS Profile                                                       |
+| POS Opening / Closing Entry                   | Открытие / Закрытие смены точки продаж                                                                                                               | erpnext / accounts                    | Create POS Opening Entry                                          |
+| Pricing Rule / Promotional Scheme             | Правило ценообразования / Схема продвижения                                                                                                          | erpnext / accounts                    | Apply Multiple Pricing Rules                                      |
+| Price List / Price List Rate                  | Прайс-лист / Цена по прайс-листу                                                                                                                     | erpnext / stock                       | Default Price List                                                |
+| Lead / Prospect / Opportunity                 | Лид / Потенциальный клиент / Возможность                                                                                                             | erpnext / crm                         | Add Lead to Prospect                                              |
+| Appointment                                   | Встреча                                                                                                                                              | erpnext / crm                         | Appointment Booking Settings → Настройки записи на встречи        |
+| Email Campaign                                | Кампания рассылки                                                                                                                                    | erpnext / crm                         | Email Campaign                                                    |
+| Email Digest                                  | Сводка по эл. почте                                                                                                                                  | erpnext / setup                       | Email Digest Settings                                             |
+| Contract                                      | Договор                                                                                                                                              | erpnext / crm                         | Contract Template                                                 |
+| Sales Partner / Sales Person                  | Партнер по продажам / Продавец                                                                                                                       | erpnext / selling                     | All Sales Person                                                  |
+| BOM                                           | Спецификация                                                                                                                                         | erpnext / manufacturing               | BOM Update Tool                                                   |
+| BOM Creator                                   | Конструктор спецификаций                                                                                                                             | erpnext / manufacturing               | BOM Creator Item                                                  |
+| Design (BOM Creator, v16)                     | Конструкция                                                                                                                                          | erpnext / manufacturing / BOM Creator | Design File                                                       |
+| BOM Secondary Item                            | Вторичный продукт спецификации; By-Product → «Побочный продукт», Co-Product → «Сопутствующий продукт»                                                | erpnext / manufacturing               | BOM Secondary Item                                                |
+| Work Order / Job Card                         | Производственный заказ / Карточка задания                                                                                                            | erpnext / manufacturing               | Create Job Card                                                   |
+| Workstation / Plant Floor                     | Рабочий центр / Производственный участок                                                                                                             | erpnext / manufacturing               | Create Workstation                                                |
+| Sub Assembly                                  | Полуфабрикат                                                                                                                                         | erpnext / manufacturing               | Add Sub-Assembly BOM                                              |
+| Finished Good / Raw Material                  | Готовая продукция / Сырье                                                                                                                            | erpnext / manufacturing               | Finished Good Item Code                                           |
+| Process Loss                                  | Потери в процессе                                                                                                                                    | erpnext / manufacturing               | % Process Loss                                                    |
+| Work In Progress (WIP)                        | Незавершенное производство (НЗП)                                                                                                                     | erpnext / manufacturing               | Available Qty at WIP Warehouse                                    |
+| Disassemble                                   | Разборка                                                                                                                                             | erpnext / manufacturing               | Disassemble Order                                                 |
+| MPS (Master Production Schedule)              | ГПП (главный производственный план)                                                                                                                  | erpnext / manufacturing               | Create MPS                                                        |
+| Asset / Fixed Asset                           | Актив / Основное средство                                                                                                                            | erpnext / assets                      | Fixed Asset Register                                              |
+| Asset Capitalization                          | Капитализация актива                                                                                                                                 | erpnext / assets                      | Capitalize Asset                                                  |
+| Depreciation / Depreciation Schedule          | Амортизация / График амортизации                                                                                                                     | erpnext / assets                      | Depreciation Entry                                                |
+| Available-for-use Date                        | Дата ввода в эксплуатацию                                                                                                                            | erpnext / assets                      | Available for Use Date                                            |
+| Custodian                                     | Ответственное лицо                                                                                                                                   | erpnext / assets                      | Custodian                                                         |
+| Scrap (asset)                                 | Списать / Списание                                                                                                                                   | erpnext / assets                      | Asset scrapped                                                    |
+| Timesheet / Activity Type                     | Табель / Вид деятельности                                                                                                                            | erpnext / projects                    | Create Timesheet                                                  |
+| Issue (support)                               | Обращение                                                                                                                                            | erpnext / support                     | Close Issue After Days                                            |
+| Service Level Agreement (SLA)                 | Соглашение об уровне обслуживания (SLA)                                                                                                              | erpnext / support                     | Default Service Level Agreement                                   |
+| Quality Inspection                            | Контроль качества                                                                                                                                    | erpnext / stock                       | Create Quality Inspection                                         |
+| Incoterms (titles)                            | Русские наименования Инкотермс: Ex Works → «Франко-завод», Free On Board → «Франко-борт», Delivered Duty Paid → «Поставка с оплатой пошлины» и т. д. | erpnext / setup / Incoterm            | Carriage Paid To                                                  |
+| Job Worker (Subcontracting Order)             | Субподрядчик                                                                                                                                         | erpnext / subcontracting              | Job Worker Warehouse                                              |
+| Inventory Dimension                           | Складское измерение                                                                                                                                  | erpnext / stock                       | Inventory Dimension Negative Stock                                |
+| Item Lead Time                                | Срок получения продукта; Lead Time — «Срок поставки»                                                                                                 | erpnext / stock                       | Lead Time Days                                                    |
+| Opening Invoice Creation Tool                 | Инструмент создания начальных счетов                                                                                                                 | erpnext / accounts                    | Opening Invoice Tool                                              |
+| Process Statement Of Accounts (PSOA)          | Рассылка выписок по счетам                                                                                                                           | erpnext / accounts                    | Process Statement Of Accounts Customer                            |
+| Pegged Currency                               | Привязанная валюта                                                                                                                                   | erpnext / accounts                    | Pegged Currency Details                                           |
+| Over Billing / Delivery / Receipt Allowance   | Допуск на превышение счета / сверхпоставку / сверхполучение                                                                                          | erpnext / accounts, stock             | Over Billing Allowance (%)                                        |
+| Pickup (Shipment)                             | Забор груза                                                                                                                                          | erpnext / stock / Shipment            | Pickup Date                                                       |
+| Loyalty Point Redemption                      | Списание баллов лояльности                                                                                                                           | erpnext / accounts                    | Redemption Account                                                |
+| Quality Action / Feedback / Review / Goal     | Действие по качеству / Отзыв о качестве / Анализ качества / Цель качества                                                                            | erpnext / quality                     | Quality Action Resolution                                         |
+| Payment Ledger                                | Книга платежей                                                                                                                                       | erpnext / accounts                    | Payment Ledger Entry                                              |
+| Ledger Health Monitor                         | Мониторинг состояния книг учета                                                                                                                      | erpnext / accounts                    | Ledger Health Monitor                                             |
+| Subcontracting Order / Subcontracting Receipt | Заказ на субподряд / Поступление по субподряду                                                                                                       | erpnext / subcontracting              | Subcontracting Order Item                                         |
+| Subcontracting Inward Order                   | Входящий заказ на субподряд                                                                                                                          | erpnext / subcontracting              | Subcontracting Inward Order Item                                  |
+| Stock Reservation Entry                       | Резервирование запасов; Unreserve → «Снять резерв»                                                                                                   | erpnext / stock                       | Stock Reservation Entries Created                                 |
+| Supplier Scorecard / Standing                 | Оценочная карта поставщика / Уровень оценочной карты                                                                                                 | erpnext / buying                      | Supplier Scorecard Standing                                       |
+| Shipping Rule                                 | Правило доставки                                                                                                                                     | erpnext / accounts                    | Shipping Rule Condition                                           |
+| Shipment / Shipment Parcel                    | Отправка / Посылка                                                                                                                                   | erpnext / stock                       | Shipment Parcel Template                                          |
+| Shareholder / Share Transfer                  | Акционер / Передача акций                                                                                                                            | erpnext / accounts                    | Share Transfer                                                    |
+| Subscription / Subscription Plan              | Подписка / План подписки                                                                                                                             | erpnext / accounts                    | Subscription Plan Detail                                          |
+| Trial Balance                                 | Оборотно-сальдовая ведомость                                                                                                                         | erpnext / accounts                    | Trial Balance for Party                                           |
+| Unreconcile                                   | Отменить сверку / Отмена сверки                                                                                                                      | erpnext / accounts, banking           | Unreconcile Payment                                               |
+| Write Off                                     | Списание; Write Off Account → «Счет списания»                                                                                                        | erpnext / accounts                    | Write Off Amount                                                  |
+| Routing                                       | Маршрут                                                                                                                                              | erpnext / manufacturing               | Routing Name                                                      |
+| Rounded Total / Rounding Adjustment           | Итого с округлением / Корректировка округления                                                                                                       | erpnext / accounts                    | Rounded Total (Company Currency)                                  |
+| Transaction Deletion Record                   | Запись удаления операций                                                                                                                             | erpnext / setup                       | Transaction Deletion Record Item                                  |
+| Vendor Invoice (Landed Cost Voucher)          | Счет поставщика услуг                                                                                                                                | erpnext / stock                       | Total Vendor Invoices Cost                                        |
+| Service Item (subcontracting)                 | Услуга                                                                                                                                               | erpnext / subcontracting              | Service Item Qty                                                  |
+| Territory                                     | Территория                                                                                                                                           | erpnext / selling                     | Territory Targets                                                 |
+| Sales Taxes and Charges (Template)            | Налоги и сборы с продаж (шаблон)                                                                                                                     | erpnext / accounts                    | Sales Taxes and Charges Template                                  |
+| Salvage Value                                 | Ликвидационная стоимость                                                                                                                             | erpnext / assets                      | Salvage Value Percentage                                          |
+| Supply (MRP, vs Demand)                       | Обеспечение                                                                                                                                          | erpnext / manufacturing / MRP report  | Supply                                                            |
+| X View (переключатель представлений)          | «Вид X» по образцу List View / Report View: Вид Дашборда, Вид Календаря, Вид Ганта, Вид Галереи, Вид Входящих, Вид Канбан, Вид Карты, Вид Дерева      | desk / base_list.js label_map         | Kanban View                                                       |
+| Periodic Accounting Entry                     | Проводка периодического учета                                                                                                                        | erpnext / accounts                    | Periodic Accounting Entry                                         |

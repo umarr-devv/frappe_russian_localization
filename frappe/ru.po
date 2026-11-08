@@ -10,7 +10,10 @@ msgstr ""
 "POT-Creation-Date: 2026-11-07 14:20+0000\n"
 "PO-Revision-Date: 2026-11-07 14:20+0000\n"
 "Last-Translator: developers@frappe.io\n"
+"Language: ru\n"
 "Language-Team: developers@frappe.io\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -591,7 +594,7 @@ msgid ""
 "<h4>Templating</h4>\n"
 "\n"
 "<p>Templates are compiled using the Jinja Templating Language. To learn more about Jinja, <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">read this documentation.</a></p>\n"
-msgstr "<h4>Пример ответа по эл. почте</h4>\n\n<pre>Заказ просрочен\n\nПо операции {{ name }} истек срок. Примите необходимые меры.\n\nПодробности\n\n- Клиент: {{ customer }}\n- Сумма: {{ grand_total }}\n</pre>\n\n<h4>Как узнать имена полей</h4>\n\n<p>В шаблоне письма можно использовать поля документа, из которого отправляется письмо. Поля любого документа можно посмотреть в разделе «Настройка &gt; Настройка формы», выбрав тип документа (например, «Счет на продажу»)</p>\n\n<h4>Шаблоны</h4>\n\n<p>Шаблоны компилируются с помощью языка шаблонов Jinja. Подробнее о Jinja — <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">в документации.</a></p>\n"
+msgstr "<h4>Пример ответа по эл. почте</h4>\n\n<pre>Заказ просрочен\n\nПо операции {{ name }} истек срок. Примите необходимые меры.\n\nПодробности\n\n- Клиент: {{ customer }}\n- Сумма: {{ grand_total }}\n</pre>\n\n<h4>Как узнать имена полей</h4>\n\n<p>В шаблоне письма можно использовать поля документа, из которого отправляется письмо. Поля любого документа можно посмотреть в разделе «Настройка &gt; Настройка формы», выбрав тип документа (например, «Счет покупателю»)</p>\n\n<h4>Шаблоны</h4>\n\n<p>Шаблоны компилируются с помощью языка шаблонов Jinja. Подробнее о Jinja — <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">в документации.</a></p>\n"
 
 #. Content of the 'Message Examples' (HTML) field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json:266
@@ -1424,12 +1427,12 @@ msgstr "Добавить верхнюю границу"
 
 #: frappe/desk/doctype/number_card/number_card.js:37
 msgid "Add Card to Dashboard"
-msgstr "Добавить карточку на панель мониторинга"
+msgstr "Добавить карточку на дашборд"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.js:34
 #: frappe/public/js/frappe/views/reports/query_report.js:283
 msgid "Add Chart to Dashboard"
-msgstr "Добавить диаграмму на панель мониторинга"
+msgstr "Добавить диаграмму на дашборд"
 
 #: frappe/public/js/frappe/views/treeview.js:535
 msgid "Add Child"
@@ -1762,7 +1765,7 @@ msgstr "Добавить вкладку"
 #: frappe/public/js/frappe/utils/dashboard_utils.js:275
 #: frappe/public/js/frappe/views/reports/query_report.js:325
 msgid "Add to Dashboard"
-msgstr "Добавить на панель мониторинга"
+msgstr "Добавить на дашборд"
 
 #: frappe/public/js/frappe/form/sidebar/assign_to.js:110
 msgid "Add to ToDo"
@@ -2678,7 +2681,7 @@ msgstr "Разрешает пользователю отправлять пис�
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:67
 msgid "Allows the user to export data from the Report view."
-msgstr "Разрешает пользователю экспортировать данные из представления отчета."
+msgstr "Разрешает пользователю экспортировать данные из Вида Отчета."
 
 #: frappe/public/js/frappe/ui/permission_dialog.js:56
 msgid "Allows the user to export document data from the system."
@@ -4855,7 +4858,7 @@ msgstr "Разработка"
 #. Description of a Card Break in the Build Workspace
 #: frappe/build/workspace/build/build.json:171
 msgid "Build your own reports, print formats, and dashboards. Create personalized workspaces for easier navigation"
-msgstr "Создавайте собственные отчеты, печатные формы и панели мониторинга. Настраивайте личные рабочие области для удобной навигации"
+msgstr "Создавайте собственные отчеты, печатные формы и дашборды. Настраивайте личные рабочие области для удобной навигации"
 
 #: frappe/workflow/doctype/workflow/workflow_list.js:18
 #, python-brace-format
@@ -5106,7 +5109,7 @@ msgstr "Название календаря"
 #: frappe/public/js/frappe/list/base_list.js:1468
 #: frappe/public/js/frappe/views/calendar/calendar.js:223
 msgid "Calendar View"
-msgstr "Представление календаря"
+msgstr "Вид Календаря"
 
 #. Option for the 'Event Category' (Select) field in DocType 'Event'
 #: frappe/contacts/doctype/contact/contact.js:55
@@ -5437,7 +5440,7 @@ msgstr "Невозможно удалить {0}: есть дочерние уз�
 
 #: frappe/desk/doctype/dashboard/dashboard.py:55
 msgid "Cannot edit Standard Dashboards"
-msgstr "Стандартные панели мониторинга нельзя редактировать"
+msgstr "Стандартные дашборды нельзя редактировать"
 
 #: frappe/email/doctype/notification/notification.py:221
 msgid "Cannot edit Standard Notification. To edit, please disable this and duplicate it"
@@ -6927,7 +6930,7 @@ msgstr "Настройте именование исправленных док�
 
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:653
 msgid "Configure list view behaviour."
-msgstr "Настройка поведения списка."
+msgstr "Настройка поведения представления списка."
 
 #: frappe/public/js/frappe/form/doctype_settings/tabs/naming.js:58
 #, python-brace-format
@@ -6941,7 +6944,7 @@ msgstr "Настройте печатные формы для {0}. Форму м
 
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:763
 msgid "Configure report view behaviour."
-msgstr "Настройка поведения представления отчета."
+msgstr "Настройка поведения Вида Отчета."
 
 #: frappe/desk/doctype/global_search_settings/global_search_settings.js:12
 msgid "Configure search fields"
@@ -8318,7 +8321,7 @@ msgstr "Настроить дочернюю таблицу"
 
 #: frappe/public/js/frappe/views/dashboard/dashboard_view.js:38
 msgid "Customize Dashboard"
-msgstr "Настроить панель мониторинга"
+msgstr "Настроить дашборд"
 
 #. Label of a Sidebar Item
 #. Label of a Link in the Build Workspace
@@ -8498,7 +8501,7 @@ msgstr "Темная тема"
 #: frappe/desk/doctype/workspace_sidebar_item/workspace_sidebar_item.json:55
 #: frappe/public/js/frappe/utils/utils.js:1000
 msgid "Dashboard"
-msgstr "Панель мониторинга"
+msgstr "Дашборд"
 
 #. Label of a Sidebar Item
 #. Label of a Link in the Build Workspace
@@ -8533,26 +8536,26 @@ msgstr "Источник диаграммы"
 #: frappe/desk/doctype/dashboard_chart_source/dashboard_chart_source.json:66
 #: frappe/desk/doctype/number_card/number_card.json:259
 msgid "Dashboard Manager"
-msgstr "Менеджер панелей мониторинга"
+msgstr "Менеджер дашбордов"
 
 #. Label of the dashboard_name (Data) field in DocType 'Dashboard'
 #: frappe/desk/doctype/dashboard/dashboard.json:24
 msgid "Dashboard Name"
-msgstr "Название панели мониторинга"
+msgstr "Название дашборда"
 
 #. Name of a DocType
 #: frappe/desk/doctype/dashboard_settings/dashboard_settings.json:33
 msgid "Dashboard Settings"
-msgstr "Настройки панели мониторинга"
+msgstr "Настройки дашборда"
 
 #: frappe/public/js/frappe/list/base_list.js:1465
 msgid "Dashboard View"
-msgstr "Панель мониторинга"
+msgstr "Вид Дашборда"
 
 #. Label of the tab_break_2 (Tab Break) field in DocType 'Workspace'
 #: frappe/desk/doctype/workspace/workspace.json:60
 msgid "Dashboards"
-msgstr "Панели мониторинга"
+msgstr "Дашборды"
 
 #. Label of the data (Code) field in DocType 'Deleted Document'
 #. Option for the 'Type' (Select) field in DocType 'DocField'
@@ -11377,11 +11380,11 @@ msgstr "Изменить макет"
 
 #: frappe/public/js/print_format_builder/components/inspector/LetterHeadZoneInspector.vue:208
 msgid "Edit Letter Head Footer"
-msgstr "Редактировать нижний колонтитул бланка"
+msgstr "Редактировать нижний колонтитул фирменного бланка"
 
 #: frappe/public/js/print_format_builder/components/inspector/LetterHeadZoneInspector.vue:208
 msgid "Edit Letter Head HTML"
-msgstr "Редактировать HTML бланка"
+msgstr "Редактировать HTML фирменного бланка"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:44
 msgid "Edit Links"
@@ -13551,7 +13554,7 @@ msgstr "Поле не разрешено в запросе"
 #. Field'
 #: frappe/desk/doctype/kanban_board_field/kanban_board_field.json:15
 msgid "Field of the board's reference doctype to show on the card."
-msgstr "Поле ссылочного типа документа доски, отображаемое на карточке."
+msgstr "Поле типа документа доски, отображаемое на карточке."
 
 #: frappe/public/js/print_format_builder/composables/useSnippets.js:142
 msgid "Field saved as snippet"
@@ -14957,7 +14960,7 @@ msgstr "Гант"
 
 #: frappe/public/js/frappe/list/base_list.js:1466
 msgid "Gantt View"
-msgstr "Диаграмма Ганта"
+msgstr "Вид Ганта"
 
 #: frappe/public/js/frappe/views/gantt/gantt_view.js:279
 msgid "Gantt View Mode"
@@ -16870,7 +16873,7 @@ msgstr "Ссылка на изображение"
 
 #: frappe/public/js/frappe/list/base_list.js:1469
 msgid "Image View"
-msgstr "Галерея"
+msgstr "Вид Галереи"
 
 #. Label of the image_width (Float) field in DocType 'Letter Head'
 #. Label of the footer_image_width (Float) field in DocType 'Letter Head'
@@ -17233,7 +17236,7 @@ msgstr "Пользователь почты"
 
 #: frappe/public/js/frappe/list/base_list.js:1470
 msgid "Inbox View"
-msgstr "Входящие"
+msgstr "Вид Входящих"
 
 #. Label of the include_name_field (Check) field in DocType 'Form Tour'
 #: frappe/desk/doctype/form_tour/form_tour.json:98
@@ -18831,7 +18834,7 @@ msgstr "Настройки канбана"
 
 #: frappe/public/js/frappe/list/base_list.js:1467
 msgid "Kanban View"
-msgstr "Канбан"
+msgstr "Вид Канбан"
 
 #. Label of the keep_closed (Check) field in DocType 'Sidebar Item'
 #. Label of the keep_closed (Check) field in DocType 'Workspace Sidebar Item'
@@ -20090,7 +20093,7 @@ msgstr "Настройки списка"
 
 #: frappe/public/js/frappe/list/base_list.js:1463
 msgid "List View"
-msgstr "Список"
+msgstr "Вид Списка"
 
 #. Name of a DocType
 #: frappe/desk/doctype/list_view_settings/list_view_settings.json:100
@@ -20452,7 +20455,7 @@ msgstr "URL логотипа"
 #: frappe/core/doctype/activity_log/activity_log.json:75
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:499 frappe/www/me.html:91
 msgid "Logout"
-msgstr "Выход"
+msgstr "Выйти"
 
 #: frappe/core/doctype/user/user.js:210
 msgid "Logout All Sessions"
@@ -20738,7 +20741,7 @@ msgstr "Сопоставить с"
 
 #: frappe/public/js/frappe/list/base_list.js:1472
 msgid "Map View"
-msgstr "Карта"
+msgstr "Вид Карты"
 
 #: frappe/public/js/frappe/data_import/import_preview.js:770
 msgid "Map each file column to a field. Save to apply changes."
@@ -21985,7 +21988,7 @@ msgstr "Имя не может содержать спецсимволы, нап
 
 #: frappe/custom/doctype/custom_field/custom_field.js:91
 msgid "Name of the Document Type (DocType) you want this field to be linked to. e.g. Customer"
-msgstr "Имя типа документа, с которым должно быть связано это поле, например Customer"
+msgstr "Имя типа документа, с которым должно быть связано это поле, например, Customer"
 
 #: frappe/model/naming.py:512
 #, python-brace-format
@@ -22407,7 +22410,7 @@ msgstr "Создан новый {0}"
 #: frappe/public/js/frappe/views/reports/query_report.js:457
 #, python-brace-format
 msgid "New {0} {1} added to Dashboard {2}"
-msgstr "Новый {0} {1} добавлен на панель мониторинга {2}"
+msgstr "Новый {0} {1} добавлен на дашборд {2}"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:463
 #, python-brace-format
@@ -23892,7 +23895,7 @@ msgstr "Ширина поля в таблице в колонках (всего 
 #: frappe/core/doctype/docfield/docfield.json:449
 #: frappe/custom/doctype/custom_field/custom_field.json:236
 msgid "Number of columns for a field in a List View or a Grid (Total Columns should be less than 11)"
-msgstr "Ширина поля в списке или таблице в колонках (всего должно быть меньше 11 колонок)"
+msgstr "Ширина поля в представлении списка или таблице в колонках (всего должно быть меньше 11 колонок)"
 
 #. Description of the 'Document Share Key Expiry (in Days)' (Int) field in
 #. DocType 'System Settings'
@@ -26369,7 +26372,7 @@ msgstr "Задайте имя документа"
 
 #: frappe/desk/doctype/dashboard/dashboard.py:139
 msgid "Please set the following documents in this Dashboard as standard first."
-msgstr "Сначала отметьте следующие документы этой панели мониторинга как стандартные."
+msgstr "Сначала отметьте следующие документы этого дашборда как стандартные."
 
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.py:120
 msgid "Please set the series to be used."
@@ -28106,7 +28109,7 @@ msgstr "Тип документа-основания"
 
 #: frappe/desk/doctype/form_tour/form_tour.js:38
 msgid "Referance Doctype and Dashboard Name both can't be used at the same time."
-msgstr "Тип документа-основания и название панели мониторинга нельзя использовать одновременно."
+msgstr "Тип документа-основания и название дашборда нельзя использовать одновременно."
 
 #. Label of the linked_with (Section Break) field in DocType 'Address'
 #. Label of the contact_details (Section Break) field in DocType 'Contact'
@@ -28991,7 +28994,7 @@ msgstr "Тип отчета"
 
 #: frappe/public/js/frappe/list/base_list.js:1464
 msgid "Report View"
-msgstr "Представление отчета"
+msgstr "Вид Отчета"
 
 #: frappe/public/js/frappe/form/form.js:1495
 msgid "Report bug"
@@ -29254,7 +29257,7 @@ msgstr "Сбросить диаграмму"
 
 #: frappe/public/js/frappe/views/dashboard/dashboard_view.js:39
 msgid "Reset Dashboard Customizations"
-msgstr "Сбросить настройки панели мониторинга"
+msgstr "Сбросить настройки дашборда"
 
 #: frappe/public/js/frappe/list/list_filter/layout_field_selector.js:252
 #: frappe/public/js/frappe/list/list_settings.js:309
@@ -31154,7 +31157,7 @@ msgstr "Выберите валюту"
 #: frappe/desk/doctype/form_tour/form_tour.json:118
 #: frappe/public/js/frappe/utils/dashboard_utils.js:252
 msgid "Select Dashboard"
-msgstr "Выбрать панель мониторинга"
+msgstr "Выбрать дашборд"
 
 #. Option for the 'Timespan' (Select) field in DocType 'Dashboard Chart'
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json:106
@@ -31398,7 +31401,7 @@ msgstr "Выбрать несколько элементов списка"
 #. Group Field'
 #: frappe/desk/doctype/kanban_board_group_field/kanban_board_group_field.json:14
 msgid "Select or Link field of the board's reference doctype to group cards by (swimlanes)."
-msgstr "Поле типа «Выбор» или «Ссылка» ссылочного типа документа доски, по которому карточки группируются (дорожки)."
+msgstr "Поле типа «Выбор» или «Ссылка» в типе документа доски, по которому карточки группируются (дорожки)."
 
 #: frappe/public/js/frappe/views/calendar/calendar.js:178
 msgid "Select or drag across time slots to create a new event."
@@ -31965,7 +31968,7 @@ msgstr "Задать диаграмму"
 #. Description of the 'Chart Options' (Code) field in DocType 'Dashboard'
 #: frappe/desk/doctype/dashboard/dashboard.json:42
 msgid "Set Default Options for all charts on this Dashboard (Ex: \"colors\": [\"#d1d8dd\", \"#ff5858\"])"
-msgstr "Задайте параметры по умолчанию для всех диаграмм этой панели мониторинга (например: \"colors\": [\"#d1d8dd\", \"#ff5858\"])"
+msgstr "Задайте параметры по умолчанию для всех диаграмм этого дашборда (например: \"colors\": [\"#d1d8dd\", \"#ff5858\"])"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.js:464
 #: frappe/desk/doctype/number_card/number_card.js:410
@@ -32489,7 +32492,7 @@ msgstr "Символ валюты справа"
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json:480
 #: frappe/desk/doctype/dashboard/dashboard.js:6
 msgid "Show Dashboard"
-msgstr "Показывать панель мониторинга"
+msgstr "Показывать дашборд"
 
 #. Label of the show_description_on_click (Check) field in DocType 'DocField'
 #: frappe/core/doctype/docfield/docfield.json:663
@@ -32681,7 +32684,7 @@ msgstr "Показывать двоеточие после подписей по
 
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:719
 msgid "Show a summary dashboard with charts and statistics, where available, at the top of forms."
-msgstr "Показывать в верхней части форм сводную панель с диаграммами и статистикой, если они есть."
+msgstr "Показывать в верхней части форм сводный дашборд с диаграммами и статистикой, если они есть."
 
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:727
 msgid "Show absolute datetime in timeline"
@@ -32725,7 +32728,7 @@ msgstr "Показать пользовательский значок"
 
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:718
 msgid "Show dashboard"
-msgstr "Показывать панель мониторинга"
+msgstr "Показывать дашборд"
 
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:513
 msgid "Show desktop and in-app notifications for activity on your account."
@@ -35895,7 +35898,7 @@ msgstr "Пользователь может импортировать новы�
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:28
 msgid "The user can select a Customer in Sales Order but cannot open the Customer master."
-msgstr "Пользователь может выбрать клиента в заказе клиента, но не может открыть карточку клиента."
+msgstr "Пользователь может выбрать клиента в заказе на продажу, но не может открыть карточку клиента."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:78
 msgid "The user can share document access with another user."
@@ -35903,11 +35906,11 @@ msgstr "Пользователь может предоставлять дост�
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:38
 msgid "The user can update a customer or any other fields in an existing Sales Order but cannot create a new Sales Order."
-msgstr "Пользователь может изменить клиента или другие поля в существующем заказе клиента, но не может создать новый заказ."
+msgstr "Пользователь может изменить клиента или другие поля в существующем заказе на продажу, но не может создать новый заказ на продажу."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:33
 msgid "The user can view Sales Invoices but cannot modify any field values in them."
-msgstr "Пользователь может просматривать счета на продажу, но не может изменять значения полей в них."
+msgstr "Пользователь может просматривать счета покупателям, но не может изменять значения полей в них."
 
 #: frappe/model/document.py:2876
 #, python-brace-format
@@ -36549,7 +36552,7 @@ msgstr "Это значение получено из поля {1} докуме�
 #. Settings'
 #: frappe/core/doctype/system_settings/system_settings.json:729
 msgid "This value specifies the max number of rows that can be rendered in report view."
-msgstr "Максимальное количество строк, которое можно отобразить в представлении отчета."
+msgstr "Максимальное количество строк, которое можно отобразить в Виде Отчета."
 
 #: frappe/printing/doctype/print_format/print_format.py:692
 #, python-brace-format
@@ -37442,7 +37445,7 @@ msgstr "Предпросмотр дерева"
 
 #: frappe/public/js/frappe/list/base_list.js:1471
 msgid "Tree View"
-msgstr "Дерево"
+msgstr "Вид Дерева"
 
 #: frappe/public/js/frappe/data_import/import_tree_preview.js:46
 #, python-brace-format
@@ -38461,7 +38464,6 @@ msgstr "Вставка или обновление"
 #. Description of the 'Value to Validate' (Data) field in DocType 'Onboarding
 #. Step'
 #: frappe/desk/doctype/onboarding_step/onboarding_step.json:121
-#, python-format
 msgid "Use % for any non empty value."
 msgstr "Используйте % для любого непустого значения."
 
@@ -41937,7 +41939,7 @@ msgstr "темно-серый"
 
 #: frappe/core/page/dashboard_view/dashboard_view.js:64
 msgid "dashboard"
-msgstr "панель мониторинга"
+msgstr "дашборд"
 
 #. Option for the 'Date Format' (Select) field in DocType 'Language'
 #. Option for the 'Date Format' (Select) field in DocType 'System Settings'
@@ -42853,7 +42855,7 @@ msgstr "Диаграмма: {0}"
 #: frappe/public/js/frappe/views/dashboard/dashboard_view.js:12
 #, python-brace-format
 msgid "{0} Dashboard"
-msgstr "Панель мониторинга: {0}"
+msgstr "Дашборд: {0}"
 
 #: frappe/core/doctype/prepared_report/prepared_report.py:159
 #, python-brace-format
@@ -42892,7 +42894,7 @@ msgstr "Список: {0}"
 #: frappe/public/js/frappe/list/list_settings.js:36
 #, python-brace-format
 msgid "{0} List View Settings"
-msgstr "Настройки списка: {0}"
+msgstr "Настройки представления списка: {0}"
 
 #: frappe/public/js/frappe/utils/pretty_date.js:39
 #, python-brace-format
@@ -44016,7 +44018,7 @@ msgstr "{0} пока не поставляет док. Сначала экспо
 #: frappe/core/doctype/doctype/doctype.py:339
 #, python-brace-format
 msgid "{0} should be indexed because it's referred in dashboard connections"
-msgstr "{0} необходимо индексировать, так как на него ссылаются связи панели мониторинга"
+msgstr "{0} необходимо индексировать, так как на него ссылаются связи дашборда"
 
 #: frappe/automation/doctype/auto_repeat/auto_repeat.py:159
 #, python-brace-format
@@ -44177,7 +44179,7 @@ msgstr "{0} {1} добавлено"
 #: frappe/public/js/frappe/utils/dashboard_utils.js:282
 #, python-brace-format
 msgid "{0} {1} added to Dashboard {2}"
-msgstr "{0} {1} добавлено на панель мониторинга {2}"
+msgstr "{0} {1} добавлено на дашборд {2}"
 
 #: frappe/model/document.py:2826 frappe/model/rename_doc.py:99
 #, python-brace-format
