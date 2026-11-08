@@ -402,7 +402,7 @@ msgstr "<div class=\"ql-editor read-mode\"><p>Запросите файл с В�
 #. Introduction text of the request-to-delete-data Web Form
 #: frappe/website/web_form/request_to_delete_data/request_to_delete_data.json:18
 msgid "<div class=\"ql-editor read-mode\"><p>Send a request to delete your account and personally identifiable information (PII) that is stored on our system. You will receive an email to verify your request. Once the request is verified we will take care of deleting your PII. If you just want to check what PII we have stored, you can <a href=\"/request-data\" rel=\"noopener noreferrer\">request your data</a>.</p></div>"
-msgstr "<div class=\"ql-editor read-mode\"><p>Отправьте запрос на удаление Вашей учетной записи и персональных данных, хранящихся в нашей системе. Вы получите письмо для подтверждения запроса. После подтверждения мы удалим Ваши персональные данные. Если Вы хотите только узнать, какие персональные данные мы храним, <a href=\"/request-data\" rel=\"noopener noreferrer\">запросите свои данные</a>.</p></div>"
+msgstr "<div class=\"ql-editor read-mode\"><p>Отправьте запрос на удаление Вашего аккаунта и персональных данных, хранящихся в нашей системе. Вы получите письмо для подтверждения запроса. После подтверждения мы удалим Ваши персональные данные. Если Вы хотите только узнать, какие персональные данные мы храним, <a href=\"/request-data\" rel=\"noopener noreferrer\">запросите свои данные</a>.</p></div>"
 
 #. Content of the 'Import Log' (HTML) field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json:146
@@ -1163,13 +1163,13 @@ msgstr "Доступ с этого IP-адреса запрещен"
 #. Account'
 #: frappe/email/doctype/email_account/email_account.json:581
 msgid "Account"
-msgstr "Учетная запись"
+msgstr "Счет"
 
 #. Label of the account_deletion_settings_section (Section Break) field in
 #. DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json:400
 msgid "Account Deletion Settings"
-msgstr "Настройки удаления учетной записи"
+msgstr "Настройки удаления аккаунта"
 
 #. Name of a role
 #: frappe/automation/doctype/auto_repeat/auto_repeat.json:253
@@ -1466,7 +1466,7 @@ msgstr "Добавить пользовательские теги"
 
 #: frappe/email/doctype/email_account/email_account_list.js:130
 msgid "Add Email Account"
-msgstr "Добавить учетную запись эл. почты"
+msgstr "Добавить аккаунт эл. почты"
 
 #: frappe/desk/doctype/number_card/number_card.js:477
 msgid "Add Filter"
@@ -1953,7 +1953,7 @@ msgstr "Адреса и контакты"
 #. Account'
 #: frappe/email/doctype/email_account/email_account.json:753
 msgid "Addresses added here will be used as the Reply-To header for outgoing emails sent from this account."
-msgstr "Адреса, указанные здесь, будут использоваться в заголовке Reply-To исходящих писем этой учетной записи."
+msgstr "Адреса, указанные здесь, будут использоваться в заголовке Reply-To исходящих писем этого аккаунта."
 
 #. Description of the 'Allow Clearing Link Fields' (Check) field in DocType
 #. 'System Settings'
@@ -3373,7 +3373,7 @@ msgstr "Совместный доступ к документам отключе
 #: frappe/templates/emails/account_deletion_notification.html:2
 #, python-brace-format
 msgid "As per your request, your account and data on {0} associated with email {1} has been permanently deleted"
-msgstr "По Вашему запросу учетная запись и данные на {0}, связанные с адресом {1}, безвозвратно удалены"
+msgstr "По Вашему запросу аккаунт и данные на {0}, связанные с адресом {1}, безвозвратно удалены"
 
 #: frappe/public/js/frappe/list/list_filter/layout_dialog.js:88
 msgid "Ascending"
@@ -3807,7 +3807,7 @@ msgstr "Можно использовать следующие приложен�
 #: frappe/email/doctype/email_account/email_account.py:442
 #, python-brace-format
 msgid "Authentication failed while receiving emails from Email Account: {0}."
-msgstr "Ошибка аутентификации при получении писем из учетной записи эл. почты {0}."
+msgstr "Ошибка аутентификации при получении писем из аккаунта эл. почты {0}."
 
 #. Label of the author (Data) field in DocType 'Help Article'
 #: frappe/website/doctype/help_article/help_article.json:55
@@ -4041,7 +4041,7 @@ msgstr "Автоматически"
 
 #: frappe/email/doctype/email_account/email_account.py:888
 msgid "Automatic Linking can be activated only for one Email Account."
-msgstr "Автоматическую привязку можно включить только для одной учетной записи эл. почты."
+msgstr "Автоматическую привязку можно включить только для одного аккаунта эл. почты."
 
 #: frappe/email/doctype/email_account/email_account.py:882
 msgid "Automatic Linking can be activated only if Incoming is enabled."
@@ -4063,7 +4063,7 @@ msgstr "Автоматически применен фильтр по после
 #. Label of the auto_account_deletion (Int) field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json:412
 msgid "Automatically delete account within (hours)"
-msgstr "Автоматически удалять учетную запись через (ч)"
+msgstr "Автоматически удалять аккаунт через (ч)"
 
 #. Title of a Sidebar
 #. Name of a Workspace
@@ -5299,7 +5299,7 @@ msgstr "Отмена: {0}"
 
 #: frappe/core/doctype/prepared_report/prepared_report.py:352
 msgid "Cannot Download Report due to insufficient permissions"
-msgstr "Недостаточно прав для скачивания отчета"
+msgstr "Недостаточно разрешений для скачивания отчета"
 
 #: frappe/client.py:521
 msgid "Cannot Fetch Values"
@@ -5732,7 +5732,7 @@ msgstr "Изменения"
 
 #: frappe/email/doctype/email_domain/email_domain.js:5
 msgid "Changing any setting will reflect on all the email accounts associated with this domain."
-msgstr "Изменение любой настройки отразится на всех учетных записях эл. почты этого домена."
+msgstr "Изменение любой настройки отразится на всех аккаунтах эл. почты этого домена."
 
 #: frappe/core/doctype/system_settings/system_settings.js:68
 msgid "Changing rounding method on site with data can result in unexpected behaviour."
@@ -6991,7 +6991,7 @@ msgstr "Подтвердить доступ"
 #: frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.py:93
 #: frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.py:101
 msgid "Confirm Deletion of Account"
-msgstr "Подтвердите удаление учетной записи"
+msgstr "Подтвердите удаление аккаунта"
 
 #: frappe/core/doctype/user/user.js:204 frappe/www/update-password.html:57
 msgid "Confirm New Password"
@@ -7630,7 +7630,7 @@ msgstr "Создать и продолжить"
 #: frappe/templates/includes/login/login.js:107
 #: frappe/templates/includes/login/login.js:160 frappe/templates/signup.html:21
 msgid "Create Account"
-msgstr "Создать учетную запись"
+msgstr "Создать аккаунт"
 
 #: frappe/public/js/frappe/ui/address_autocomplete/autocomplete_dialog.js:49
 msgid "Create Address"
@@ -7772,7 +7772,7 @@ msgstr "Создать или изменить рабочий процесс"
 
 #: frappe/desk/page/setup_wizard/setup_wizard.js:616
 msgid "Create your account"
-msgstr "Создайте учетную запись"
+msgstr "Создайте аккаунт"
 
 #: frappe/public/js/frappe/list/list_view.js:731
 #, python-brace-format
@@ -8105,7 +8105,7 @@ msgstr "Пользовательское поле"
 #: frappe/custom/doctype/custom_field/custom_field.py:231
 #, python-brace-format
 msgid "Custom Field {0} is created by the Administrator and can only be deleted through the Administrator account."
-msgstr "Пользовательское поле {0} создано администратором и может быть удалено только из учетной записи администратора."
+msgstr "Пользовательское поле {0} создано администратором и может быть удалено только из аккаунта администратора."
 
 #: frappe/custom/doctype/custom_field/custom_field.py:287
 msgid "Custom Fields can only be added to a standard DocType."
@@ -9172,7 +9172,7 @@ msgstr "Удалить"
 
 #: frappe/www/me.html:65
 msgid "Delete Account"
-msgstr "Удалить учетную запись"
+msgstr "Удалить аккаунт"
 
 #: frappe/public/js/frappe/form/form.js:1267
 #: frappe/public/js/frappe/form/form.js:1326
@@ -10850,7 +10850,7 @@ msgstr "Не кодировать HTML-теги, например &lt;script&gt;
 #: frappe/www/login.html:115 frappe/www/login.html:131
 #: frappe/www/login.html:208
 msgid "Don't have an account?"
-msgstr "Нет учетной записи?"
+msgstr "Нет аккаунта?"
 
 #: frappe/www/desk.py:29
 msgid "Don't panic. Run this command and reload the page:"
@@ -11622,29 +11622,29 @@ msgstr "Эл. почта"
 #: frappe/email/doctype/unhandled_email/unhandled_email.json:19
 #: frappe/email/sidebar/email/email.json:18
 msgid "Email Account"
-msgstr "Учетная запись эл. почты"
+msgstr "Аккаунт эл. почты"
 
 #: frappe/email/doctype/email_account/email_account.py:445
 msgid "Email Account Disabled."
-msgstr "Учетная запись эл. почты отключена."
+msgstr "Аккаунт эл. почты отключен."
 
 #. Label of the email_account_name (Data) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json:160
 msgid "Email Account Name"
-msgstr "Название учетной записи эл. почты"
+msgstr "Название аккаунта эл. почты"
 
 #: frappe/core/doctype/user/user.py:889
 msgid "Email Account added multiple times"
-msgstr "Учетная запись эл. почты добавлена несколько раз"
+msgstr "Аккаунт эл. почты добавлен несколько раз"
 
 #: frappe/email/smtp.py:45
 msgid "Email Account not setup. Please create a new Email Account from Settings > Email Account"
-msgstr "Учетная запись эл. почты не настроена. Создайте ее в разделе «Настройки > Учетная запись эл. почты»"
+msgstr "Аккаунт эл. почты не настроен. Создайте его в разделе «Настройки > Аккаунт эл. почты»"
 
 #: frappe/email/doctype/email_account/email_account.py:683
 #, python-brace-format
 msgid "Email Account {0} Disabled"
-msgstr "Учетная запись эл. почты {0} отключена"
+msgstr "Аккаунт эл. почты {0} отключен"
 
 #. Label of the email_id (Data) field in DocType 'Address'
 #. Label of the email_id (Data) field in DocType 'Contact'
@@ -11921,7 +11921,7 @@ msgstr "Письма получены"
 
 #: frappe/email/doctype/email_account/email_account.py:1057
 msgid "Emails are already being pulled from this account."
-msgstr "Письма из этой учетной записи уже загружаются."
+msgstr "Письма из этого аккаунта уже загружаются."
 
 #: frappe/email/queue.py:138
 msgid "Emails are muted"
@@ -12270,7 +12270,7 @@ msgstr "Включает представления «Календарь» и «
 
 #: frappe/email/doctype/email_account/email_account.js:358
 msgid "Enabling auto reply on an incoming email account will send automated replies to all the synchronized emails. Do you wish to continue?"
-msgstr "При включении автоответа для учетной записи входящей почты автоматические ответы будут отправляться на все синхронизированные письма. Продолжить?"
+msgstr "При включении автоответа для аккаунта входящей почты автоматические ответы будут отправляться на все синхронизированные письма. Продолжить?"
 
 #: frappe/desk/doctype/notification_type/notification_type.py:103
 #, python-brace-format
@@ -12591,7 +12591,7 @@ msgstr "Ошибка проверки «Игнорировать разреше�
 #: frappe/email/doctype/email_account/email_account.py:777
 #, python-brace-format
 msgid "Error while connecting to email account {0}"
-msgstr "Ошибка подключения к учетной записи эл. почты {0}"
+msgstr "Ошибка подключения к аккаунту эл. почты {0}"
 
 #: frappe/email/doctype/notification/notification.py:880
 #, python-brace-format
@@ -13323,7 +13323,7 @@ msgstr "Не удалось запросить вход в Frappe Cloud"
 
 #: frappe/email/doctype/email_account/email_account.py:241
 msgid "Failed to retrieve the list of IMAP folders from the server. Please ensure the mailbox is accessible and the account has permission to list folders."
-msgstr "Не удалось получить с сервера список папок IMAP. Убедитесь, что почтовый ящик доступен и у учетной записи есть право просматривать папки."
+msgstr "Не удалось получить с сервера список папок IMAP. Убедитесь, что почтовый ящик доступен и у аккаунта есть разрешение на просмотр папок."
 
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:124
 msgid "Failed to save"
@@ -15766,7 +15766,7 @@ msgstr "Есть веб-представление"
 
 #: frappe/templates/signup.html:24
 msgid "Have an account? Login"
-msgstr "Уже есть учетная запись? Войти"
+msgstr "Уже есть аккаунт? Войти"
 
 #. Label of the header (Check) field in DocType 'SMS Parameter'
 #. Label of the header_section (Section Break) field in DocType 'Letter Head'
@@ -15941,7 +15941,7 @@ msgstr "Здравствуйте, {0}!"
 #: frappe/templates/emails/new_user.html:4
 #, python-brace-format
 msgid "Hi {0}, an account has been created for you at {1}. Before you can log in, you'll need to set your password."
-msgstr "Здравствуйте, {0}! Для Вас создана учетная запись на {1}. Перед входом необходимо задать пароль."
+msgstr "Здравствуйте, {0}! Для Вас создан аккаунт на {1}. Перед входом необходимо задать пароль."
 
 #: frappe/desk/page/setup_wizard/setup_wizard.js:530
 #, python-brace-format
@@ -16246,7 +16246,7 @@ msgstr "Ежечасное обслуживание"
 #. DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json:442
 msgid "Hourly rate limit for generating password reset links"
-msgstr "Лимит формирования ссылок для сброса пароля в час"
+msgstr "Ограничение частоты формирования ссылок для сброса пароля (в час)"
 
 #: frappe/public/js/frappe/form/controls/duration.js:29
 msgctxt "Duration"
@@ -16518,7 +16518,7 @@ msgstr "Если включены строгие разрешения польз
 #: frappe/workflow/doctype/workflow/workflow.json:54
 #: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json:107
 msgid "If Checked workflow status will not override status in list view"
-msgstr "Если отмечено, статус рабочего процесса не будет заменять статус в списке"
+msgstr "Если отмечено, статус рабочего процесса не будет заменять статус в представлении списка"
 
 #: frappe/core/doctype/doctype/doctype.py:1896
 #: frappe/core/report/user_doctype_permissions/user_doctype_permissions.py:60
@@ -16739,7 +16739,7 @@ msgstr "Если Вы не запрашивали этот код, просто 
 
 #: frappe/templates/emails/login_with_email_link.html:11
 msgid "If you didn't request this, you can safely ignore this email. Your account is safe."
-msgstr "Если Вы не запрашивали это, просто проигнорируйте письмо. Ваша учетная запись в безопасности."
+msgstr "Если Вы не запрашивали это, просто проигнорируйте письмо. Ваш аккаунт в безопасности."
 
 #: frappe/templates/emails/password_reset.html:11
 msgid "If you didn't request this, you can safely ignore this email. Your password won't be changed."
@@ -16756,7 +16756,7 @@ msgstr "Если задано, этот пункт будет отображат
 
 #: frappe/templates/emails/new_user.html:13
 msgid "If you weren't expecting this account, you can safely ignore this email."
-msgstr "Если Вы не ожидали создания этой учетной записи, просто проигнорируйте это письмо."
+msgstr "Если Вы не ожидали создания этого аккаунта, просто проигнорируйте это письмо."
 
 #: frappe/templates/emails/user_invitation.html:4
 msgid "If you weren't expecting this, you can safely ignore this email."
@@ -17317,7 +17317,7 @@ msgstr "Настройки входящей почты"
 
 #: frappe/email/doctype/email_domain/email_domain.py:32
 msgid "Incoming email account not correct"
-msgstr "Учетная запись входящей почты настроена неправильно"
+msgstr "Аккаунт входящей почты настроен неправильно"
 
 #: frappe/database/mariadb/schema.py:197
 msgid "Incompatible Values"
@@ -17584,15 +17584,15 @@ msgstr "Недостаточный уровень доступа для {0}"
 #: frappe/database/query.py:1443
 #, python-brace-format
 msgid "Insufficient Permission for {0}"
-msgstr "Недостаточно прав для {0}"
+msgstr "Недостаточно разрешений для {0}"
 
 #: frappe/desk/reportview.py:444
 msgid "Insufficient Permissions for deleting Report"
-msgstr "Недостаточно прав для удаления отчета"
+msgstr "Недостаточно разрешений для удаления отчета"
 
 #: frappe/desk/reportview.py:404
 msgid "Insufficient Permissions for editing Report"
-msgstr "Недостаточно прав для редактирования отчета"
+msgstr "Недостаточно разрешений для редактирования отчета"
 
 #: frappe/core/doctype/doctype/doctype.py:468
 msgid "Insufficient attachment limit"
@@ -17776,7 +17776,7 @@ msgstr "Неверные учетные данные"
 #: frappe/email/smtp.py:144
 #, python-brace-format
 msgid "Invalid Credentials for Email Account: {0}"
-msgstr "Неверные учетные данные для учетной записи эл. почты: {0}"
+msgstr "Неверные учетные данные для аккаунта эл. почты: {0}"
 
 #: frappe/utils/data.py:147 frappe/utils/data.py:310
 msgid "Invalid Date"
@@ -18619,7 +18619,7 @@ msgstr "Определения элементов (ярлыки, диаграм�
 #: frappe/desk/doctype/sidebar/sidebar.json:60
 #: frappe/desk/doctype/workspace_sidebar/workspace_sidebar.json:32
 msgid "Items"
-msgstr "Пункты"
+msgstr "Продукты"
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:444
 msgid "Its sidebar is derived from the module that owns it."
@@ -19645,7 +19645,7 @@ msgstr "Подготовим рабочую область. Это займет 
 
 #: frappe/www/login.html:140
 msgid "Let's setup your account."
-msgstr "Настроим Вашу учетную запись."
+msgstr "Настроим Ваш аккаунт."
 
 #. Option for the 'Paper Size' (Select) field in DocType 'Print Format'
 #. Option for the 'PDF Page Size' (Select) field in DocType 'Print Settings'
@@ -19712,11 +19712,11 @@ msgstr "Изменения фирменного бланка сохраняют�
 #: frappe/public/js/print_format_builder/utils.js:112
 #: frappe/utils/typst_emitter.py:232
 msgid "Letterhead footer with HTML content"
-msgstr "Нижний колонтитул бланка с HTML-содержимым"
+msgstr "Нижний колонтитул фирменного бланка с HTML-содержимым"
 
 #: frappe/utils/typst_emitter.py:235
 msgid "Letterhead image loaded from a web address"
-msgstr "Изображение бланка, загружаемое по веб-адресу"
+msgstr "Изображение фирменного бланка, загружаемое по веб-адресу"
 
 #: frappe/public/js/print_format_builder/utils.js:109
 #: frappe/utils/typst_emitter.py:229
@@ -20375,7 +20375,7 @@ msgstr "Вход в это время запрещен"
 #: frappe/website/doctype/web_form/web_form.js:505
 #, python-brace-format
 msgid "Login or a request key is required to see web form list view. Enable {0} to see list settings"
-msgstr "Чтобы видеть список веб-формы, нужен вход или ключ запроса. Включите {0}, чтобы увидеть настройки списка"
+msgstr "Чтобы видеть представление списка веб-формы, нужен вход или ключ запроса. Включите {0}, чтобы увидеть настройки списка"
 
 #. Label of the login_required (Check) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json:122
@@ -21913,7 +21913,7 @@ msgstr "Mx"
 #: frappe/website/doctype/website_settings/website_settings.py:180
 #: frappe/www/me.html:8 frappe/www/update_password.py:11
 msgid "My Account"
-msgstr "Моя учетная запись"
+msgstr "Мой аккаунт"
 
 #: frappe/public/js/frappe/file_uploader/FileUploader.vue:57
 msgid "My Device"
@@ -22216,7 +22216,7 @@ msgstr "Новое письмо"
 #: frappe/public/js/frappe/list/list_view_select.js:346
 #: frappe/public/js/frappe/views/inbox/inbox_view.js:185
 msgid "New Email Account"
-msgstr "Новая учетная запись эл. почты"
+msgstr "Новый аккаунт эл. почты"
 
 #: frappe/public/js/frappe/form/footer/form_timeline.js:48
 msgid "New Event"
@@ -22358,7 +22358,7 @@ msgstr "Список способов связи с ответственными
 
 #: frappe/templates/emails/administrator_logged_in.html:1
 msgid "New login to the Administrator account"
-msgstr "Новый вход в учетную запись администратора"
+msgstr "Новый вход в аккаунт администратора"
 
 #: frappe/www/update-password.html:111
 msgid "New password cannot be same as old password"
@@ -22638,11 +22638,11 @@ msgstr "Нет данных..."
 
 #: frappe/public/js/frappe/views/inbox/inbox_view.js:184
 msgid "No Email Account"
-msgstr "Нет учетной записи эл. почты"
+msgstr "Нет аккаунта эл. почты"
 
 #: frappe/public/js/frappe/views/inbox/inbox_view.js:194
 msgid "No Email Accounts Assigned"
-msgstr "Учетные записи эл. почты не назначены"
+msgstr "Аккаунты эл. почты не назначены"
 
 #: frappe/public/js/frappe/form/doctype_settings/tabs/email_template.js:72
 msgid "No Email Templates found"
@@ -22677,7 +22677,7 @@ msgstr "HTML-содержимого пока нет."
 
 #: frappe/email/doctype/email_account/email_account.py:249
 msgid "No IMAP folders were found on the server. Please verify the email account settings and ensure the mailbox contains folders."
-msgstr "На сервере не найдено ни одной папки IMAP. Проверьте настройки учетной записи эл. почты и наличие папок в почтовом ящике."
+msgstr "На сервере не найдено ни одной папки IMAP. Проверьте настройки аккаунта эл. почты и наличие папок в почтовом ящике."
 
 #: frappe/public/js/frappe/ui/capture.js:268
 msgid "No Images"
@@ -22923,7 +22923,7 @@ msgstr "Нет редактируемых полей для массового �
 
 #: frappe/public/js/frappe/views/inbox/inbox_view.js:21
 msgid "No email account associated with the User. Please add an account under User > Settings > User Emails."
-msgstr "С пользователем не связана учетная запись эл. почты. Добавьте ее в разделе «Пользователь > Настройки > Адреса эл. почты пользователя»."
+msgstr "С пользователем не связан аккаунт эл. почты. Добавьте его в разделе «Пользователь > Настройки > Адреса эл. почты пользователя»."
 
 #: frappe/core/api/user_invitation.py:17
 msgid "No email addresses to invite"
@@ -23609,7 +23609,7 @@ msgstr "Примечание: это будет передано пользов�
 #: frappe/website/web_form/request_to_delete_data/request_to_delete_data.js:8
 #, python-brace-format
 msgid "Note: Your request for account deletion will be fulfilled within {0} hours."
-msgstr "Примечание: запрос на удаление учетной записи будет выполнен в течение {0} ч."
+msgstr "Примечание: запрос на удаление аккаунта будет выполнен в течение {0} ч."
 
 #: frappe/core/doctype/data_export/exporter.py:184
 msgid "Notes:"
@@ -24859,7 +24859,7 @@ msgstr "Настройки исходящей почты"
 
 #: frappe/email/doctype/email_domain/email_domain.py:33
 msgid "Outgoing email account not correct"
-msgstr "Учетная запись исходящей почты настроена неправильно"
+msgstr "Аккаунт исходящей почты настроен неправильно"
 
 #. Option for the 'Service' (Select) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json:182
@@ -24994,7 +24994,7 @@ msgstr "PID"
 #: frappe/email/oauth.py:75
 #, python-brace-format
 msgid "POP3 OAuth authentication failed for Email Account {0}"
-msgstr "Ошибка аутентификации POP3 OAuth для учетной записи эл. почты {0}"
+msgstr "Ошибка аутентификации POP3 OAuth для аккаунта эл. почты {0}"
 
 #. Option for the 'Method' (Select) field in DocType 'Recorder'
 #. Option for the 'Request Method' (Select) field in DocType 'Webhook'
@@ -25443,7 +25443,7 @@ msgstr "Необходимо указать пароль."
 
 #: frappe/public/js/frappe/desk.js:230
 msgid "Password missing in Email Account"
-msgstr "В учетной записи эл. почты не указан пароль"
+msgstr "В аккаунте эл. почты не указан пароль"
 
 #: frappe/utils/password.py:47
 #, python-brace-format
@@ -25985,12 +25985,12 @@ msgstr "Воспроизвести видео"
 #: frappe/email/doctype/email_account/email_account.py:651
 #, python-brace-format
 msgid "Please Authorize OAuth for Email Account {0}"
-msgstr "Авторизуйте OAuth для учетной записи эл. почты {0}"
+msgstr "Авторизуйте OAuth для аккаунта эл. почты {0}"
 
 #: frappe/email/oauth.py:29
 #, python-brace-format
 msgid "Please Authorize OAuth for Email Account {}"
-msgstr "Авторизуйте OAuth для учетной записи эл. почты {}"
+msgstr "Авторизуйте OAuth для аккаунта эл. почты {}"
 
 #: frappe/website/doctype/website_theme/website_theme.py:78
 msgid "Please Duplicate this Website Theme to customize."
@@ -26388,11 +26388,11 @@ msgstr "Сначала настройте сообщение"
 
 #: frappe/core/doctype/user/user.py:507
 msgid "Please setup default outgoing Email Account from Settings > Email Account"
-msgstr "Настройте учетную запись исходящей эл. почты по умолчанию в разделе «Настройки > Учетная запись эл. почты»"
+msgstr "Настройте аккаунт исходящей эл. почты по умолчанию в разделе «Настройки > Аккаунт эл. почты»"
 
 #: frappe/email/doctype/email_account/email_account.py:533
 msgid "Please setup default outgoing Email Account from Tools > Email Account"
-msgstr "Настройте учетную запись исходящей эл. почты по умолчанию в разделе «Инструменты > Учетная запись эл. почты»"
+msgstr "Настройте аккаунт исходящей эл. почты по умолчанию в разделе «Инструменты > Аккаунт эл. почты»"
 
 #: frappe/public/js/frappe/model/model.js:833
 msgid "Please specify"
@@ -27957,7 +27957,7 @@ msgstr "Получатель и статус"
 #: frappe/core/doctype/doctype/doctype.json:730
 #: frappe/custom/doctype/customize_form/customize_form.json:443
 msgid "Recipient Account Field"
-msgstr "Поле учетной записи получателя"
+msgstr "Поле аккаунта получателя"
 
 #. Option for the 'Delivery Status' (Select) field in DocType 'Communication'
 #: frappe/core/doctype/communication/communication.json:127
@@ -29183,7 +29183,7 @@ msgstr "URL запроса"
 #. Title of the request-to-delete-data Web Form
 #: frappe/website/web_form/request_to_delete_data/request_to_delete_data.json:37
 msgid "Request for Account Deletion"
-msgstr "Запрос на удаление учетной записи"
+msgstr "Запрос на удаление аккаунта"
 
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:307
 msgid "Request read receipts for outgoing emails"
@@ -31002,7 +31002,7 @@ msgstr "Разделы содержат колонки и поля докуме�
 
 #: frappe/core/doctype/user/user.py:1627
 msgid "Security Alert: Your account is being impersonated"
-msgstr "Предупреждение безопасности: в Вашу учетную запись выполнен вход от Вашего имени"
+msgstr "Предупреждение безопасности: в Ваш аккаунт выполнен вход от Вашего имени"
 
 #: frappe/core/doctype/user/user.py:429
 msgid "Security Alert: Your password has been changed."
@@ -32694,7 +32694,7 @@ msgstr "Показывать точное время в хронологии"
 #. Settings'
 #: frappe/website/doctype/website_settings/website_settings.json:406
 msgid "Show account deletion link in My Account page"
-msgstr "Показывать ссылку на удаление учетной записи на странице «Моя учетная запись»"
+msgstr "Показывать ссылку на удаление аккаунта на странице «Мой аккаунт»"
 
 #: frappe/public/js/frappe/views/treeview.js:283
 msgid "Show all (including disabled)"
@@ -32732,7 +32732,7 @@ msgstr "Показывать дашборд"
 
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:513
 msgid "Show desktop and in-app notifications for activity on your account."
-msgstr "Показывать уведомления на рабочем столе и в приложении о событиях в Вашей учетной записи."
+msgstr "Показывать уведомления на рабочем столе и в приложении о событиях в Вашем аккаунте."
 
 #. Description of the 'Show Tags on Cards' (Check) field in DocType 'Kanban
 #. Board'
@@ -34359,12 +34359,12 @@ msgstr "Отправить"
 #: frappe/public/js/frappe/ui/dialog.js:74
 msgctxt "Primary action in dialog"
 msgid "Submit"
-msgstr "Подтвердить"
+msgstr "Отправить"
 
 #: frappe/public/js/frappe/ui/messages.js:119
 msgctxt "Primary action of prompt dialog"
 msgid "Submit"
-msgstr "Подтвердить"
+msgstr "Отправить"
 
 #: frappe/public/js/frappe/desk.js:245
 msgctxt "Submit password for Email Account"
@@ -35437,7 +35437,7 @@ msgstr "<strong>Статус документа</strong> для всех сос�
 
 #: frappe/templates/emails/administrator_logged_in.html:6
 msgid "The Administrator account may be compromised. Change the Administrator password immediately."
-msgstr "Учетная запись администратора может быть скомпрометирована. Немедленно смените пароль администратора."
+msgstr "Аккаунт администратора может быть скомпрометирован. Немедленно смените пароль администратора."
 
 #: frappe/templates/emails/auto_repeat_fail.html:3
 msgid "The Auto Repeat for this document has been disabled."
@@ -35701,7 +35701,7 @@ msgstr "Следующий скрипт верхнего колонтитула 
 #: frappe/email/doctype/email_account/email_account.py:273
 #, python-brace-format
 msgid "The following configured IMAP folder(s) were not found or are not accessible on the server:<br><ul>{0}</ul>Please verify the folder names exactly as they appear on the server and ensure the account has access to them."
-msgstr "Следующие настроенные папки IMAP не найдены или недоступны на сервере:<br><ul>{0}</ul>Проверьте, что названия папок указаны точно так же, как на сервере, и у учетной записи есть к ним доступ."
+msgstr "Следующие настроенные папки IMAP не найдены или недоступны на сервере:<br><ul>{0}</ul>Проверьте, что названия папок указаны точно так же, как на сервере, и у аккаунта есть к ним доступ."
 
 #: frappe/public/js/print_format_builder/print_format_builder.bundle.js:102
 msgid "The latest changes could not be saved and will be lost if you leave."
@@ -37919,7 +37919,7 @@ msgstr "Не удалось определить формат файла {0}"
 
 #: frappe/core/doctype/communication/email.py:228
 msgid "Unable to send mail because of a missing email account. Please setup default Email Account from Settings > Email Account"
-msgstr "Не удалось отправить письмо: отсутствует учетная запись эл. почты. Настройте учетную запись эл. почты по умолчанию в разделе «Настройки > Учетная запись эл. почты»"
+msgstr "Не удалось отправить письмо: отсутствует аккаунт эл. почты. Настройте аккаунт эл. почты по умолчанию в разделе «Настройки > Аккаунт эл. почты»"
 
 #: frappe/public/js/frappe/views/calendar/calendar.js:639
 msgid "Unable to update event"
@@ -38505,7 +38505,7 @@ msgstr "Использовать IMAP"
 #. Label of the use_kanban_v2 (Check) field in DocType 'Kanban Board'
 #: frappe/desk/doctype/kanban_board/kanban_board.json:142
 msgid "Use Kanban v2 (New Experience)"
-msgstr "Использовать Kanban v2 (новый интерфейс)"
+msgstr "Использовать Канбан v2 (новый интерфейс)"
 
 #. Label of the use_number_format_from_currency (Check) field in DocType
 #. 'System Settings'
@@ -40486,7 +40486,7 @@ msgstr "Состояние рабочего процесса не задано"
 #: frappe/model/workflow.py:290 frappe/model/workflow.py:298
 #, python-brace-format
 msgid "Workflow State transition not allowed from {0} to {1}"
-msgstr "Переход из состояния {0} в {1} не разрешен"
+msgstr "Переход рабочего процесса из состояния {0} в {1} не разрешен"
 
 #: frappe/workflow/doctype/workflow/workflow.js:168
 msgid "Workflow States Don't Exist"
@@ -41198,11 +41198,11 @@ msgstr "У Вас нет доступа к облачным настройкам
 
 #: frappe/public/js/frappe/request.js:169
 msgid "You do not have enough permissions to access this resource. Please contact your manager to get access."
-msgstr "У Вас недостаточно прав для доступа к этому ресурсу. Обратитесь к руководителю за доступом."
+msgstr "У Вас недостаточно разрешений для доступа к этому ресурсу. Обратитесь к руководителю за доступом."
 
 #: frappe/app.py:406
 msgid "You do not have enough permissions to complete the action"
-msgstr "У Вас недостаточно прав для выполнения этого действия"
+msgstr "У Вас недостаточно разрешений для выполнения этого действия"
 
 #: frappe/core/doctype/data_import/data_import.py:179
 #, python-brace-format
@@ -41336,7 +41336,7 @@ msgstr "У Вас ожидающих импортов {1} с прикрепле�
 
 #: frappe/rate_limiter.py:185 frappe/utils/print_format.py:55
 msgid "You hit the rate limit because of too many requests. Please try after sometime."
-msgstr "Превышен лимит частоты запросов. Повторите попытку позже."
+msgstr "Превышено ограничение частоты запросов. Повторите попытку позже."
 
 #: frappe/public/js/frappe/form/footer/form_timeline.js:156
 msgid "You last edited this"
@@ -41530,7 +41530,7 @@ msgstr "Выбраны черновики или отмененные докум
 
 #: frappe/email/doctype/email_account/email_account_list.js:230
 msgid "You signed in to a different mailbox. Sign in to this account's mailbox."
-msgstr "Вы вошли в другой почтовый ящик. Войдите в почтовый ящик этой учетной записи."
+msgstr "Вы вошли в другой почтовый ящик. Войдите в почтовый ящик этого аккаунта."
 
 #: frappe/public/js/frappe/form/footer/version_timeline_content_builder.js:48
 msgctxt "Form timeline"
@@ -41621,12 +41621,12 @@ msgstr "Ваши ярлыки"
 #: frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.py:145
 #: frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.py:151
 msgid "Your account has been deleted"
-msgstr "Ваша учетная запись удалена"
+msgstr "Ваш аккаунт удален"
 
 #: frappe/auth.py:523
 #, python-brace-format
 msgid "Your account has been locked and will resume after {0} seconds"
-msgstr "Ваша учетная запись заблокирована и будет разблокирована через {0} сек."
+msgstr "Ваш аккаунт заблокирован и будет разблокирован через {0} сек."
 
 #: frappe/email/doctype/email_account/email_account_list.js:217
 msgid "Your admin must approve Frappe first."
@@ -42717,7 +42717,7 @@ msgstr "vscode"
 
 #: frappe/templates/includes/oauth_confirmation.html:5
 msgid "wants to access the following details from your account"
-msgstr "запрашивает доступ к следующим данным Вашей учетной записи"
+msgstr "запрашивает доступ к следующим данным Вашего аккаунта"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:226
 msgid "what the apps ship"

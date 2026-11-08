@@ -831,7 +831,7 @@ msgstr "Вы действительно хотите вернуться? Нес�
 
 #: frontend/src/composables/frappecloud.js:24
 msgid "Are you sure you want to login to your Frappe Cloud dashboard?"
-msgstr "Вы действительно хотите войти в панель управления Frappe Cloud?"
+msgstr "Вы действительно хотите войти в дашборд Frappe Cloud?"
 
 #: frontend/src/components/FieldLayoutEditor.vue:428
 msgid "Are you sure you want to remove this tab and all its content?"
@@ -1587,7 +1587,7 @@ msgstr "Звонящий"
 
 #: frontend/src/components/Telephony/CallUI.vue:25
 msgid "Calling Medium"
-msgstr "Канал звонка"
+msgstr "Канал звонков"
 
 #: frontend/src/components/Telephony/TwilioCallUI.vue:40
 #: frontend/src/components/Telephony/TwilioCallUI.vue:140
@@ -3394,7 +3394,7 @@ msgstr "Редактировать"
 
 #: frontend/src/components/Modals/CallLogDetailModal.vue:46
 msgid "Edit Call Log"
-msgstr "Изменить запись звонка"
+msgstr "Изменить запись журнала звонков"
 
 #: frontend/src/components/Modals/DataFieldsModal.vue:7
 msgid "Edit Data Fields Layout"
@@ -3756,7 +3756,7 @@ msgstr "Обогатить с сайта"
 #: frontend/src/components/FieldLayout/Field.vue:22
 #: frontend/src/components/FieldLayout/Field.vue:25
 msgid "Enriched from website"
-msgstr "Получено с сайта"
+msgstr "Обогащено по данным сайта"
 
 #: frontend/src/components/EnrichFromWebsite.vue:119
 #: frontend/src/components/EnrichFromWebsite.vue:121
@@ -6795,7 +6795,7 @@ msgstr "Заметка удалена"
 #: frontend/src/pages/Deal.vue:783 frontend/src/pages/Lead.vue:602
 #: frontend/src/pages/MobileDeal.vue:485 frontend/src/pages/MobileLead.vue:341
 msgid "Notes"
-msgstr "Примечания"
+msgstr "Заметки"
 
 #: frontend/src/pages/Notes.vue:23
 msgid "Notes View"

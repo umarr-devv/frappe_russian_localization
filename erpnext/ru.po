@@ -1569,12 +1569,12 @@ msgstr "Проблема или вопрос клиента."
 #. Description of the Onboarding Step 'Add an item you sell'
 #: erpnext/selling/onboarding_step/create_selling_item/create_selling_item.json:5
 msgid "A product or a service you sell. See [Item](https://docs.frappe.io/erpnext/user/manual/en/item)."
-msgstr "Товар или услуга, которые Вы продаете. См. [Продукт](https://docs.frappe.io/erpnext/user/manual/en/item)."
+msgstr "Продукт или услуга, которые Вы продаете. См. [Продукт](https://docs.frappe.io/erpnext/user/manual/en/item)."
 
 #. Description of a DocType
 #: erpnext/stock/doctype/item/item.json:7
 msgid "A product or service you buy, sell or keep in stock."
-msgstr "Товар или услуга, которые Вы покупаете, продаете или храните на складе."
+msgstr "Продукт или услуга, которые Вы покупаете, продаете или храните на складе."
 
 #. Description of a DocType
 #: erpnext/projects/doctype/project_update/project_update.json:5
@@ -6880,17 +6880,17 @@ msgstr "Капитализация актива"
 #. Name of a DocType
 #: erpnext/assets/doctype/asset_capitalization_asset_item/asset_capitalization_asset_item.json:130
 msgid "Asset Capitalization Asset Item"
-msgstr "Актив капитализации актива"
+msgstr "Позиция капитализации актива (актив)"
 
 #. Name of a DocType
 #: erpnext/assets/doctype/asset_capitalization_service_item/asset_capitalization_service_item.json:116
 msgid "Asset Capitalization Service Item"
-msgstr "Услуга капитализации актива"
+msgstr "Позиция капитализации актива (услуга)"
 
 #. Name of a DocType
 #: erpnext/assets/doctype/asset_capitalization_stock_item/asset_capitalization_stock_item.json:191
 msgid "Asset Capitalization Stock Item"
-msgstr "Запасы капитализации актива"
+msgstr "Позиция капитализации актива (запасы)"
 
 #. Label of the asset_category (Link) field in DocType 'Purchase Invoice Item'
 #. Label of the asset_category (Link) field in DocType 'Asset'
@@ -9346,11 +9346,11 @@ msgstr "На основе указанных выше записей сумма 
 
 #: erpnext/setup/doctype/holiday_list/holiday_list.js:79
 msgid "Based on your HR Policy, select your leave allocation period's end date"
-msgstr "В соответствии с кадровой политикой выберите дату окончания периода распределения отпусков"
+msgstr "В соответствии с кадровой политикой выберите дату окончания периода выделения отпусков"
 
 #: erpnext/setup/doctype/holiday_list/holiday_list.js:74
 msgid "Based on your HR Policy, select your leave allocation period's start date"
-msgstr "В соответствии с кадровой политикой выберите дату начала периода распределения отпусков"
+msgstr "В соответствии с кадровой политикой выберите дату начала периода выделения отпусков"
 
 #. Label of the basic_amount (Currency) field in DocType 'Stock Entry Detail'
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json:209
@@ -15737,7 +15737,7 @@ msgstr "Создано оценочных карт: {0} для {1} за пери
 #. 'Employee'
 #: erpnext/setup/doctype/employee/employee.json:303
 msgid "Creates a User account for this employee using the Preferred, Company, or Personal email."
-msgstr "Создает учетную запись пользователя для сотрудника с использованием предпочтительной, корпоративной или личной эл. почты."
+msgstr "Создает аккаунт пользователя для сотрудника с использованием предпочтительной, корпоративной или личной эл. почты."
 
 #. Description of the 'Create Grouped Asset' (Check) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json:923
@@ -23738,7 +23738,7 @@ msgstr "Номер срочного вклада"
 #. Label of the fixed_email (Link) field in DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json:264
 msgid "Fixed Outgoing Email Account"
-msgstr "Фиксированная учетная запись исходящей эл. почты"
+msgstr "Фиксированный аккаунт исходящей эл. почты"
 
 #. Option for the 'Subscription Price Based On' (Select) field in DocType
 #. 'Subscription Plan'
@@ -26797,7 +26797,7 @@ msgstr "Если заданы, бухгалтерские проводки по 
 #. 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json:261
 msgid "If set, the system does not use the user's Email or the standard outgoing Email account for sending request for quotations."
-msgstr "Если задано, для отправки запросов предложений не используется эл. почта пользователя или стандартная учетная запись исходящей эл. почты."
+msgstr "Если задано, для отправки запросов предложений не используется эл. почта пользователя или стандартный аккаунт исходящей эл. почты."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1342
 msgid "If the BOM results in Scrap material, the Scrap Warehouse needs to be selected."
@@ -28813,7 +28813,7 @@ msgstr "Недопустимый формат ссылки на строку: «
 #: erpnext/selling/doctype/quotation/quotation.py:298
 #, python-brace-format
 msgid "Invalid lost reason {0}, please create a new lost reason"
-msgstr "Недопустимая причина проигрыша {0}, создайте новую причину проигрыша"
+msgstr "Недопустимая причина отказа {0}, создайте новую причину отказа"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.py:791
 #: erpnext/selling/doctype/sales_order/sales_order.py:1093
@@ -37096,7 +37096,7 @@ msgstr "Примечание: чтобы объединить продукты, 
 #: erpnext/stock/doctype/manufacturer/manufacturer.json:59
 #: erpnext/www/book_appointment/index.html:55
 msgid "Notes"
-msgstr "Примечания"
+msgstr "Заметки"
 
 #. Label of the notes_html (HTML) field in DocType 'Lead'
 #. Label of the notes_html (HTML) field in DocType 'Opportunity'
@@ -38471,12 +38471,12 @@ msgstr "Позиция возможности"
 #: erpnext/crm/doctype/opportunity_lost_reason/opportunity_lost_reason.json:25
 #: erpnext/crm/doctype/opportunity_lost_reason_detail/opportunity_lost_reason_detail.json:15
 msgid "Opportunity Lost Reason"
-msgstr "Причина проигрыша возможности"
+msgstr "Причина отказа по возможности"
 
 #. Name of a DocType
 #: erpnext/crm/doctype/opportunity_lost_reason_detail/opportunity_lost_reason_detail.json:24
 msgid "Opportunity Lost Reason Detail"
-msgstr "Сведения о причине проигрыша возможности"
+msgstr "Сведения о причине отказа по возможности"
 
 #. Label of the opportunity_owner (Link) field in DocType 'Opportunity'
 #: erpnext/crm/doctype/opportunity/opportunity.json:496
@@ -39745,7 +39745,7 @@ msgstr "Оплаченная сумма после налогов (в валют
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:2040
 #, python-brace-format
 msgid "Paid Amount cannot be greater than total negative outstanding amount {0}"
-msgstr "Оплаченная сумма не может быть больше общей отрицательной задолженности {0}"
+msgstr "Оплаченная сумма не может превышать общую отрицательную непогашенную сумму {0}"
 
 #: banking/src/components/features/BankReconciliation/TransferModalContent.tsx:315
 msgid "Paid From"
@@ -45787,7 +45787,7 @@ msgstr "Подготовка предложений"
 #: erpnext/setup/setup_wizard/data/sales_stage.txt:7
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:446
 msgid "Proposal/Price Quote"
-msgstr "Предложение / котировка цены"
+msgstr "Коммерческое предложение"
 
 #. Label of the prorate (Check) field in DocType 'Subscription Settings'
 #: erpnext/accounts/doctype/subscription_settings/subscription_settings.json:31
@@ -47717,12 +47717,12 @@ msgstr "Позиция предложения"
 #: erpnext/setup/doctype/quotation_lost_reason/quotation_lost_reason.json:38
 #: erpnext/setup/doctype/quotation_lost_reason_detail/quotation_lost_reason_detail.json:15
 msgid "Quotation Lost Reason"
-msgstr "Причина проигрыша предложения"
+msgstr "Причина отказа по предложению"
 
 #. Name of a DocType
 #: erpnext/setup/doctype/quotation_lost_reason_detail/quotation_lost_reason_detail.json:24
 msgid "Quotation Lost Reason Detail"
-msgstr "Сведения о причине проигрыша предложения"
+msgstr "Сведения о причине отказа по предложению"
 
 #. Label of the quotation_number (Data) field in DocType 'Supplier Quotation'
 #: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json:806
@@ -49261,7 +49261,7 @@ msgstr "Реферальный код"
 #. Label of the referral_sales_partner (Link) field in DocType 'Quotation'
 #: erpnext/selling/doctype/quotation/quotation.json:609
 msgid "Referral Sales Partner"
-msgstr "Партнер-рекомендатель"
+msgstr "Рекомендовавший партнер по продажам"
 
 #: erpnext/accounts/doctype/bank/bank.js:18
 msgid "Refresh Plaid Link"
@@ -55193,7 +55193,7 @@ msgstr "Выберите дату рождения. По ней проверяе
 
 #: erpnext/setup/doctype/employee/employee.js:167
 msgid "Select Date of joining. It will have impact on the first salary calculation, Leave allocation on pro-rata bases."
-msgstr "Выберите дату приема на работу. Она влияет на расчет первой зарплаты и пропорциональное начисление отпусков."
+msgstr "Выберите дату приема на работу. Она влияет на расчет первой зарплаты и пропорциональное выделение отпусков."
 
 #: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.js:127
 #: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.js:158
@@ -56100,7 +56100,7 @@ msgstr "Серийный номер {0} все еще числится на ск
 #: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py:340
 #, python-brace-format
 msgid "Serial No {0} is under maintenance contract upto {1}"
-msgstr "Серийный номер {0} находится на сервисном обслуживании до {1}"
+msgstr "Серийный номер {0} находится на обслуживании по договору до {1}"
 
 #: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py:333
 #, python-brace-format
@@ -57883,7 +57883,7 @@ msgstr "Некоторых серийных номеров или партий �
 
 #: erpnext/controllers/accounts_controller.py:5098
 msgid "Some required Company details are missing. You don't have permission to update them. Please contact your System Manager."
-msgstr "Не заполнены некоторые обязательные реквизиты компании. У Вас нет прав на их изменение. Обратитесь к системному менеджеру."
+msgstr "Не заполнены некоторые обязательные реквизиты компании. У Вас нет разрешения на их изменение. Обратитесь к системному менеджеру."
 
 #. Description of a DocType
 #: erpnext/crm/doctype/lead/lead.json:8
@@ -63539,7 +63539,7 @@ msgstr "Место хранения отходов."
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:319
 msgid "This is a preview of the email to be sent. A PDF of the document will automatically be attached with the email."
-msgstr "Это предварительный просмотр отправляемого письма. PDF-файл документа будет приложен к письму автоматически."
+msgstr "Это предварительный просмотр отправляемого письма. PDF-файл документа будет автоматически прикреплен к письму."
 
 #: erpnext/accounts/doctype/account/account.js:45
 msgid "This is a root account and cannot be edited."
@@ -63551,7 +63551,7 @@ msgstr "Это корневая группа клиентов, ее нельзя
 
 #: erpnext/setup/doctype/department/department.js:14
 msgid "This is a root department and cannot be edited."
-msgstr "Это корневое подразделение, его нельзя изменить."
+msgstr "Это корневой отдел, его нельзя изменить."
 
 #: erpnext/setup/doctype/item_group/item_group.js:146
 msgid "This is a root item group and cannot be edited."
@@ -67399,7 +67399,7 @@ msgstr "Время решения пользователем"
 
 #: erpnext/accounts/party.py:473
 msgid "User don't have permissions to select/read this account."
-msgstr "У пользователя нет прав на выбор / чтение этого счета."
+msgstr "У пользователя нет разрешения на выбор / чтение этого счета."
 
 #: erpnext/accounts/doctype/pricing_rule/utils.py:604
 #, python-brace-format
@@ -68266,7 +68266,7 @@ msgstr "Визиты"
 #. Label of a Link in the Manufacturing Workspace
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json:304
 msgid "Visual Plant Floor"
-msgstr "Визуальная схема участка"
+msgstr "Визуальная схема производственного участка"
 
 #. Option for the 'Communication Medium Type' (Select) field in DocType
 #. 'Communication Medium'
@@ -70077,26 +70077,26 @@ msgstr "У Вас нет доступа к компании {0}"
 #: erpnext/projects/doctype/task/task.py:445
 #, python-brace-format
 msgid "You are not permitted to create a Task for Project {0}"
-msgstr "У Вас нет прав создавать задачи для проекта {0}"
+msgstr "У Вас нет разрешения создавать задачи для проекта {0}"
 
 #: erpnext/setup/doctype/employee/employee.py:171
 #, python-brace-format
 msgid "You are not permitted to link or update User {0}"
-msgstr "У Вас нет прав связывать или изменять пользователя {0}"
+msgstr "У Вас нет разрешения связывать или изменять пользователя {0}"
 
 #: erpnext/stock/report/stock_ledger_entries_of_cancelled_vouchers/stock_ledger_entries_of_cancelled_vouchers.py:246
 #, python-brace-format
 msgid "You are not permitted to repair the Stock Ledger Entries of {0} {1}"
-msgstr "У Вас нет прав исправлять записи книги учета запасов {0} {1}"
+msgstr "У Вас нет разрешения исправлять записи книги учета запасов {0} {1}"
 
 #: erpnext/templates/pages/projects.py:106
 msgid "You are not permitted to view the timesheets of this project."
-msgstr "У Вас нет прав просматривать табели этого проекта."
+msgstr "У Вас нет разрешения просматривать табели этого проекта."
 
 #: erpnext/accounts/report/profitability_analysis/profitability_analysis.py:39
 #, python-brace-format
 msgid "You are not permitted to view {0}"
-msgstr "У Вас нет прав просматривать {0}"
+msgstr "У Вас нет разрешения просматривать {0}"
 
 #: erpnext/stock/doctype/pick_list/pick_list.py:598
 #, python-brace-format
@@ -70253,21 +70253,21 @@ msgstr "Нельзя {0} этот документ, так как после {2}
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.py:168
 #, python-brace-format
 msgid "You do not have enough permission to access {0}: {1}"
-msgstr "Недостаточно прав для доступа к {0}: {1}"
+msgstr "Недостаточно разрешений для доступа к {0}: {1}"
 
 #: erpnext/accounts/doctype/bank_statement_import_log/bank_statement_import_log.py:82
 msgid "You do not have permission to import and submit bank transactions"
-msgstr "У Вас нет прав импортировать и проводить банковские транзакции"
+msgstr "У Вас нет разрешения импортировать и проводить банковские транзакции"
 
 #: erpnext/accounts/doctype/bank_statement_import_log/bank_statement_import_log.py:73
 #: erpnext/accounts/doctype/bank_statement_import_log/bank_statement_import_log.py:77
 msgid "You do not have permission to import bank transactions"
-msgstr "У Вас нет прав импортировать банковские транзакции"
+msgstr "У Вас нет разрешения импортировать банковские транзакции"
 
 #: erpnext/controllers/accounts_controller.py:4516
 #, python-brace-format
 msgid "You do not have permissions to {} items in a {}."
-msgstr "У Вас нет прав выполнять действие «{}» с продуктами в {}."
+msgstr "У Вас нет разрешения выполнять действие «{}» с продуктами в {}."
 
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.py:199
 msgid "You don't have enough Loyalty Points to redeem"
@@ -70279,20 +70279,20 @@ msgstr "Недостаточно баллов для списания."
 
 #: erpnext/controllers/accounts_controller.py:5173
 msgid "You don't have permission to create a Company Address. Please contact your System Manager."
-msgstr "У Вас нет прав создавать адрес компании. Обратитесь к системному менеджеру."
+msgstr "У Вас нет разрешения создавать адрес компании. Обратитесь к системному менеджеру."
 
 #: erpnext/controllers/accounts_controller.py:5152
 msgid "You don't have permission to update Company details. Please contact your System Manager."
-msgstr "У Вас нет прав изменять реквизиты компании. Обратитесь к системному менеджеру."
+msgstr "У Вас нет разрешения изменять реквизиты компании. Обратитесь к системному менеджеру."
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.py:643
 #, python-brace-format
 msgid "You don't have permission to update Received Qty DocField for item {0}"
-msgstr "У Вас нет прав изменять поле «Полученное кол-во» для продукта {0}"
+msgstr "У Вас нет разрешения изменять поле «Полученное кол-во» для продукта {0}"
 
 #: erpnext/controllers/accounts_controller.py:5146
 msgid "You don't have permission to update this document. Please contact your System Manager."
-msgstr "У Вас нет прав изменять этот документ. Обратитесь к системному менеджеру."
+msgstr "У Вас нет разрешения изменять этот документ. Обратитесь к системному менеджеру."
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.py:360
 #, python-brace-format
